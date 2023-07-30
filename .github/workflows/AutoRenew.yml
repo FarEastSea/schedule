@@ -1,0 +1,41 @@
+
+name: Renew
+
+run-name: Renew App from ${{ inputs.deploy_target }} by @${{ github.actor }}
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 0 * */1 *'
+  workflow_dispatch:
+
+jobs:
+  Renew_Web_APP:
+    name: Update URL
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      - name: Renew app
+        env:
+          WEBAPP_COOKIE: ${{ secrets.WEBAPP_COOKIE }}
+          MAIL_ARGV: ${{ secrets.MAIL_ARGV }}
+          SENDER_NAME: ${{ secrets.SENDER_NAME }}
+          SENDER_USERNAME: ${{ secrets.SENDER_USERNAME }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          receiver_name: ${{ secrets.receiver_name }}
+          RECEIVER_USERNAME: ${{ secrets.RECEIVER_USERNAME }}
+        run: |
+          python program/自动续期.py
+          if [ $? != 0 ];then
+            python program/mail.py
+          fi
+          echo '返回值的值为' $?
+          echo '进行测试，测试后删掉'
+          python program/mail.py
+
+          

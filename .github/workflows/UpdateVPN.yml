@@ -53,10 +53,13 @@ jobs:
             ${{ runner.os }}-
           enableCrossOsArchive: false
 
-      - if: ${{ steps.cache-python.outputs.cache-hit != 'false' }}
+      - if: ${{ steps.cache-python.outputs.cache-hit != false }}
         name: List the state of node modules
         continue-on-error: true
-        run: npm list
+        run: |
+          npm list
+          echo 'pip list'
+          pip list
 
       # Runs a single command using the runners shell
       - name: Good morning in the morning!

@@ -61,6 +61,7 @@ jobs:
           # npm cache files are stored in `~/.npm` on Linux/macOS
           path: |
             $cache_path
+            ~/.pycache
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
@@ -89,10 +90,10 @@ jobs:
         if: github.event.schedule == '0 0 * * *'
         run: echo Good morning, world!
 
-     # check file is or not modified ? 
+#      check file is or not modified ?
 #         git diff --exist-code HEAD^
 #         if [ $? -eq 0 ]; then
-#             exit()
+#             exit
 #         fi
 
       # Runs a set of commands using the runners shell

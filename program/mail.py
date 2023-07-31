@@ -126,6 +126,11 @@ class mail:
             print("Error: 无法发送邮件")
             print(e)
 
+
+from dotenv import load_dotenv
+env_path = os.path.join(os.path.dirname(os.getcwd()), 'pyenv')
+if os.path.exists(env_path):
+    load_dotenv(env_path)
 mail_host = "smtp.139.com"
 mail_port = 25
 sender_name = os.getenv('SENDER_NAME')

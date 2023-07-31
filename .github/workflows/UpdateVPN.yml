@@ -38,11 +38,13 @@ jobs:
           token: ${{ secrets.AUTO_UPDATA }}
       
       - name: Check file exist
+        id: check_exit
         run: |
           dir=$(dirname "$cache_path")
           base=$(basename $cache_path)
           if [ ! -e $dir ]; then
             export a='0'
+            echo '::set-output name=exit_status::0'
             exit 0
           fi
           if [ ! -e $cache_path ]; then
@@ -50,7 +52,7 @@ jobs:
           fi
       
       - name: Cache node modules
-        if: a != '0'
+        if: steps.check_exit.outputs.exit_status != 0
         id: cache-python
         uses: actions/cache@v3
         env:

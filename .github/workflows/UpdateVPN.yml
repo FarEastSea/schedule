@@ -39,7 +39,7 @@ jobs:
       - name: Check file
         run: |
           path='.pycache'
-          if [ !-e $path ]; then
+          if [ ! -e $path ]; then
             touch $path
           fi
       

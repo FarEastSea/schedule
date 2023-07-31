@@ -39,8 +39,8 @@ jobs:
       
       - name: Check file exist
         run: |
-          dir= $(dirname "$cache_path")
           cache_path=$(pwd)/$cache_path
+          dir= $(dirname "$cache_path")
           base= $(basename '$cache_path')
           if [ ! -e "$dir" ]; then
             mkdir -p $dir

@@ -67,7 +67,6 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-          enableCrossOsArchive: false
 
       - if: ${{ steps.cache-python.outputs.cache-hit != false }}
         name: List the state of node modules

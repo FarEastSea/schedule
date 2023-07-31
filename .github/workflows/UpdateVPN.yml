@@ -33,8 +33,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-        #with:
-        #  token: ${{ secrets.AUTO_UPDATA }}
+        with:
+          token: ${{ secrets.AUTO_UPDATA }}
       
       - name: Cache node modules
         id: cache-python
@@ -44,8 +44,7 @@ jobs:
         with:
           # npm cache files are stored in `~/.npm` on Linux/macOS
           path: |
-            .pycatch
-            .pycatch/cache/
+            ~/.pycache
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
@@ -62,7 +61,11 @@ jobs:
           pip list
       
       - name: install dependencies
-        run: pip install -r requirements.txt
+        continue-on-error: true
+        run: |
+          echo $~
+          echo ~
+          pip install -r requirements.txt
 
       # Runs a single command using the runners shell
       - name: Good morning in the morning!
@@ -77,8 +80,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        env:
-          TOKEN: ${{ secrets.AUTO_UPDATA }}
         run: |
           python program/UpdataUrl.py
           git config --global user.name ${{ secrets.user_name }}

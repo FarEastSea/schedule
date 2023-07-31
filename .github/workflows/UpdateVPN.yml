@@ -50,7 +50,7 @@ jobs:
           fi
       
       - name: Cache node modules
-        if: $a != '0'
+        if: a != '0'
         id: cache-python
         uses: actions/cache@v3
         env:

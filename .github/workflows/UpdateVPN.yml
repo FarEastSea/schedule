@@ -34,7 +34,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
         with:
-          token: ${{ github.token }}
+          github_token: ${{ secrets.AUTO_UPDATA }}
       
       - name: Cache node modules
         id: cache-python
@@ -44,7 +44,9 @@ jobs:
         with:
           # npm cache files are stored in `~/.npm` on Linux/macOS
           path: |
-            ~/.pycache
+            .pycache
+            catch/
+            cache/.pycache
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-

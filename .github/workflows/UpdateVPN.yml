@@ -39,8 +39,14 @@ jobs:
       
       - name: Check file
         run: |
-          if [ ! -e $cache_path ]; then
-            touch $cache_path
+          dir= dirname $cache_path
+          base= basename $cache_path
+          if [ ! -e $dir ]; then
+            mkdir -p $dir
+          else
+            if [ ! -e $cache_path ]; then
+              touch $cache_path
+            fi
           fi
       
       - name: Cache node modules

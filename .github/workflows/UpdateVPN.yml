@@ -39,6 +39,7 @@ jobs:
       
       - name: Check file exist
         id: check_exit
+        if: !always()
         run: |
           dir=$(dirname "$cache_path")
           base=$(basename $cache_path)

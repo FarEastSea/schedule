@@ -37,11 +37,11 @@ jobs:
         with:
           token: ${{ secrets.AUTO_UPDATA }}
       
-      - name: Check file
+      - name: Check file exist
         run: |
-          dir= dirname $cache_path
-          base= basename $cache_path
-          if [ ! -e $dir ]; then
+          dir= $(dirname $cache_path)
+          base= $(basename $cache_path)
+          if [ ! -e "$dir" ]; then
             mkdir -p $dir
           else
             if [ ! -e $cache_path ]; then

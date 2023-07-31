@@ -33,8 +33,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.AUTO_UPDATA }}
+        #with:
+        #  token: ${{ secrets.AUTO_UPDATA }}
       
       - name: Cache node modules
         id: cache-python
@@ -60,6 +60,7 @@ jobs:
           npm list
           echo 'pip list'
           pip list
+          pip install -r requirements.txt
 
       # Runs a single command using the runners shell
       - name: Good morning in the morning!
@@ -74,6 +75,8 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python program/UpdataUrl.py
           git config --global user.name ${{ secrets.user_name }}

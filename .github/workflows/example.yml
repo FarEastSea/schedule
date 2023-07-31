@@ -3,6 +3,10 @@ name: Example Program
 on: [workflow_dispatch]
 
 jobs:
+
+#    current directory: pwd
+#    User directory: ~
+
 #  - name: 'Upload Artifact'
 #    uses: actions/upload-artifact@v3
 #    with:

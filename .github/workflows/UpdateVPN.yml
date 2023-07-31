@@ -62,7 +62,6 @@ jobs:
           # npm cache files are stored in `~/.npm` on Linux/macOS
           path: |
             $cache_path
-            ~/.pycache
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
@@ -82,8 +81,6 @@ jobs:
         if: steps.check_exit.outputs.exit_status != 1
         continue-on-error: true
         run: |
-          pwd
-          echo ~
           pip install -r requirements.txt
 
       # Runs a single command using the runners shell

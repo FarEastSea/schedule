@@ -44,7 +44,7 @@ jobs:
           base=$(basename $cache_path)
           if [ ! -e $dir ]; then
             export a='0'
-            echo '::set-output name=exit_status::0'
+            echo 'exit_status=0' >> GITHUB_OUTPUT
             exit 0
           fi
           if [ ! -e $cache_path ]; then

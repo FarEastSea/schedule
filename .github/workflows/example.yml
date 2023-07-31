@@ -66,3 +66,42 @@ jobs:
           value=`cat math-homework.txt`
           echo The result is $value
 
+#    echo "{environment_variable_name}={value}" >> "$GITHUB_ENV"
+
+#    steps:
+#      - name: Set the value
+#        id: step_one
+#        run: |
+#          echo "action_state=yellow" >> "$GITHUB_ENV"
+#      - name: Use the value
+#        id: step_two
+#        run: |
+#          echo "${{ env.action_state }}" # This will output 'yellow'
+
+#      多行字符串
+#      {name}<<{delimiter}
+#      {value}
+#      {delimiter}
+
+#      echo "{name}={value}" >> "$GITHUB_OUTPUT"
+
+#      - name: Set color
+#        id: random-color-generator
+#        run: echo "SELECTED_COLOR=green" >> "$GITHUB_OUTPUT"
+#      - name: Get color
+#        run: echo "The selected color is ${{ steps.random-color-generator.outputs.SELECTED_COLOR }}"
+
+#      MarkDown文本
+#      每次追加操作时，都会自动添加一个换行符。>>
+#      覆盖内容。>
+#      echo "{markdown content}" >> $GITHUB_STEP_SUMMARY
+#      echo "### Hello world! :rocket:" >> $GITHUB_STEP_SUMMARY
+#      删除摘要
+#      rm $GITHUB_STEP_SUMMARY
+
+#      在系统变量前面附加一个目录，并自动使其可用于当前作业中的所有后续操作
+#      当前正在运行的操作无法访问更新的 PATH 变量
+#      查看路径 echo "$PATH"
+#      echo "{path}" >> $GITHUB_PATH
+#      echo "$HOME/.local/bin" >> $GITHUB_PATH
+

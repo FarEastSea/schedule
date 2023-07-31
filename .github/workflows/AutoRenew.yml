@@ -1,5 +1,5 @@
 
-name: Renew
+name: Renew APP
 
 run-name: Renew App from ${{ inputs.deploy_target }} by @${{ github.actor }}
 

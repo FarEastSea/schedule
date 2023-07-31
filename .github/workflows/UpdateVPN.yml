@@ -34,7 +34,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ github.token }}
       
       - name: Cache node modules
         id: cache-python
@@ -63,7 +63,7 @@ jobs:
       - name: install dependencies
         continue-on-error: true
         run: |
-          echo .
+          pwd
           echo ~
           pip install -r requirements.txt
 

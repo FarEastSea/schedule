@@ -42,7 +42,7 @@ jobs:
           dir=$(dirname "$cache_path")
           base=$(basename $cache_path)
           if [ ! -e $dir ]; then
-            export a=0
+            export a='0'
             exit 0
           fi
           if [ ! -e $cache_path ]; then
@@ -50,7 +50,7 @@ jobs:
           fi
       
       - name: Cache node modules
-        if: $a != 0
+        if: $a != '0'
         id: cache-python
         uses: actions/cache@v3
         env:

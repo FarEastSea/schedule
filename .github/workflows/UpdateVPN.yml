@@ -41,11 +41,13 @@ jobs:
         run: |
           dir=$(dirname "$cache_path")
           base=$(basename $cache_path)
-          set +e
+          if [ ! -e $dir ]; then
+            export a=0
+            exit 1
+          fi
           if [ ! -e $cache_path ]; then
             touch $cache_path
           fi
-          set -e
       
       - name: Cache node modules
         if: success()

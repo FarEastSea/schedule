@@ -35,6 +35,28 @@ jobs:
       - uses: actions/checkout@v3
         with:
           token: ${{ secrets.AUTO_UPDATA }}
+      
+      - name: Cache node modules
+        id: cache-python
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-python-modules
+        with:
+          # npm cache files are stored in `~/.npm` on Linux/macOS
+          path: |
+            ~/.pycatch
+            ~/.pycatch/cache/
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+          enableCrossOsArchive: false
+
+      - if: ${{ steps.cache-python.outputs.cache-hit != 'false' }}
+        name: List the state of node modules
+        continue-on-error: true
+        run: npm list
 
       # Runs a single command using the runners shell
       - name: Good morning in the morning!

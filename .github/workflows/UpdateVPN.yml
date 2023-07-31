@@ -43,14 +43,14 @@ jobs:
           base=$(basename $cache_path)
           if [ ! -e $dir ]; then
             export a=0
-            exit 1
+            exit 0
           fi
           if [ ! -e $cache_path ]; then
             touch $cache_path
           fi
       
       - name: Cache node modules
-        if: success()
+        if: $a != 0
         id: cache-python
         uses: actions/cache@v3
         env:

@@ -43,10 +43,9 @@ jobs:
           base=$(basename $cache_path)
           if [ ! -e $dir ]; then
             mkdir -p $dir
-          else
-            if [ ! -e $cache_path ]; then
-              touch $cache_path
-            fi
+          fi
+          if [ ! -e $cache_path ]; then
+            touch $cache_path
           fi
       
       - name: Cache node modules

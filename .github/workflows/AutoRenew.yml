@@ -36,7 +36,6 @@ jobs:
           fi
           echo '返回值的值为' $?
           echo '进行测试，测试后删掉'
-          pip list
           python program/mail.py
 
           

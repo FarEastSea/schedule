@@ -36,7 +36,7 @@ class mail:
 
         try:
             server = smtplib.SMTP(self.mail_host, self.mail_port)  # 发件人邮箱中的SMTP服务器，端口是25
-            # server.starttls()
+            server.starttls()
             # 括号中对应的是发件人邮箱账号、邮箱密码
             server.login(self.mail_user, self.mail_pass)
             # 括号中对应的是发件人邮箱账号、收件人邮箱账号、发送邮件
@@ -131,8 +131,8 @@ class mail:
 # env_path = os.path.join(os.path.dirname(os.getcwd()), 'pyenv')
 # if os.path.exists(env_path):
 #     load_dotenv(env_path)
-mail_host = "smtp.139.com"
-mail_port = 25
+mail_host = "smtp.qq.com"
+mail_port = 587
 sender_name = os.getenv('SENDER_NAME')
 sender_username = os.getenv('SENDER_USERNAME')
 password = os.getenv('PASSWORD')

@@ -4,9 +4,6 @@ name: Renew APP
 run-name: Renew App from ${{ inputs.deploy_target }} by @${{ github.actor }}
 
 on:
-  push:
-    branches:
-      - master
   schedule:
     - cron: '0 0 * */1 *'
   workflow_dispatch:
@@ -33,9 +30,10 @@ jobs:
           python program/自动续期.py
           if [ $? != 0 ];then
             python program/mail.py
+            mail_status='续期失败，发送邮件'
+          else
+            mail_status='续期成功，不发送邮件'
           fi
-          echo '返回值的值为' $?
-          echo '进行测试，测试后删掉'
-          python program/mail.py
+          echo 'PythonAnywhere自动续期任务结果： $mail_status'
 
           

@@ -34,6 +34,6 @@ jobs:
           else
             mail_status='续期成功，不发送邮件'
           fi
-          echo 'PythonAnywhere自动续期任务结果： $mail_status'
+          echo "PythonAnywhere自动续期任务结果： $mail_status"
 
           

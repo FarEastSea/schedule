@@ -5,9 +5,9 @@ name: VPN Sever
 run-name: UpdataVPN deploy to ${{ inputs.deploy_target }} by @${{ github.actor }}
 # Controls when the workflow will run
 on:
-  push:
-    branches:
-      - master
+#  push:
+#    branches:
+#      - master
   schedule:
     - cron: '0 0 * * *'
     - cron: '0 13 * * *'
@@ -35,50 +35,46 @@ jobs:
         with:
           token: ${{ secrets.AUTO_UPDATA }}
       
-      - name: Check file exist
-        id: check_exit
-        if: false
-        run: |
-          dir=$(dirname "$cache_path")
-          base=$(basename $cache_path)
-          if [ ! -e $dir ]; then
-            export a='0'
-            echo 'exit_status=1' >> GITHUB_OUTPUT
-            exit 0
-          fi
-          if [ ! -e $cache_path ]; then
-            touch $cache_path
-          fi
+#      - name: Check file exist
+#        id: check_exit
+#        run: |
+          #dir=$(dirname "$cache_path")
+          #base=$(basename $cache_path)
+#          if [ ! -e $dir ]; then
+#            export a='0'
+#            echo 'exit_status=1' >> GITHUB_OUTPUT
+#            exit 0
+#          fi
       
-      - name: Cache node modules
-        if: steps.check_exit.outputs.exit_status != 1
-        id: cache-python
-        uses: actions/cache@v3
-        env:
-          cache-name: cache-python-modules
-        with:
-          # npm cache files are stored in `~/.npm` on Linux/macOS
-          path: |
-            cache/pycache
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
+#      - name: Cache node modules
+#        if: steps.check_exit.outputs.exit_status != 1
+#        id: cache-python
+#        uses: actions/cache@v3
+#        env:
+#          cache-name: cache-python-modules
+#        with:
+#          # npm cache files are stored in `~/.npm` on Linux/macOS
+#          path: |
+#            cache/pycache
+#          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/requirements.txt') }}
+#          restore-keys: |
+#            ${{ runner.os }}-build-${{ env.cache-name }}-
+#            ${{ runner.os }}-build-
+#            ${{ runner.os }}-
 
-      - if: ${{ steps.cache-python.outputs.cache-hit != false }}
-        name: List the state of node modules
-        continue-on-error: true
-        run: |
-          npm list
-          echo 'pip list'
-          pip list
+#      - if: ${{ steps.cache-python.outputs.cache-hit != false }}
+#        name: List the state of node modules
+#        continue-on-error: true
+#        run: |
+#          npm list
+#          echo 'pip list'
+#          pip list
       
-      - name: install dependencies
-        if:  steps.check_exit.outputs.exit_status != 1
-        continue-on-error: true
-        run: |
-          pip install -r requirements.txt
+#      - name: install dependencies
+#        if:  steps.check_exit.outputs.exit_status != 1
+#        continue-on-error: true
+#        run: |
+#          pip install -r requirements.txt
 
       # Runs a single command using the runners shell
       - name: Good morning in the morning!

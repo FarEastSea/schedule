@@ -25,11 +25,11 @@ class VPN:
             res = requests.get(url, headers=self.headers )
             restext = res.text
             fileDir = os.path.dirname(os.path.dirname(__file__))
-            filePath = os.path.join(fileDir, 'yaml')
+            filePath = os.path.join(fileDir, 'free')
             if not os.path.exists(filePath):
                 os.makedirs(filePath)
-            hostUrl = re.search('https://(.+?)\.[a-z]{3}/', url).group(1)
-            fileName = hostUrl + '.yml'
+            hostUrl, fixName = re.search('https://(.+?)\.[a-z]{3}/.*(\..+)', url).group(1, 2)
+            fileName = hostUrl + fixName
             filePath = os.path.join(filePath, fileName)
             with open(filePath, 'w+', encoding='utf-8') as f:
                 f.write(restext)
@@ -54,5 +54,5 @@ class VPN:
 
 a = VPN(['https://clashnode.com/wp-content/uploads/2023/07/20230721.yaml',
         'https://v2rayshare.com/wp-content/uploads/2023/05/20230513.yaml',
-        'https://nodefree.org/dy/2023/07/20230716.yaml',])
+        'https://nodefree.org/dy/2023/07/20230716.yaml', 'https://v2rayshare.com/wp-content/uploads/2023/03/20230302.txt'])
 a.look_for()

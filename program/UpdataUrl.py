@@ -53,8 +53,6 @@ class VPN:
         newUrl = re.sub('/\d{2}/', monthData, url)
         newUrl = re.sub('/\d{4}/', yearData, newUrl)
         newUrl = re.sub('/\d{8}', timeData, newUrl)
-        print(yearData,' ', monthData, ' ', timeData)
-        print(newUrl)
         return newUrl
 
 

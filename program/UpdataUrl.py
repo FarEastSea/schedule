@@ -8,7 +8,7 @@ import sys
 
 
 class VPN:
-    def __init__(self, urls):
+    def __init__(self, *urls):
         """pre set"""
         self.url = urls
         self.cookies = {}
@@ -28,7 +28,7 @@ class VPN:
             filePath = os.path.join(fileDir, 'free')
             if not os.path.exists(filePath):
                 os.makedirs(filePath)
-            hostUrl, fixName = re.search('https://(.+?)\.[a-z]{3}/.*(\..+)', url).group(1, 2)
+            hostUrl, fixName = re.search('https://(.+?)\..*(\..+)', url).group(1, 2)
             fileName = hostUrl + fixName
             filePath = os.path.join(filePath, fileName)
             with open(filePath, 'w+', encoding='utf-8') as f:
@@ -47,12 +47,17 @@ class VPN:
 
     def updataUrl(self, url):
         """return data"""
-        data = time.strftime("%Y/%m/%Y%m%d", time.localtime())
-        newUrl = re.sub('\d+/\d+/\d+', data, url)
+        yearData = time.strftime("%Y", time.localtime())
+        monthData = time.strftime("%m", time.localtime())
+        Data = time.strftime("%Y%m%d", time.localtime())
+        newUrl = re.sub('\d{8}', Data, url)
+        newUrl = re.sub('\d{4}', yearData, newUrl)
+        newUrl = re.sub('\d{2}', monthData, newUrl)
         return newUrl
 
 
-a = VPN(['https://clashnode.com/wp-content/uploads/2023/07/20230721.yaml',
+a = VPN('https://clashnode.com/wp-content/uploads/2023/07/20230721.yaml',
         'https://v2rayshare.com/wp-content/uploads/2023/05/20230513.yaml',
-        'https://nodefree.org/dy/2023/07/20230716.yaml', 'https://v2rayshare.com/wp-content/uploads/2023/03/20230302.txt'])
+        'https://nodefree.org/dy/2023/07/20230716.yaml', 'https://v2rayshare.com/wp-content/uploads/2023/03/20230302.txt', 'https://clashfree.eu.org/wp-content/uploads/rss/20230803.yml', 
+'https://clashfree.eu.org/wp-content/uploads/rss/20230803.txt')
 a.look_for()

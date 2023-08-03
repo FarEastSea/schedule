@@ -47,12 +47,12 @@ class VPN:
 
     def updataUrl(self, url):
         """return data"""
-        yearData = time.strftime("%Y", time.localtime())
-        monthData = time.strftime("%m", time.localtime())
-        timeData = time.strftime("%Y%m%d", time.localtime())
-        newUrl = re.sub('\d{8}', timeData, url)
-        newUrl = re.sub('\d{4}', yearData, newUrl)
-        newUrl = re.sub('\d{2}', monthData, newUrl)
+        yearData = time.strftime("/%Y/", time.localtime())
+        monthData = time.strftime("/%m/", time.localtime())
+        timeData = time.strftime("/%Y%m%d", time.localtime())
+        newUrl = re.sub('/\d{2}/', monthData, url)
+        newUrl = re.sub('/\d{4}/', yearData, newUrl)
+        newUrl = re.sub('/\d{8}', timeData, newUrl)
         print(yearData,' ', monthData, ' ', timeData)
         print(newUrl)
         return newUrl

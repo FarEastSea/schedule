@@ -235,5 +235,5 @@ if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_c
 </html><!--
 Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com
 
-Retrieved 1818 objects (114 KB) from Redis using PhpRedis (v5.3.7).
+Retrieved 1940 objects (114 KB) from Redis using PhpRedis (v5.3.7).
 -->

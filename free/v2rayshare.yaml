@@ -5,7 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ğŸ‡¯ğŸ‡µ _JP_æ—¥æœ¬, server: 18.183.166.124, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
   - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½, server: 172.64.169.199, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
   - {name: ğŸ‡­ğŸ‡° _LT_ç«‹é™¶å®›->ğŸ‡­ğŸ‡°_HK_é¦™æ¸¯, server: ns1.v2-vip.fun, port: 80, client-fingerprint: chrome, type: vmess, uuid: 72e8030a-96c2-4bdb-acfb-5bc02248f9f0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}}
   - {name: ğŸ‡¨ğŸ‡¦ _CA_åŠ æ‹¿å¤§, server: dongtaiwang3.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
@@ -22,20 +21,16 @@ proxies:
   - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 8, server: 64.32.4.54, port: 43556, client-fingerprint: chrome, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: ğŸ‡«ğŸ‡· _FR_æ³•å›½, server: 57.128.173.6, port: 443, client-fingerprint: chrome, type: trojan, password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d, tfo: false, sni: www.speedtest.net, skip-cert-verify: false}
   - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 9, server: 15.wyhkaa0.gq, port: 2095, client-fingerprint: chrome, type: vmess, uuid: d54527c2-27d6-48ab-87b1-c7e22ffd7aac, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 15.wyhkaa0.gq}}}
-  - {name: ğŸ‡«ğŸ‡® _FI_èŠ¬å…°, server: kar.dorost.sbs, port: 1080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9WdCZ7appSh2oGI251AKWw, tfo: false}
   - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 10, server: 172.64.207.79, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
   - {name: ğŸ‡ºğŸ‡¸ _CA_åŠ æ‹¿å¤§->ğŸ‡ºğŸ‡¸_US_ç¾�å›½ 2, server: 23.227.39.110, port: 443, client-fingerprint: chrome, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
   - {name: ğŸ‡ºğŸ‡¸ _CA_åŠ æ‹¿å¤§->ğŸ‡ºğŸ‡¸_US_ç¾�å›½ 3, server: 23.227.39.109, port: 443, client-fingerprint: chrome, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
-  - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 11, server: 204.13.153.248, port: 38960, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: TugBC8yxwf, tfo: false}
   - {name: ğŸ‡ºğŸ‡¸ _CN_ä¸­å›½->ğŸ‡ºğŸ‡¸_US_ç¾�å›½, server: 17.kccic2pa.xyz, port: 50017, client-fingerprint: chrome, type: vmess, uuid: 28f4479b-9d5c-4a33-b825-0d4220ca3bcd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡«ğŸ‡·_FR_æ³•å›½, server: cnamemt.ciscocdn1.live, port: 443, client-fingerprint: chrome, type: trojan, password: 4d706727-996f-4427-930d-60f3bd414cf9, tfo: false, sni: c2mt.ciscocdn1.live, skip-cert-verify: false}
   - {name: ğŸ‡¨ğŸ‡¦ _CA_åŠ æ‹¿å¤§ 3, server: 23.227.38.81, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
   - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡®ğŸ‡³_IN_å�°åº¦, server: fd.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 0f8921ec-f691-4e05-aaa2-5d096133b606, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mm4.shabijichang.com}}}
   - {name: ğŸ‡¸ğŸ‡¬ _SG_æ–°åŠ å�¡, server: vsg1.0bad.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vsg1.0bad.com}}}
-  - {name: ğŸ‡«ğŸ‡® _FI_èŠ¬å…° 2, server: 65.109.194.121, port: 1080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9WdCZ7appSh2oGI251AKWw, tfo: false}
-  - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 12, server: 172.64.168.28, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: ğŸ‡¯ğŸ‡µ _CN_ä¸­å›½->ğŸ‡¯ğŸ‡µ_JP_æ—¥æœ¬, server: 183.232.170.32, port: 30016, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: "", host: "", path: "", tls: false, mux: false, skip-cert-verify: false}}
-  - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 13, server: 156.225.67.78, port: 42239, client-fingerprint: chrome, type: vmess, uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 11, server: 172.64.168.28, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 12, server: 156.225.67.78, port: 42239, client-fingerprint: chrome, type: vmess, uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: ğŸ‡ºğŸ‡¸ _CY_å¡�æµ¦è·¯æ–¯->ğŸ‡ºğŸ‡¸_US_ç¾�å›½, server: 203.28.8.86, port: 443, client-fingerprint: chrome, type: vmess, uuid: 2cd39102-0799-4c61-abb6-2e7a258f0397, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: us-v.sshmax.xyz}}}
   - {name: ğŸ‡ºğŸ‡¸ _CN_ä¸­å›½->ğŸ‡ºğŸ‡¸_US_ç¾�å›½ 2, server: 120.241.46.111, port: 34214, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: ğŸ‡­ğŸ‡° _HK_é¦™æ¸¯, server: 103.160.204.31, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue99, headers: {Host: ecc.vtcss.top}}}
@@ -43,9 +38,9 @@ proxies:
   - {name: ğŸ‡­ğŸ‡° _HK_é¦™æ¸¯ 2, server: 103.160.204.162, port: 80, client-fingerprint: chrome, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue06, headers: {Host: ecc.vtcss.top}}}
   - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡¨ğŸ‡­_CH_ç‘�å£«, server: 172.64.198.109, port: 80, client-fingerprint: chrome, type: vmess, uuid: 0f8921ec-f691-4e05-aaa2-5d096133b606, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sls.shabijichang.com}}}
   - {name: ğŸ‡­ğŸ‡° _HK_é¦™æ¸¯ 3, server: 103.160.204.70, port: 80, client-fingerprint: chrome, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue06, headers: {Host: ecc.vtcss.top}}}
-  - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 14, server: 104.27.43.111, port: 80, client-fingerprint: chrome, type: vmess, uuid: 185d6ff9-a0a7-4d39-f3e8-783b7a6bbc79, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: tui.vtcss.top}}}
+  - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 13, server: 104.27.43.111, port: 80, client-fingerprint: chrome, type: vmess, uuid: 185d6ff9-a0a7-4d39-f3e8-783b7a6bbc79, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: tui.vtcss.top}}}
   - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡©ğŸ‡ª_DE_å¾·å›½, server: dx1.992688.xyz, port: 8080, client-fingerprint: chrome, type: vmess, uuid: bbfa65cf-236e-4e4f-eb3d-a9e159d3f941, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eu2.992688.xyz}}}
-  - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 15, server: 162.159.253.39, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
+  - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 14, server: 162.159.253.39, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
   - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡©ğŸ‡ª_DE_å¾·å›½ 2, server: yd1.992688.xyz, port: 8080, client-fingerprint: chrome, type: vmess, uuid: bbfa65cf-236e-4e4f-eb3d-a9e159d3f941, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eu2.992688.xyz}}}
   - {name: ğŸ‡­ğŸ‡° _HK_é¦™æ¸¯ 4, server: 103.160.204.165, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue03, headers: {Host: ecc.vtcss.top}}}
   - {name: ğŸ‡ºğŸ‡¸ _NL_è�·å…°->ğŸ‡ºğŸ‡¸_US_ç¾�å›½, server: 188.114.97.152, port: 80, client-fingerprint: chrome, type: vmess, uuid: 185d6ff9-a0a7-4d39-f3e8-783b7a6bbc79, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue, headers: {Host: tui.vtcss.top}}}
@@ -54,13 +49,12 @@ proxies:
   - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡¨ğŸ‡­_CH_ç‘�å£« 2, server: 172.67.44.177, port: 80, client-fingerprint: chrome, type: vmess, uuid: 0f8921ec-f691-4e05-aaa2-5d096133b606, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sls.shabijichang.com}}}
   - {name: ğŸ‡¨ğŸ‡³ _TW_å�°æ¹¾, server: tw1-vds1.anyhk.co, port: 443, client-fingerprint: chrome, type: vmess, uuid: f76f6fc1-9dc3-4e82-b003-ea1c338a6275, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw1-vds1.anyhk.co}}}
   - {name: ğŸ‡­ğŸ‡° _HK_é¦™æ¸¯ 7, server: 103.160.204.22, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue03, headers: {Host: ecc.vtcss.top}}}
-  - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 16, server: 172.67.144.232, port: 80, client-fingerprint: chrome, type: vmess, uuid: 0f8921ec-f691-4e05-aaa2-5d096133b606, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
+  - {name: ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 15, server: 172.67.144.232, port: 80, client-fingerprint: chrome, type: vmess, uuid: 0f8921ec-f691-4e05-aaa2-5d096133b606, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
 proxy-groups:
   - name: ğŸš€ èŠ‚ç‚¹é€‰æ‹©
     type: select
     proxies:
       - DIRECT
-      - ğŸ‡¯ğŸ‡µ _JP_æ—¥æœ¬
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½
       - ğŸ‡­ğŸ‡° _LT_ç«‹é™¶å®›->ğŸ‡­ğŸ‡°_HK_é¦™æ¸¯
       - ğŸ‡¨ğŸ‡¦ _CA_åŠ æ‹¿å¤§
@@ -77,20 +71,16 @@ proxy-groups:
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 8
       - ğŸ‡«ğŸ‡· _FR_æ³•å›½
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 9
-      - ğŸ‡«ğŸ‡® _FI_èŠ¬å…°
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 10
       - ğŸ‡ºğŸ‡¸ _CA_åŠ æ‹¿å¤§->ğŸ‡ºğŸ‡¸_US_ç¾�å›½ 2
       - ğŸ‡ºğŸ‡¸ _CA_åŠ æ‹¿å¤§->ğŸ‡ºğŸ‡¸_US_ç¾�å›½ 3
-      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 11
       - ğŸ‡ºğŸ‡¸ _CN_ä¸­å›½->ğŸ‡ºğŸ‡¸_US_ç¾�å›½
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡«ğŸ‡·_FR_æ³•å›½
       - ğŸ‡¨ğŸ‡¦ _CA_åŠ æ‹¿å¤§ 3
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡®ğŸ‡³_IN_å�°åº¦
       - ğŸ‡¸ğŸ‡¬ _SG_æ–°åŠ å�¡
-      - ğŸ‡«ğŸ‡® _FI_èŠ¬å…° 2
+      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 11
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 12
-      - ğŸ‡¯ğŸ‡µ _CN_ä¸­å›½->ğŸ‡¯ğŸ‡µ_JP_æ—¥æœ¬
-      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 13
       - ğŸ‡ºğŸ‡¸ _CY_å¡�æµ¦è·¯æ–¯->ğŸ‡ºğŸ‡¸_US_ç¾�å›½
       - ğŸ‡ºğŸ‡¸ _CN_ä¸­å›½->ğŸ‡ºğŸ‡¸_US_ç¾�å›½ 2
       - ğŸ‡­ğŸ‡° _HK_é¦™æ¸¯
@@ -98,9 +88,9 @@ proxy-groups:
       - ğŸ‡­ğŸ‡° _HK_é¦™æ¸¯ 2
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡¨ğŸ‡­_CH_ç‘�å£«
       - ğŸ‡­ğŸ‡° _HK_é¦™æ¸¯ 3
-      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 14
+      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 13
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡©ğŸ‡ª_DE_å¾·å›½
-      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 15
+      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 14
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡©ğŸ‡ª_DE_å¾·å›½ 2
       - ğŸ‡­ğŸ‡° _HK_é¦™æ¸¯ 4
       - ğŸ‡ºğŸ‡¸ _NL_è�·å…°->ğŸ‡ºğŸ‡¸_US_ç¾�å›½
@@ -109,7 +99,7 @@ proxy-groups:
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡¨ğŸ‡­_CH_ç‘�å£« 2
       - ğŸ‡¨ğŸ‡³ _TW_å�°æ¹¾
       - ğŸ‡­ğŸ‡° _HK_é¦™æ¸¯ 7
-      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 16
+      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 15
   - name: ğŸ�¯ å…¨ç�ƒç›´è¿�
     type: select
     proxies:
@@ -125,7 +115,6 @@ proxy-groups:
     proxies:
       - ğŸš€ èŠ‚ç‚¹é€‰æ‹©
       - ğŸ�¯ å…¨ç�ƒç›´è¿�
-      - ğŸ‡¯ğŸ‡µ _JP_æ—¥æœ¬
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½
       - ğŸ‡­ğŸ‡° _LT_ç«‹é™¶å®›->ğŸ‡­ğŸ‡°_HK_é¦™æ¸¯
       - ğŸ‡¨ğŸ‡¦ _CA_åŠ æ‹¿å¤§
@@ -142,20 +131,16 @@ proxy-groups:
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 8
       - ğŸ‡«ğŸ‡· _FR_æ³•å›½
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 9
-      - ğŸ‡«ğŸ‡® _FI_èŠ¬å…°
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 10
       - ğŸ‡ºğŸ‡¸ _CA_åŠ æ‹¿å¤§->ğŸ‡ºğŸ‡¸_US_ç¾�å›½ 2
       - ğŸ‡ºğŸ‡¸ _CA_åŠ æ‹¿å¤§->ğŸ‡ºğŸ‡¸_US_ç¾�å›½ 3
-      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 11
       - ğŸ‡ºğŸ‡¸ _CN_ä¸­å›½->ğŸ‡ºğŸ‡¸_US_ç¾�å›½
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡«ğŸ‡·_FR_æ³•å›½
       - ğŸ‡¨ğŸ‡¦ _CA_åŠ æ‹¿å¤§ 3
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡®ğŸ‡³_IN_å�°åº¦
       - ğŸ‡¸ğŸ‡¬ _SG_æ–°åŠ å�¡
-      - ğŸ‡«ğŸ‡® _FI_èŠ¬å…° 2
+      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 11
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 12
-      - ğŸ‡¯ğŸ‡µ _CN_ä¸­å›½->ğŸ‡¯ğŸ‡µ_JP_æ—¥æœ¬
-      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 13
       - ğŸ‡ºğŸ‡¸ _CY_å¡�æµ¦è·¯æ–¯->ğŸ‡ºğŸ‡¸_US_ç¾�å›½
       - ğŸ‡ºğŸ‡¸ _CN_ä¸­å›½->ğŸ‡ºğŸ‡¸_US_ç¾�å›½ 2
       - ğŸ‡­ğŸ‡° _HK_é¦™æ¸¯
@@ -163,9 +148,9 @@ proxy-groups:
       - ğŸ‡­ğŸ‡° _HK_é¦™æ¸¯ 2
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡¨ğŸ‡­_CH_ç‘�å£«
       - ğŸ‡­ğŸ‡° _HK_é¦™æ¸¯ 3
-      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 14
+      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 13
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡©ğŸ‡ª_DE_å¾·å›½
-      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 15
+      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 14
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡©ğŸ‡ª_DE_å¾·å›½ 2
       - ğŸ‡­ğŸ‡° _HK_é¦™æ¸¯ 4
       - ğŸ‡ºğŸ‡¸ _NL_è�·å…°->ğŸ‡ºğŸ‡¸_US_ç¾�å›½
@@ -174,7 +159,7 @@ proxy-groups:
       - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½->ğŸ‡¨ğŸ‡­_CH_ç‘�å£« 2
       - ğŸ‡¨ğŸ‡³ _TW_å�°æ¹¾
       - ğŸ‡­ğŸ‡° _HK_é¦™æ¸¯ 7
-      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 16
+      - ğŸ‡ºğŸ‡¸ _US_ç¾�å›½ 15
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,ğŸ�¯ å…¨ç�ƒç›´è¿�
  - DOMAIN-SUFFIX,ip6-localhost,ğŸ�¯ å…¨ç�ƒç›´è¿�

@@ -9,7 +9,7 @@ on:
 #    branches:
 #      - master
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 1 * * *'
     - cron: '0 13 * * *'
     
   # Triggers the workflow on push or pull request events but only for the "main" branch

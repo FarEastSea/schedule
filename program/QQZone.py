@@ -8,10 +8,10 @@ import json
 class QQZone:
     """get msg list"""
 
-    def __init__(self, sCookie, fileName='Zone/result.txt', ImgDir='Zone/Img'):
+    def __init__(self, QQ, token, sCookie, fileName='Zone/result.txt', ImgDir='Zone/Img'):
         """
         set requests config
-        look for 20 each search is the bast result
+        look for 20 each search is the best result
         don't change it at most time
         """
 
@@ -23,9 +23,11 @@ class QQZone:
         self.cookies = {}
         for i in json.loads(sCookie):
             self.cookies[i['name']] = i['value']
+        self.uin = QQ
         self.params = {
-            'uin': '',
-            'g_tk': '412342335',
+            'uin': self.uin,
+            # 别忘了更新
+            'g_tk': token,
             'pos': 0,
             'num': 20
         }
@@ -35,8 +37,6 @@ class QQZone:
 
     def get_MsgList(self):
         response = requests.request("GET", self.url, headers=self.headers, params=self.params, cookies=self.cookies)
-        print(response.cookies)
-        print()
         resText = response.text
         ResTextNew = re.search('.*?\((.*)\).*', resText).group(1)
         resObj = json.loads(ResTextNew)
@@ -44,7 +44,8 @@ class QQZone:
         herSayList = []
         if msglist:
             for msg in msglist:
-                msgStatus = {'conten': msg['content'],
+                msgStatus = {'name': msg['name'],
+                             'content': msg['content'],
                              'createDay': msg['createTime'],
                              'createTime': msg['created_time']
                              }
@@ -56,11 +57,10 @@ class QQZone:
         else:
             return False
 
-    def get_AllPage_Msg(self, QQ, startNum=0, Num=20):
+    def get_AllPage_Msg(self, startNum=0, Num=20):
         """get msg from all pages"""
 
         Continue_Status = True
-        self.params['uin'] = QQ
         self.params['pos'] = startNum
         self.params['num'] = Num
         while Continue_Status:
@@ -133,5 +133,7 @@ class QQZone:
 
 scookie = os.getenv('cookies')
 qq = os.getenv('QQ')
-a = QQZone(scookie)
-b = a.get_AllPage_Msg(qq)
+tk = ''
+a = QQZone(qq, tk, scookie)
+b = a.get_AllPage_Msg()
+print(b)

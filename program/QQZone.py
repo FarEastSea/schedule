@@ -130,10 +130,12 @@ class QQZone:
         with open(f'{dirName}/{imgTime}', 'wb+') as f:
             f.write(res.content)
 
-
-scookie = os.getenv('cookies')
-qq = os.getenv('QQ')
+cookie = ''
+qq = ''
 tk = ''
+scookie = os.getenv('QQZONECOOKIES', cookie)
+qq = os.getenv('QQ', qq)
+tk = os.getenv('QQ_TOKEN', tk)
 a = QQZone(qq, tk, scookie)
 b = a.get_AllPage_Msg()
 print(b)

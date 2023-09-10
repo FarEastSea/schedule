@@ -3,6 +3,7 @@ import threading
 import os
 import re
 import json
+import time
 
 
 class QQZone:
@@ -47,7 +48,10 @@ class QQZone:
                 msgStatus = {'name': msg['name'],
                              'content': msg['content'],
                              'createDay': msg['createTime'],
-                             'createTime': msg['created_time']
+                             'createData': time.strftime("%Y年%m月%d日 %H:%M", time.localtime(msg['created_time'])),
+                             'createTime': msg['created_time'],
+                             'lastmodify': msg['lastmodify'],
+                             'source_name': msg['source_name']
                              }
                 if msg.get('pic'):
                     msgStatus['picUrl'] = msg['pic'][0]['pic_id']
@@ -79,12 +83,15 @@ class QQZone:
             with open(self.fileName, 'r') as f:
                 txt = f.read()
                 Result = json.loads(txt)
-                for i in self.result:
-                    vertifyData = [time['createTime'] for time in Result]
-                    if i['createTime'] not in vertifyData:
-                        Result.append(i)
-            Result.sort(key=lambda x: x['createTime'], reverse=True)
-            self.result = Result
+                for i in Result:
+                    vertifyData = [message['createTime'] for message in self.result]
+                    if i.get('lastmodify') in (0, None):
+                        if i['createTime'] not in vertifyData:
+                            self.result.append(i)
+                    else:
+                        self.result.append(i)
+            # 重新排序
+            self.result.sort(key=lambda x: x['createTime'], reverse=True)
         else:
             if not os.path.exists(os.path.dirname(self.fileName)):
                 os.makedirs(os.path.dirname(self.fileName))
@@ -102,6 +109,7 @@ class QQZone:
             f.write(json.dumps(self.result))
         # create Img
         self.downloadImg()
+
 
     def downloadImg(self):
         """download picture"""

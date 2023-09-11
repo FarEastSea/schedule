@@ -1,0 +1,111 @@
+name: Example Program
+
+on: [workflow_dispatch]
+
+jobs:
+
+#    current directory: pwd
+#    User directory: ~
+
+#  - name: 'Upload Artifact'
+#    uses: actions/upload-artifact@v3
+#    with:
+#      name: my-artifact
+#      path: my_file.txt
+#      retention-days: 5
+
+#  不指定path时默认下载到该步骤的工作区目录
+#  不带with，不指定名称，将下载全部工件，会为每个工件使用其名称创建一个目录
+#  - name: Download a single artifact
+#    uses: actions/download-artifact@v3
+#    with:
+#      name: my-artifact
+#      path: artifact
+
+#  Share data between jobs
+  job_1:
+    name: Add 3 and 7
+    runs-on: ubuntu-latest
+    steps:
+      - shell: bash
+        run: |
+          expr 3 + 7 > math-homework.txt
+      - name: Upload math result for job 1
+        uses: actions/upload-artifact@v3
+        with:
+          name: homework
+          path: math-homework.txt
+
+  job_2:
+    name: Multiply by 9
+    needs: job_1
+    runs-on: windows-latest
+    steps:
+      - name: Download math result for job 1
+        uses: actions/download-artifact@v3
+        with:
+          name: homework
+      - shell: bash
+        run: |
+          value=`cat math-homework.txt`
+          expr $value \* 9 > math-homework.txt
+      - name: Upload math result for job 2
+        uses: actions/upload-artifact@v3
+        with:
+          name: homework
+          path: math-homework.txt
+
+  job_3:
+    name: Display results
+    needs: job_2
+    runs-on: macOS-latest
+    steps:
+      - name: Download math result for job 2
+        uses: actions/download-artifact@v3
+        with:
+          name: homework
+      - name: Print the final result
+        shell: bash
+        run: |
+          value=`cat math-homework.txt`
+          echo The result is $value
+
+#    echo "{environment_variable_name}={value}" >> "$GITHUB_ENV"
+
+#    steps:
+#      - name: Set the value
+#        id: step_one
+#        run: |
+#          echo "action_state=yellow" >> "$GITHUB_ENV"
+#      - name: Use the value
+#        id: step_two
+#        run: |
+#          echo "${{ env.action_state }}" # This will output 'yellow'
+
+#      多行字符串
+#      {name}<<{delimiter}
+#      {value}
+#      {delimiter}
+
+#      echo "{name}={value}" >> "$GITHUB_OUTPUT"
+
+#      - name: Set color
+#        id: random-color-generator
+#        run: echo "SELECTED_COLOR=green" >> "$GITHUB_OUTPUT"
+#      - name: Get color
+#        run: echo "The selected color is ${{ steps.random-color-generator.outputs.SELECTED_COLOR }}"
+
+#      MarkDown文本
+#      每次追加操作时，都会自动添加一个换行符。>>
+#      覆盖内容。>
+#      echo "{markdown content}" >> $GITHUB_STEP_SUMMARY
+#      echo "### Hello world! :rocket:" >> $GITHUB_STEP_SUMMARY
+#      删除摘要
+#      rm $GITHUB_STEP_SUMMARY
+
+#      在系统变量前面附加一个目录，并自动使其可用于当前作业中的所有后续操作
+#      当前正在运行的操作无法访问更新的 PATH 变量
+#      查看路径 echo "$PATH"
+#      echo "{path}" >> $GITHUB_PATH
+#      echo "$HOME/.local/bin" >> $GITHUB_PATH
+

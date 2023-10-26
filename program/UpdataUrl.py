@@ -58,6 +58,5 @@ class VPN:
 
 a = VPN('https://clashnode.com/wp-content/uploads/2023/07/20230721.yaml',
         'https://v2rayshare.com/wp-content/uploads/2023/05/20230513.yaml',
-        'https://nodefree.org/dy/2023/07/20230716.yaml', 'https://v2rayshare.com/wp-content/uploads/2023/03/20230302.txt', 'https://clashfree.eu.org/wp-content/uploads/rss/20230803.yml', 
-'https://clashfree.eu.org/wp-content/uploads/rss/20230803.txt')
+        'https://nodefree.org/dy/2023/07/20230716.yaml', 'https://v2rayshare.com/wp-content/uploads/2023/03/20230302.txt')
 a.look_for()

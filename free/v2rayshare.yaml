@@ -5,34 +5,20 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ๐บ๐ธ _CN_ไธญๅฝ->๐บ๐ธ_US_็พๅฝ, server: 3u1s05.abzoones.xyz, port: 36506, type: vmess, uuid: 30c91362-3af1-432b-99ae-8c4334d7b503, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: ๐ฎ๐ณ _CN_ไธญๅฝ->๐ฎ๐ณ_IN_ๅฐๅบฆ, server: 7i4n04.abzoones.xyz, port: 36831, type: vmess, uuid: 30c91362-3af1-432b-99ae-8c4334d7b503, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: ๐บ๐ธ _US_็พๅฝ, server: 45.77.167.137, port: 80, type: vmess, uuid: ff85a2eb-5cef-49a3-e969-f527ff8f4167, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: ๐บ๐ธ _CN_ไธญๅฝ->๐บ๐ธ_US_็พๅฝ 2, server: 3u1s04.abzoones.xyz, port: 36501, type: vmess, uuid: 30c91362-3af1-432b-99ae-8c4334d7b503, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: ๐ฌ๐ง _CN_ไธญๅฝ->๐ฌ๐ง_GB_่ฑๅฝ, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: 30c91362-3af1-432b-99ae-8c4334d7b503, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: ๐ฆ๐บ _CN_ไธญๅฝ->๐ฆ๐บ_AU_ๆพณๅคงๅฉไบ, server: 5a4u04.abzoones.xyz, port: 36821, type: vmess, uuid: 30c91362-3af1-432b-99ae-8c4334d7b503, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: ๐ฉ๐ช _CN_ไธญๅฝ->๐ฉ๐ช_DE_ๅพทๅฝ, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: 30c91362-3af1-432b-99ae-8c4334d7b503, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: ๐บ๐ธ _CN_ไธญๅฝ->๐บ๐ธ_US_็พๅฝ 3, server: 3u1s06.abzoones.xyz, port: 36511, type: vmess, uuid: 30c91362-3af1-432b-99ae-8c4334d7b503, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: ๐จ๐ฆ _CA_ๅ�ๆฟๅคง, server: 108.181.22.161, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-us2.windowsupdatea.com, skip-cert-verify: false}
+  - {name: ๐บ๐ธ _US_็พๅฝ, server: 195.123.240.170, port: 41916, type: vmess, uuid: 12772df9-485f-413c-edbf-3f562d61de4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: ๐บ๐ธ _US_็พๅฝ 2, server: 141.193.68.81, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-us3.windowsupdatea.com, skip-cert-verify: false}
   - {name: ๐จ๐ฆ _CA_ๅ�ๆฟๅคง->๐ฌ๐ง_GB_่ฑๅฝ, server: 64.68.192.77, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
-  - {name: ๐ต๐น _CN_ไธญๅฝ->๐ต๐น_PT_่ก่็, server: 4p2t01.abzoones.xyz, port: 36881, type: vmess, uuid: 30c91362-3af1-432b-99ae-8c4334d7b503, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: ๐ฌ๐ง _GB_่ฑๅฝ, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws}}
-  - {name: ๐ง๐ท _CN_ไธญๅฝ->๐ง๐ท_BR_ๅทด่ฅฟ, server: 6i2r04.abzoones.xyz, port: 36877, type: vmess, uuid: 30c91362-3af1-432b-99ae-8c4334d7b503, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: ๐ช๐ธ _CN_ไธญๅฝ->๐ช๐ธ_ES_่ฅฟ็ญ็, server: 6e2s04.abzoones.xyz, port: 36884, type: vmess, uuid: 30c91362-3af1-432b-99ae-8c4334d7b503, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: ๐บ๐ฆ _CN_ไธญๅฝ->๐บ๐ฆ_UA_ไนๅๅฐ, server: 8u9a04.abzoones.xyz, port: 36871, type: vmess, uuid: 30c91362-3af1-432b-99ae-8c4334d7b503, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: ๐ธ๐ฌ _SG_ๆฐๅ�ๅก->๐บ๐ธ_US_็พๅฝ, server: 8.222.198.105, port: 80, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: warp.chigua.tk}}}
-  - {name: ๐บ๐ธ _US_็พๅฝ 2, server: 172.67.229.31, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
-  - {name: ๐ณ๐ฑ _NL_่ทๅฐ, server: 154.85.1.129, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1698579913173}}
-  - {name: ๐บ๐ธ _US_็พๅฝ 3, server: 172.67.229.13, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
-  - {name: _CN_ไธญๅฝ, server: 2t1u04.abzoones.xyz, port: 36868, type: vmess, uuid: 30c91362-3af1-432b-99ae-8c4334d7b503, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: ๐บ๐ธ _US_็พๅฝ->๐ฉ๐ช_DE_ๅพทๅฝ, server: cf1.openxai.link, port: 8080, type: vmess, uuid: 218996e0-5a6e-4806-8106-6b7b42e6d0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eu4.openxai.link}}}
+  - {name: _CN_ไธญๅฝ, server: other.kunlun-ppg.com, port: 10837, type: trojan, password: bef35a85-22a4-47d6-856b-a612a7ce50c4, sni: alibaba-node.cn, skip-cert-verify: false}
+  - {name: ๐บ๐ธ _CN_ไธญๅฝ->๐บ๐ธ_US_็พๅฝ, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: bef35a85-22a4-47d6-856b-a612a7ce50c4, sni: alibaba-node.cn, skip-cert-verify: false}
+  - {name: ๐ฆ๐น _CN_ไธญๅฝ->๐ฆ๐น_AT_ๅฅฅๅฐๅฉ, server: other.kunlun-ppg.com, port: 10848, type: trojan, password: bef35a85-22a4-47d6-856b-a612a7ce50c4, sni: alibaba-node.cn, skip-cert-verify: false}
+  - {name: ๐บ๐ธ _CN_ไธญๅฝ->๐บ๐ธ_US_็พๅฝ 2, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: bef35a85-22a4-47d6-856b-a612a7ce50c4, sni: alibaba-node.cn, skip-cert-verify: false}
+  - {name: ๐บ๐ธ _US_็พๅฝ->๐ณ๐ฑ_NL_่ทๅฐ, server: 162.159.138.232, port: 2096, type: vmess, uuid: c58c0655-d722-4ad1-8ad5-2452c77a753a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Amsterdam, headers: {Host: stiyUs6usw.pouriya.cf}}}
+  - {name: ๐บ๐ฆ _CN_ไธญๅฝ->๐บ๐ฆ_UA_ไนๅๅฐ, server: other.kunlun-ppg.com, port: 10845, type: trojan, password: bef35a85-22a4-47d6-856b-a612a7ce50c4, sni: alibaba-node.cn, skip-cert-verify: false}
   - {name: ๐บ๐ธ _US_็พๅฝ->๐ฎ๐ณ_IN_ๅฐๅบฆ, server: mm2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mm2.shabijichang.com}}}
-  - {name: ๐บ๐ธ _US_็พๅฝ->๐ฉ๐ช_DE_ๅพทๅฝ 2, server: cf2.openxai.link, port: 8080, type: vmess, uuid: 47396f9c-365d-4b99-ad1f-f7927164b4c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eu3.openxai.link}}}
-  - {name: ๐บ๐ธ _US_็พๅฝ->๐ณ๐ฑ_NL_่ทๅฐ, server: 156.225.67.106, port: 30000, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1698671600986, headers: {Host: www.41758112.xyz}}}
-  - {name: ๐ฆ๐ท _CN_ไธญๅฝ->๐ฆ๐ท_AR_้ฟๆ�นๅปท, server: 9a8r04.abzoones.xyz, port: 36861, type: vmess, uuid: 30c91362-3af1-432b-99ae-8c4334d7b503, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: ๐บ๐ธ _US_็พๅฝ 4, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
-  - {name: ๐บ๐ธ _US_็พๅฝ 5, server: 156.225.67.107, port: 30000, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1699017821148, headers: {Host: www.41758112.xyz}}}
-  - {name: ๐บ๐ธ _US_็พๅฝ->๐ฌ๐ง_GB_่ฑๅฝ, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
-  - {name: ๐บ๐ธ _US_็พๅฝ->๐ฌ๐ง_GB_่ฑๅฝ 2, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
+  - {name: ๐บ๐ธ _US_็พๅฝ->๐ซ๐ท_FR_ๆณๅฝ, server: 162.159.25.17, port: 2082, type: vmess, uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Lille.kotick.site:443/speedtest, headers: {Host: bold-mud-c089.owotaa.workers.dev}}}
+  - {name: ๐ฉ๐ช _DE_ๅพทๅฝ, server: 89.163.220.99, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-de1.windowsupdatea.com, skip-cert-verify: false}
+  - {name: ๐บ๐ธ _US_็พๅฝ->๐ฌ๐ง_GB_่ฑๅฝ, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
 proxy-groups:
   - name: ๐ ่็น้ๆฉ
     type: select
@@ -48,34 +34,20 @@ proxy-groups:
   - name: ๐ ๆๅจๅๆข
     type: select
     proxies:
-      - ๐บ๐ธ _CN_ไธญๅฝ->๐บ๐ธ_US_็พๅฝ
-      - ๐ฎ๐ณ _CN_ไธญๅฝ->๐ฎ๐ณ_IN_ๅฐๅบฆ
+      - ๐จ๐ฆ _CA_ๅ�ๆฟๅคง
       - ๐บ๐ธ _US_็พๅฝ
-      - ๐บ๐ธ _CN_ไธญๅฝ->๐บ๐ธ_US_็พๅฝ 2
-      - ๐ฌ๐ง _CN_ไธญๅฝ->๐ฌ๐ง_GB_่ฑๅฝ
-      - ๐ฆ๐บ _CN_ไธญๅฝ->๐ฆ๐บ_AU_ๆพณๅคงๅฉไบ
-      - ๐ฉ๐ช _CN_ไธญๅฝ->๐ฉ๐ช_DE_ๅพทๅฝ
-      - ๐บ๐ธ _CN_ไธญๅฝ->๐บ๐ธ_US_็พๅฝ 3
-      - ๐จ๐ฆ _CA_ๅ�ๆฟๅคง->๐ฌ๐ง_GB_่ฑๅฝ
-      - ๐ต๐น _CN_ไธญๅฝ->๐ต๐น_PT_่ก่็
-      - ๐ฌ๐ง _GB_่ฑๅฝ
-      - ๐ง๐ท _CN_ไธญๅฝ->๐ง๐ท_BR_ๅทด่ฅฟ
-      - ๐ช๐ธ _CN_ไธญๅฝ->๐ช๐ธ_ES_่ฅฟ็ญ็
-      - ๐บ๐ฆ _CN_ไธญๅฝ->๐บ๐ฆ_UA_ไนๅๅฐ
-      - ๐ธ๐ฌ _SG_ๆฐๅ�ๅก->๐บ๐ธ_US_็พๅฝ
       - ๐บ๐ธ _US_็พๅฝ 2
-      - ๐ณ๐ฑ _NL_่ทๅฐ
-      - ๐บ๐ธ _US_็พๅฝ 3
+      - ๐จ๐ฆ _CA_ๅ�ๆฟๅคง->๐ฌ๐ง_GB_่ฑๅฝ
       - _CN_ไธญๅฝ
-      - ๐บ๐ธ _US_็พๅฝ->๐ฉ๐ช_DE_ๅพทๅฝ
-      - ๐บ๐ธ _US_็พๅฝ->๐ฎ๐ณ_IN_ๅฐๅบฆ
-      - ๐บ๐ธ _US_็พๅฝ->๐ฉ๐ช_DE_ๅพทๅฝ 2
+      - ๐บ๐ธ _CN_ไธญๅฝ->๐บ๐ธ_US_็พๅฝ
+      - ๐ฆ๐น _CN_ไธญๅฝ->๐ฆ๐น_AT_ๅฅฅๅฐๅฉ
+      - ๐บ๐ธ _CN_ไธญๅฝ->๐บ๐ธ_US_็พๅฝ 2
       - ๐บ๐ธ _US_็พๅฝ->๐ณ๐ฑ_NL_่ทๅฐ
-      - ๐ฆ๐ท _CN_ไธญๅฝ->๐ฆ๐ท_AR_้ฟๆ�นๅปท
-      - ๐บ๐ธ _US_็พๅฝ 4
-      - ๐บ๐ธ _US_็พๅฝ 5
+      - ๐บ๐ฆ _CN_ไธญๅฝ->๐บ๐ฆ_UA_ไนๅๅฐ
+      - ๐บ๐ธ _US_็พๅฝ->๐ฎ๐ณ_IN_ๅฐๅบฆ
+      - ๐บ๐ธ _US_็พๅฝ->๐ซ๐ท_FR_ๆณๅฝ
+      - ๐ฉ๐ช _DE_ๅพทๅฝ
       - ๐บ๐ธ _US_็พๅฝ->๐ฌ๐ง_GB_่ฑๅฝ
-      - ๐บ๐ธ _US_็พๅฝ->๐ฌ๐ง_GB_่ฑๅฝ 2
   - name: ๐ฒ ็ตๆฅๆถๆฏ
     type: select
     proxies:
@@ -262,25 +234,18 @@ proxy-groups:
   - name: ๐บ๐ฒ ็พๅฝ่็น
     type: select
     proxies:
-      - ๐บ๐ธ _CN_ไธญๅฝ->๐บ๐ธ_US_็พๅฝ
       - ๐บ๐ธ _US_็พๅฝ
-      - ๐บ๐ธ _CN_ไธญๅฝ->๐บ๐ธ_US_็พๅฝ 2
-      - ๐บ๐ธ _CN_ไธญๅฝ->๐บ๐ธ_US_็พๅฝ 3
-      - ๐ธ๐ฌ _SG_ๆฐๅ�ๅก->๐บ๐ธ_US_็พๅฝ
       - ๐บ๐ธ _US_็พๅฝ 2
-      - ๐บ๐ธ _US_็พๅฝ 3
-      - ๐บ๐ธ _US_็พๅฝ->๐ฉ๐ช_DE_ๅพทๅฝ
-      - ๐บ๐ธ _US_็พๅฝ->๐ฎ๐ณ_IN_ๅฐๅบฆ
-      - ๐บ๐ธ _US_็พๅฝ->๐ฉ๐ช_DE_ๅพทๅฝ 2
+      - ๐บ๐ธ _CN_ไธญๅฝ->๐บ๐ธ_US_็พๅฝ
+      - ๐บ๐ธ _CN_ไธญๅฝ->๐บ๐ธ_US_็พๅฝ 2
       - ๐บ๐ธ _US_็พๅฝ->๐ณ๐ฑ_NL_่ทๅฐ
-      - ๐บ๐ธ _US_็พๅฝ 4
-      - ๐บ๐ธ _US_็พๅฝ 5
+      - ๐บ๐ธ _US_็พๅฝ->๐ฎ๐ณ_IN_ๅฐๅบฆ
+      - ๐บ๐ธ _US_็พๅฝ->๐ซ๐ท_FR_ๆณๅฝ
       - ๐บ๐ธ _US_็พๅฝ->๐ฌ๐ง_GB_่ฑๅฝ
-      - ๐บ๐ธ _US_็พๅฝ->๐ฌ๐ง_GB_่ฑๅฝ 2
   - name: ๐ธ๐ฌ ็ฎๅ่็น
     type: select
     proxies:
-      - ๐ธ๐ฌ _SG_ๆฐๅ�ๅก->๐บ๐ธ_US_็พๅฝ
+      - DIRECT
   - name: ๐จ๐ณ ๅฐๆนพ่็น
     type: select
     proxies:

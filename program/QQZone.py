@@ -138,8 +138,8 @@ class QQZone:
             imgTime = img['createTime']
             lock = threading.RLock()
             for imgUrl in imgUrlList:
-                imgTime = f"{imgTime}_{imgUrlList.index(imgUrl)}"
-                thread = threading.Thread(target=self.thread_Request, args=(imgUrl, imgTime, lock), name=str(imgTime), daemon=True)
+                FileName_ImgTime = f"{imgTime}_{imgUrlList.index(imgUrl)}"
+                thread = threading.Thread(target=self.thread_Request, args=(imgUrl, FileName_ImgTime, lock), name=str(FileName_ImgTime), daemon=True)
                 thread.start()
                 threadList.append(thread)
         for i in threadList:

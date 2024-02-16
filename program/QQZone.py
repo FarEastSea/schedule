@@ -61,7 +61,9 @@ class QQZone:
                              'source_name': msg['source_name']
                              }
                 if msg.get('pic'):
-                    msgStatus['picUrl'] = msg['pic'][0]['pic_id']
+                    msgStatus['picUrl'] = []
+                    for img in msg['pic']:
+                        msgStatus['picUrl'].append(img['pic_id'])
                 herSayList.append(msgStatus)
             self.result.extend(herSayList)
             return True
@@ -124,12 +126,14 @@ class QQZone:
         imgList = [{'picUrl': img['picUrl'], 'createTime': img['createTime']} for img in self.result if img.get('picUrl')]
         threadList = []
         for img in imgList:
-            imgUrl = img['picUrl']
+            imgUrlList = img['picUrl']
             imgTime = img['createTime']
             lock = threading.RLock()
-            thread = threading.Thread(target=self.thread_Request, args=(imgUrl, imgTime, lock), name=str(imgTime), daemon=True)
-            thread.start()
-            threadList.append(thread)
+            for imgUrl in imgUrlList:
+                imgTime = f"{imgTime}_{imgUrlList.index(imgUrl)}"
+                thread = threading.Thread(target=self.thread_Request, args=(imgUrl, imgTime, lock), name=str(imgTime), daemon=True)
+                thread.start()
+                threadList.append(thread)
         for i in threadList:
             i.join()
 

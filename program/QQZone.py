@@ -93,12 +93,20 @@ class QQZone:
                 txt = f.read()
                 Result = json.loads(txt)
                 for i in Result:
-                    vertifyData = [message['createTime'] for message in self.result]
+                    # 验证数据集
+                    vertifyData_Create = []
+                    vertifyData_Modify = []
+                    for message in self.result:
+                        vertifyData_Create.append(message['createTime'])
+                        if message.get('lastmodify'):
+                            vertifyData_Modify.append(message['lastmodify'])
+                    # 判断是否添加保存数据
                     if i.get('lastmodify') in (0, None):
-                        if i['createTime'] not in vertifyData:
+                        if i['createTime'] not in vertifyData_Create:
                             self.result.append(i)
                     else:
-                        self.result.append(i)
+                        if i['lastmodify'] not in vertifyData_Modify:
+                            self.result.append(i)
             # 重新排序
             self.result.sort(key=lambda x: x['createTime'], reverse=True)
         else:

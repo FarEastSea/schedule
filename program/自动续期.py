@@ -32,10 +32,10 @@ class renew:
         _Options.add_argument("--incognito")
 
         try:
-            self.driver = webdriver.chromium(options=_Options)
+            self.driver = webdriver.Chrome(options=_Options)
         except Exception as e:
             print(f'chrome错误：{e}')
-            sys.exit()
+            sys.exit(1)
 
     def login(self):
         """登录"""

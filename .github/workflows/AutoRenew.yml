@@ -31,8 +31,8 @@ jobs:
 
       - name: Install ChromeDriver
         run: |
-#          不用了，提出来
-#          && CHROMEDRIVER_RELEASE=$(curl --location --fail --retry 3 http://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION}) \
+          # 不用了，提出来，以后或许用得上
+          # && CHROMEDRIVER_RELEASE=$(curl --location --fail --retry 3 http://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION}) \
           google-chrome --version | cut -f 3 -d ' '
           CHROME_VERSION=$(google-chrome --version | cut -f 3 -d ' ') \
             && CHROMEDRIVER_RELEASE=${CHROME_VERSION} \

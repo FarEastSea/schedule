@@ -10,16 +10,41 @@ on:
 
 jobs:
   Renew_Web_APP:
-    name: Update URL
+    name: Update Web APP
     runs-on: ubuntu-latest
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: 'Set up Python'
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+          cache: 'pip'
+
+      - name: 'Install requirements'
+        run: |
+          pip install -r requirements.txt
+
+      - name: Install ChromeDriver
+        run: |
+          CHROME_VERSION=$(google-chrome --version | cut -f 3 -d ' ' | cut -d '.' -f 1) \
+            && CHROMEDRIVER_RELEASE=$(curl --location --fail --retry 3 http://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION}) \
+            && curl --silent --show-error --location --fail --retry 3 --output /tmp/chromedriver_linux64.zip "http://chromedriver.storage.googleapis.com/$CHROMEDRIVER_RELEASE/chromedriver_linux64.zip" \
+            && cd /tmp \
+            && unzip chromedriver_linux64.zip \
+            && rm -rf chromedriver_linux64.zip \
+            && sudo mv chromedriver /usr/local/bin/chromedriver \
+            && sudo chmod +x /usr/local/bin/chromedriver \
+            && chromedriver --version
 
       - name: Renew app
         env:
-          WEBAPP_COOKIE: ${{ secrets.WEBAPP_COOKIE }}
+          WEBAPP_USERNAME: ${{ secrets.WEBAPP_USERNAME }}
+          WEBAPP_PASSWORD: ${{ secrets.WEBAPP_PASSWORD }}
           MAIL_ARGV: ${{ secrets.MAIL_ARGV }}
           SENDER_NAME: ${{ secrets.SENDER_NAME }}
           SENDER_USERNAME: ${{ secrets.SENDER_USERNAME }}

@@ -52,13 +52,42 @@ class VPN:
         timeData = time.strftime("/%Y%m%d", time.localtime())
         newUrl = re.sub('/\d{2}/', monthData, url)
         newUrl = re.sub('/\d{4}/', yearData, newUrl)
-        newUrl = re.sub('/\d{8}', timeData, newUrl)
+        newUrl = re.sub('[/-]\d{8}', timeData, newUrl)
         return newUrl
 
 
-a = VPN('https://clashnode.com/wp-content/uploads/2023/07/20230721.yaml',
-'https://clashnode.com/wp-content/uploads/2023/11/20231121.txt',
+a = VPN(
+#'https://clashnode.com/wp-content/uploads/2023/07/20230721.yaml',
+
+'https://v2rayshare.com/wp-content/uploads/2024/05/20240531.txt',
         'https://v2rayshare.com/wp-content/uploads/2023/05/20230513.yaml',
-        'https://nodefree.org/dy/2023/07/20230716.yaml',
- 'https://v2rayshare.com/wp-content/uploads/2023/03/20230302.txt')
+
+'https://nodefree.org/dy/2024/05/20240531.txt',
+
+'https://nodefree.org/dy/2023/07/20230716.yaml',
+ 'https://www.freeclashnode.com/uploads/2024/05/0-20240531.txt',
+
+'https://www.freeclashnode.com/uploads/2024/05/0-20240531.yaml',
+
+'https://clashgithub.com/wp-content/uploads/rss/20240601.txt',
+
+'https://clashgithub.com/wp-content/uploads/rss/20240601.yml',
+
+'https://node.oneclash.cc/2024/05/20240531.txt',
+
+'https://node.oneclash.cc/2024/05/20240531.yaml',
+
+'https://freeclash.org/wp-content/uploads/2024/05/0531.yaml',
+
+'https://freeclash.org/wp-content/uploads/2024/05/0531.txt',
+
+'https://node.wenode.cc/2024/05/20240531.txt',
+
+'https://node.wenode.cc/2024/05/20240531.yaml',
+
+'https://tglaoshiji.github.io/nodeshare/2024/6/20240601.txt',
+
+'https://tglaoshiji.github.io/nodeshare/2024/6/20240601.yaml'
+
+)
 a.look_for()

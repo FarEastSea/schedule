@@ -32,7 +32,11 @@ class VPN:
             filePath = os.path.join(fileDir, 'free')
             if not os.path.exists(filePath):
                 os.makedirs(filePath)
-            hostUrl, fixName = re.search('https://(.+?)\..*(\..+)', url).group(1, 2)
+            hostUrl, fixName = re.search('https://(.+)\..*?/.*(\..+)', url).group(1, 2)
+            # 处理不要字符
+            hostUrl = re.sub('(?:^www\.)|\.github$', '', hostUrl)
+            # 替换字符
+            hostUrl = re.sub('\.', '_', hostUrl)
             fileName = hostUrl + fixName
             filePath = os.path.join(filePath, fileName)
             with open(filePath, 'w+', encoding='utf-8') as f:
@@ -64,12 +68,14 @@ a = VPN(
 #'https://clashnode.com/wp-content/uploads/2023/07/20230721.yaml',
 
 'https://v2rayshare.com/wp-content/uploads/2024/05/20240531.txt',
-        'https://v2rayshare.com/wp-content/uploads/2023/05/20230513.yaml',
+
+'https://v2rayshare.com/wp-content/uploads/2023/05/20230513.yaml',
 
 'https://nodefree.org/dy/2024/05/20240531.txt',
 
 'https://nodefree.org/dy/2023/07/20230716.yaml',
- 'https://www.freeclashnode.com/uploads/2024/05/0-20240531.txt',
+
+'https://www.freeclashnode.com/uploads/2024/05/0-20240531.txt',
 
 'https://www.freeclashnode.com/uploads/2024/05/0-20240531.yaml',
 

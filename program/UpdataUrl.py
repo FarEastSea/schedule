@@ -22,7 +22,11 @@ class VPN:
         """look context"""
         for url in self.url:
             url = self.updataUrl(url)
-            res = requests.get(url, headers=self.headers )
+            try:
+                res = requests.get(url, headers=self.headers )
+            except ConnectionError as e:
+                print(f'出现错误：{e}')
+                continue
             restext = res.text
             fileDir = os.path.dirname(os.path.dirname(__file__))
             filePath = os.path.join(fileDir, 'free')

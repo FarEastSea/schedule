@@ -33,6 +33,7 @@ class VPN:
             if not os.path.exists(filePath):
                 os.makedirs(filePath)
             hostUrl, fixName = re.search('https://(.+)\..*?/.*(\..+)', url).group(1, 2)
+            # 注意！ re模块sub方法的pattern会转义两次
             # 处理不要字符
             hostUrl = re.sub('(?:^www\.)|\.github$', '', hostUrl)
             # 替换字符

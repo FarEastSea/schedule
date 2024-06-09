@@ -24,7 +24,7 @@ class VPN:
             url = self.updataUrl(url)
             try:
                 res = requests.get(url, headers=self.headers )
-            except ConnectionError as e:
+            except Exception as e:
                 print(f'出现错误：{e}')
                 continue
             restext = res.text

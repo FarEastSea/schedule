@@ -84,17 +84,9 @@ a = VPN(
 
 'https://clashgithub.com/wp-content/uploads/rss/20240601.yml',
 
-'https://node.oneclash.cc/2024/05/20240531.txt',
-
-'https://node.oneclash.cc/2024/05/20240531.yaml',
-
 'https://freeclash.org/wp-content/uploads/2024/05/0531.yaml',
 
 'https://freeclash.org/wp-content/uploads/2024/05/0531.txt',
-
-'https://node.wenode.cc/2024/05/20240531.txt',
-
-'https://node.wenode.cc/2024/05/20240531.yaml',
 
 'https://tglaoshiji.github.io/nodeshare/2024/6/20240601.txt',
 

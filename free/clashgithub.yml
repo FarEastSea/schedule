@@ -6,28 +6,9 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: üá¨üáß È´òÊÄß‰ª∑ÊØîÊú∫Âú∫:https://kfyun.uk, server: 127.0.0.1, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3, tfo: false}
-  - {name: 0|üáØüáµ1 |  7.2MB/s, server: 43.203.206.63, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|üáπüáº1 |  5.5MB/s, server: free.2weradf.xyz, port: 36243, type: ss, cipher: chacha20-ietf-poly1305, password: 7d19195d-7a87-4496-973d-9b5becd71031, tfo: false}
-  - {name: 0|üá∫üá∏1 |  4.8MB/s, server: 54.190.43.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|üáØüáµ2 |  7.9MB/s, server: gy.58n.net, port: 20059, type: trojan, password: baf8e463-daed-38ec-8f2b-49b2d8632676, sni: x59.flybar.work, skip-cert-verify: true, tfo: false}
-  - {name: 0|üáπüáº2 |  6.3MB/s, server: gy.58n.net, port: 36821, type: trojan, password: baf8e463-daed-38ec-8f2b-49b2d8632676, sni: z262.hongkongnode.top, skip-cert-verify: true, tfo: false}
-  - {name: 0|üáØüáµ3 |  4.0MB/s, server: gy.58n.net, port: 20139, type: trojan, password: baf8e463-daed-38ec-8f2b-49b2d8632676, sni: z139.hongkongnode.top, skip-cert-verify: true, tfo: false}
-  - {name: 0|üá´üá∑1 |  1.3MB/s, server: free.2weradf.xyz, port: 36115, type: ss, cipher: chacha20-ietf-poly1305, password: 7d19195d-7a87-4496-973d-9b5becd71031, tfo: false}
-  - {name: 0|üá∫üá∏2 |  5.1MB/s, server: free.2weradf.xyz, port: 36741, type: ss, cipher: chacha20-ietf-poly1305, password: 7d19195d-7a87-4496-973d-9b5becd71031, tfo: false}
-  - {name: 0|üá∫üá∏3 |  5.5MB/s, server: 18.236.161.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|üá¨üáß1 |  18.3MB/s, server: 14.18.253.178, port: 8331, type: ss, cipher: chacha20, password: GqbcCfh365aT, tfo: false}
-  - {name: 0|üá∫üá∏4 |  5.5MB/s, server: 35.89.15.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|üá∫üá∏5 |  5.2MB/s, server: free.2weradf.xyz, port: 36215, type: ss, cipher: chacha20-ietf-poly1305, password: 7d19195d-7a87-4496-973d-9b5becd71031, tfo: false}
-  - {name: 0|üåè1 |  1.2MB/s, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, tfo: false}
-  - {name: 0|üáÆüá∑1 |  2.9MB/s, server: free.2weradf.xyz, port: 36211, type: ss, cipher: chacha20-ietf-poly1305, password: 7d19195d-7a87-4496-973d-9b5becd71031, tfo: false}
-  - {name: 0|üáØüáµ4 |  4.6MB/s, server: 18.183.142.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|üá∞üá∑1 |  2.7MB/s, server: sd3.forlive.live, port: 40396, type: vmess, uuid: 81e16736-5ede-4050-bc4c-3062a63c926d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, tfo: false}
-  - {name: "üá≠üá∞ 0,13,14|È¶ôÊ∏Ø|@ripaojiedian", server: zfa01.333210.xyz, port: 40383, type: trojan, password: 3aec9607-0136-4ca1-90c2-553a0322b25e, sni: cdn.alibaba.com, skip-cert-verify: true, tfo: false}
-  - {name: 0|üá∫üá∏7 |  1.2MB/s, server: 52.37.136.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|üáπüáº3 |  1.5MB/s, server: gy.58n.net, port: 59021, type: trojan, password: baf8e463-daed-38ec-8f2b-49b2d8632676, sni: x100.flybar.work, skip-cert-verify: true, tfo: false}
-  - {name: 0|üá∫üá∏8 |  5.3MB/s, server: 34.221.94.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|üá´üá∑2 |  1.2MB/s, server: plex.com, port: 443, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: plex.com, network: ws, ws-opts: {path: "/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn", headers: {Host: telegram-isvvpn.ir}}, tfo: false}
-  - {name: 0|üá∫üá∏9 |  2.4MB/s, server: free.2weradf.xyz, port: 36671, type: ss, cipher: chacha20-ietf-poly1305, password: 7d19195d-7a87-4496-973d-9b5becd71031, tfo: false}
+  - {name: 0|üá∫üá∏2 |  4.9MB/s, server: 52.40.94.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 0|üá∑üá∫1 |  5.2MB/s, server: 217.30.10.18, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, tfo: false}
+  - {name: "üá≠üá∞ 13,14|È¶ôÊ∏Ø|@ripaojiedian", server: zfa01.333210.xyz, port: 40383, type: trojan, password: 3aec9607-0136-4ca1-90c2-553a0322b25e, sni: cdn.alibaba.com, skip-cert-verify: true, tfo: false}
   - {name: üá≠üá∞ 13|üá≠üá∞ È¶ôÊ∏Ø2|@ripaojiedian, server: 38.147.189.163, port: 12926, type: vmess, uuid: e2103b64-fdfd-4efb-8330-c1c1ff0efdea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: üá≠üá∞ 13|üá≠üá∞ È¶ôÊ∏Ø3|@ripaojiedian, server: w72tapyb.slashdevslashnetslashtun.net, port: 15008, type: ss, cipher: aes-256-gcm, password: 8OCJMAVUOSVBYS7V, tfo: false}
   - {name: üá≠üá∞ 13|üá≠üá∞ È¶ôÊ∏Ø4|@ripaojiedian, server: 183.61.177.234, port: 15012, type: ss, cipher: aes-256-gcm, password: FPJ3XYH5EY246SXU, tfo: false}
@@ -80,28 +61,9 @@ proxy-groups:
       - US
       - TW
       - üá¨üáß È´òÊÄß‰ª∑ÊØîÊú∫Âú∫:https://kfyun.uk
-      - 0|üáØüáµ1 |  7.2MB/s
-      - 0|üáπüáº1 |  5.5MB/s
-      - 0|üá∫üá∏1 |  4.8MB/s
-      - 0|üáØüáµ2 |  7.9MB/s
-      - 0|üáπüáº2 |  6.3MB/s
-      - 0|üáØüáµ3 |  4.0MB/s
-      - 0|üá´üá∑1 |  1.3MB/s
-      - 0|üá∫üá∏2 |  5.1MB/s
-      - 0|üá∫üá∏3 |  5.5MB/s
-      - 0|üá¨üáß1 |  18.3MB/s
-      - 0|üá∫üá∏4 |  5.5MB/s
-      - 0|üá∫üá∏5 |  5.2MB/s
-      - 0|üåè1 |  1.2MB/s
-      - 0|üáÆüá∑1 |  2.9MB/s
-      - 0|üáØüáµ4 |  4.6MB/s
-      - 0|üá∞üá∑1 |  2.7MB/s
-      - üá≠üá∞ 0,13,14|È¶ôÊ∏Ø|@ripaojiedian
-      - 0|üá∫üá∏7 |  1.2MB/s
-      - 0|üáπüáº3 |  1.5MB/s
-      - 0|üá∫üá∏8 |  5.3MB/s
-      - 0|üá´üá∑2 |  1.2MB/s
-      - 0|üá∫üá∏9 |  2.4MB/s
+      - 0|üá∫üá∏2 |  4.9MB/s
+      - 0|üá∑üá∫1 |  5.2MB/s
+      - üá≠üá∞ 13,14|È¶ôÊ∏Ø|@ripaojiedian
       - üá≠üá∞ 13|üá≠üá∞ È¶ôÊ∏Ø2|@ripaojiedian
       - üá≠üá∞ 13|üá≠üá∞ È¶ôÊ∏Ø3|@ripaojiedian
       - üá≠üá∞ 13|üá≠üá∞ È¶ôÊ∏Ø4|@ripaojiedian
@@ -184,7 +146,7 @@ proxy-groups:
   - name: HK
     type: select
     proxies:
-      - üá≠üá∞ 0,13,14|È¶ôÊ∏Ø|@ripaojiedian
+      - üá≠üá∞ 13,14|È¶ôÊ∏Ø|@ripaojiedian
       - üá≠üá∞ 13|üá≠üá∞ È¶ôÊ∏Ø2|@ripaojiedian
       - üá≠üá∞ 13|üá≠üá∞ È¶ôÊ∏Ø3|@ripaojiedian
       - üá≠üá∞ 13|üá≠üá∞ È¶ôÊ∏Ø4|@ripaojiedian

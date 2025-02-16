@@ -68,14 +68,14 @@ proxies:
   - {name: "üáÆüá≥ 11,12|Âç∞Â∫¶  10", server: 202.78.162.5, port: 443, type: vmess, uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: pendar.onthewifi.com}}, tfo: false}
   - {name: "üá∫üá∏ 11,12|ÁæéÂõΩFastlyÂÖ®ÁêÉ...", server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}, tfo: false}
   - {name: "üá∫üá∏ 11,12|ÁæéÂõΩCloudFla... #3", server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}, tfo: false}
-  - {name: "11|11|11|11|11|11|11|11|11|11,15,...", server: 31.58.142.221, port: 8967, type: vmess, uuid: 7d29f1ca-647b-4b4e-b9c8-6beab7133535, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: neo.nicme.me, network: ws, ws-opts: {path: /BONRyKGhDE, headers: {Host: neo.nicme.me}}, tfo: false}
-  - {name: "11|11|11|11|11|11|11|11|11|11,16|...", server: ywtwepcnwlou.xn--fiqs8sjz2bull.com, port: 33184, type: vmess, uuid: b2d1e704-59f5-48ec-ba97-9a5e2005b37b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: üá∫üá∏ 11|11|11|15|üá∫üá∏ ÁæéÂõΩ2|@ripaojiedian, server: 120.232.153.123, port: 45402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "üá≠üá∞ 11|11|11|11,16|È¶ôÊ∏Ø|@ripaojiedian", server: AZHJ001.dmak.cyou, port: 20776, type: vmess, uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "üá≠üá∞ 11|11|11|11,16|È¶ôÊ∏Ø2|@ripaojiedian", server: AZHJ001.dmak.cyou, port: 20965, type: vmess, uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "üáØüáµ 11|11|11|11,16|Êó•Êú¨|@ripaojiedian", server: AZHJ.dmak.cyou, port: 20803, type: vmess, uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "üáØüáµ 11|11|11|11,16|Êó•Êú¨3|@ripaojiedian", server: AZHJ.dmak.cyou, port: 20800, type: vmess, uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
-  - {name: "üá∏üá¨ 11|11|11|11,16|Êñ∞Âä†Âù°3|@ripaojiedian", server: pudvkjvvgdol.xn--fiqs8sjz2bull.com, port: 10564, type: vmess, uuid: ead8fb73-ff42-4fce-af33-5991e72006b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "11|11|11|11|11|11|11|11|11|11|11|... #1", server: 31.58.142.221, port: 8967, type: vmess, uuid: 7d29f1ca-647b-4b4e-b9c8-6beab7133535, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: neo.nicme.me, network: ws, ws-opts: {path: /BONRyKGhDE, headers: {Host: neo.nicme.me}}, tfo: false}
+  - {name: "11|11|11|11|11|11|11|11|11|11|11|... #2", server: ywtwepcnwlou.xn--fiqs8sjz2bull.com, port: 33184, type: vmess, uuid: b2d1e704-59f5-48ec-ba97-9a5e2005b37b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: üá∫üá∏ 11|11|11|11|11|15|üá∫üá∏ ÁæéÂõΩ2|@ripaoji..., server: 120.232.153.123, port: 45402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "üá≠üá∞ 11|11|11|11|11|11,16|È¶ôÊ∏Ø|@ripaojie...", server: AZHJ001.dmak.cyou, port: 20776, type: vmess, uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "üá≠üá∞ 11|11|11|11|11|11,16|È¶ôÊ∏Ø2|@ripaoji...", server: AZHJ001.dmak.cyou, port: 20965, type: vmess, uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "üáØüáµ 11|11|11|11|11|11,16|Êó•Êú¨|@ripaojie...", server: AZHJ.dmak.cyou, port: 20803, type: vmess, uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "üáØüáµ 11|11|11|11|11|11,16|Êó•Êú¨3|@ripaoji...", server: AZHJ.dmak.cyou, port: 20800, type: vmess, uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
+  - {name: "üá∏üá¨ 11|11|11|11|11|11,16|Êñ∞Âä†Âù°3|@ripaoj...", server: pudvkjvvgdol.xn--fiqs8sjz2bull.com, port: 10564, type: vmess, uuid: ead8fb73-ff42-4fce-af33-5991e72006b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: üá∏üá¨ 11|15|üá∏üá¨ Êñ∞Âä†Âù°5|@ripaojiedian, server: flying-tuna.treefrog761.one, port: 443, type: vmess, uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: "üá≠üá∞ 11,16|È¶ôÊ∏Ø|@ripaojiedian", server: AZHJ.dmak.cyou, port: 21718, type: vmess, uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
   - {name: "üáØüáµ 11,16|Êó•Êú¨|@ripaojiedian", server: 20.78.127.141, port: 550, type: vmess, uuid: 9e11e992-c3a4-45fb-bb67-5f4f42fcd551, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, tfo: false}
@@ -167,14 +167,14 @@ proxy-groups:
       - üáÆüá≥ 11,12|Âç∞Â∫¶  10
       - üá∫üá∏ 11,12|ÁæéÂõΩFastlyÂÖ®ÁêÉ...
       - "üá∫üá∏ 11,12|ÁæéÂõΩCloudFla... #3"
-      - 11|11|11|11|11|11|11|11|11|11,15,...
-      - 11|11|11|11|11|11|11|11|11|11,16|...
-      - üá∫üá∏ 11|11|11|15|üá∫üá∏ ÁæéÂõΩ2|@ripaojiedian
-      - üá≠üá∞ 11|11|11|11,16|È¶ôÊ∏Ø|@ripaojiedian
-      - üá≠üá∞ 11|11|11|11,16|È¶ôÊ∏Ø2|@ripaojiedian
-      - üáØüáµ 11|11|11|11,16|Êó•Êú¨|@ripaojiedian
-      - üáØüáµ 11|11|11|11,16|Êó•Êú¨3|@ripaojiedian
-      - üá∏üá¨ 11|11|11|11,16|Êñ∞Âä†Âù°3|@ripaojiedian
+      - "11|11|11|11|11|11|11|11|11|11|11|... #1"
+      - "11|11|11|11|11|11|11|11|11|11|11|... #2"
+      - üá∫üá∏ 11|11|11|11|11|15|üá∫üá∏ ÁæéÂõΩ2|@ripaoji...
+      - üá≠üá∞ 11|11|11|11|11|11,16|È¶ôÊ∏Ø|@ripaojie...
+      - üá≠üá∞ 11|11|11|11|11|11,16|È¶ôÊ∏Ø2|@ripaoji...
+      - üáØüáµ 11|11|11|11|11|11,16|Êó•Êú¨|@ripaojie...
+      - üáØüáµ 11|11|11|11|11|11,16|Êó•Êú¨3|@ripaoji...
+      - üá∏üá¨ 11|11|11|11|11|11,16|Êñ∞Âä†Âù°3|@ripaoj...
       - üá∏üá¨ 11|15|üá∏üá¨ Êñ∞Âä†Âù°5|@ripaojiedian
       - üá≠üá∞ 11,16|È¶ôÊ∏Ø|@ripaojiedian
       - üáØüáµ 11,16|Êó•Êú¨|@ripaojiedian
@@ -234,8 +234,8 @@ proxy-groups:
   - name: HK
     type: select
     proxies:
-      - üá≠üá∞ 11|11|11|11,16|È¶ôÊ∏Ø|@ripaojiedian
-      - üá≠üá∞ 11|11|11|11,16|È¶ôÊ∏Ø2|@ripaojiedian
+      - üá≠üá∞ 11|11|11|11|11|11,16|È¶ôÊ∏Ø|@ripaojie...
+      - üá≠üá∞ 11|11|11|11|11|11,16|È¶ôÊ∏Ø2|@ripaoji...
       - üá≠üá∞ 11,16|È¶ôÊ∏Ø|@ripaojiedian
       - üá≠üá∞ 15|üá≠üá∞ È¶ôÊ∏Ø2|@ripaojiedian
       - üá≠üá∞ 15|üá≠üá∞ È¶ôÊ∏Ø3|@ripaojiedian
@@ -244,7 +244,7 @@ proxy-groups:
     type: select
     proxies:
       - 1|_SG_
-      - üá∏üá¨ 11|11|11|11,16|Êñ∞Âä†Âù°3|@ripaojiedian
+      - üá∏üá¨ 11|11|11|11|11|11,16|Êñ∞Âä†Âù°3|@ripaoj...
       - üá∏üá¨ 11|15|üá∏üá¨ Êñ∞Âä†Âù°5|@ripaojiedian
       - üá∏üá¨ 15|üá∏üá¨ Êñ∞Âä†Âù°5|@ripaojiedian
       - üá∏üá¨ 15|üá∏üá¨ Êñ∞Âä†Âù°|@ripaojiedian
@@ -259,8 +259,8 @@ proxy-groups:
   - name: JP
     type: select
     proxies:
-      - üáØüáµ 11|11|11|11,16|Êó•Êú¨|@ripaojiedian
-      - üáØüáµ 11|11|11|11,16|Êó•Êú¨3|@ripaojiedian
+      - üáØüáµ 11|11|11|11|11|11,16|Êó•Êú¨|@ripaojie...
+      - üáØüáµ 11|11|11|11|11|11,16|Êó•Êú¨3|@ripaoji...
       - üáØüáµ 11,16|Êó•Êú¨|@ripaojiedian
       - üáØüáµ 11,16|Êó•Êú¨3|@ripaojiedian
       - üáØüáµ 15|üáØüáµ Êó•Êú¨ÁâπÊÆä|@ripaojiedian
@@ -289,7 +289,7 @@ proxy-groups:
       - "üá∫üá∏ 11,12|ÁæéÂõΩCloudFla... #2"
       - üá∫üá∏ 11,12|ÁæéÂõΩFastlyÂÖ®ÁêÉ...
       - "üá∫üá∏ 11,12|ÁæéÂõΩCloudFla... #3"
-      - üá∫üá∏ 11|11|11|15|üá∫üá∏ ÁæéÂõΩ2|@ripaojiedian
+      - üá∫üá∏ 11|11|11|11|11|15|üá∫üá∏ ÁæéÂõΩ2|@ripaoji...
       - üá∫üá∏ 15|üá∫üá∏ ÁæéÂõΩ|@ripaojiedian
       - üá∫üá∏ 15|üá∫üá∏ ÁæéÂõΩ2|@ripaojiedian
       - üá∫üá∏ 15|üá∫üá∏ ÁæéÂõΩ3|@ripaojiedian

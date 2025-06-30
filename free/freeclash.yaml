@@ -1,14 +1,4 @@
-<!doctype html>
-<html data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_HPLJBI0RhKiXyGyERseBX9hNCjdusnMXEqEXqAZEpjz3fA4z/OUalz0Jd58/oPaDrjRbh3vcSJ+TuMKR/KucHw==" lang="en" style="background: #2B2B2B;">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC">
-    <link rel="preconnect" href="https://www.google.com" crossorigin>
-</head>
-<body>
-<div id="target" style="opacity: 0"></div>
-<script>window.park = "eyJ1dWlkIjoiNTUyMTNkOTAtNTE0ZS00NmMzLWFjMjktOWU1NGFhMWZjMWRkIiwicGFnZV90aW1lIjoxNzUxMjU4MDg2LCJwYWdlX3VybCI6Imh0dHA6Ly93dzI1LmZyZWVjbGFzaC5vcmcvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMDYvMDUzMS55YW1sP3N1YmlkMT0yMDI1MDYzMC0xNDM0LTQ2ODctOTdhYi0wYWUyOTAzNGFhNTEiLCJwYWdlX21ldGhvZCI6IkdFVCIsInBhZ2VfcmVxdWVzdCI6eyJzdWJpZDEiOiIyMDI1MDYzMC0xNDM0LTQ2ODctOTdhYi0wYWUyOTAzNGFhNTEifSwicGFnZV9oZWFkZXJzIjp7fSwiaG9zdCI6Ind3MjUuZnJlZWNsYXNoLm9yZyIsImlwIjoiMTcyLjE3Mi40NS45NiJ9Cg==";</script>
-<script src="/biLzWyVeK.js"></script>
-</body>
-</html>
+<html><body><h1>502 Bad Gateway</h1>
+The server returned an invalid or incomplete response.
+</body></html>
+

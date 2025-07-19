@@ -68,13 +68,13 @@ class VPN:
 a = VPN(
 #'https://clashnode.com/wp-content/uploads/2023/07/20230721.yaml',
 
-'https://v2rayshare.com/wp-content/uploads/2024/05/20240531.txt',
+'https://v2rayshare.githubrowcontent.com/2025/07/20250719.txt',
 
-'https://v2rayshare.com/wp-content/uploads/2023/05/20230513.yaml',
+'https://v2rayshare.githubrowcontent.com/2025/07/20250719.yaml',
 
-'https://nodefree.org/dy/2024/05/20240531.txt',
+'https://nodefree.githubrowcontent.com/2025/07/20250719.txt',
 
-'https://nodefree.org/dy/2023/07/20230716.yaml',
+'https://nodefree.githubrowcontent.com/2025/07/20250719.yaml',
 
 'https://www.freeclashnode.com/uploads/2024/05/0-20240531.txt',
 

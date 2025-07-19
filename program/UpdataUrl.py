@@ -27,6 +27,8 @@ class VPN:
             except Exception as e:
                 print(f'出现错误：{e}')
                 continue
+            # 指定编码格式
+            res.encoding = res.apparent_encoding
             restext = res.text
             fileDir = os.path.dirname(os.path.dirname(__file__))
             filePath = os.path.join(fileDir, 'free')

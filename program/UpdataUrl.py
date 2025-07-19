@@ -14,7 +14,7 @@ class VPN:
         self.cookies = {}
         self.headers = {
             # 'Connection': 'keep-alive',
-            "User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36",
+            "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
         }
         self.data = {}
 
@@ -31,7 +31,7 @@ class VPN:
             # 显示响应编码格式
             print(f"响应编码格式：{res.encoding}, 响应期望格式：{res.apparent_encoding}")
             # 指定编码格式
-            res.encoding = res.apparent_encoding
+            res.encoding = 'utf-8'
             restext = res.text
             fileDir = os.path.dirname(os.path.dirname(__file__))
             filePath = os.path.join(fileDir, 'free')
@@ -64,10 +64,10 @@ class VPN:
         """return data"""
         yearData = time.strftime("/%Y/", time.localtime())
         monthData = time.strftime("/%m/", time.localtime())
-        timeData = time.strftime("/%Y%m%d", time.localtime())
+        timeData = time.strftime("%Y%m%d", time.localtime())
         newUrl = re.sub(r'/\d{2}/', monthData, url)
         newUrl = re.sub(r'/\d{4}/', yearData, newUrl)
-        newUrl = re.sub(r'[/-]\d{8}', timeData, newUrl)
+        newUrl = re.sub(r'([/-])\d{8}', fr"\g<1>{timeData}", newUrl)
         return newUrl
 
 
@@ -84,15 +84,11 @@ a = VPN(
 
 'https://www.freeclashnode.com/uploads/2024/05/0-20240531.txt',
 
-'https://www.freeclashnode.com/uploads/2024/05/0-20240531.yaml',
+'https://node.freeclashnode.com/uploads/2025/07/0-20250719.yaml'
 
-'https://clashgithub.com/wp-content/uploads/rss/20240601.txt',
+# 'https://freeclash.org/wp-content/uploads/2024/05/0531.yaml',
 
-'https://clashgithub.com/wp-content/uploads/rss/20240601.yml',
-
-'https://freeclash.org/wp-content/uploads/2024/05/0531.yaml',
-
-'https://freeclash.org/wp-content/uploads/2024/05/0531.txt'
+# 'https://freeclash.org/wp-content/uploads/2024/05/0531.txt',
 
 # 'https://a.nodeshare.xyz/uploads/2025/7/20250719.txt',
 

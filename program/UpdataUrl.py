@@ -21,6 +21,7 @@ class VPN:
     def look_for(self):
         """look context"""
         for url in self.url:
+            # 对网址中的日期进行调整
             url = self.updataUrl(url)
             try:
                 res = requests.get(url, headers=self.headers )
@@ -28,22 +29,23 @@ class VPN:
                 print(f'出现错误：{e}')
                 continue
             # 显示响应编码格式
-            print(res.encoding, res.apparent_encoding)
+            print(f"响应编码格式：{res.encoding}, 响应期望格式：{res.apparent_encoding}")
             # 指定编码格式
-            res.encoding = 'utf-8'
+            res.encoding = res.apparent_encoding
             restext = res.text
             fileDir = os.path.dirname(os.path.dirname(__file__))
             filePath = os.path.join(fileDir, 'free')
             if not os.path.exists(filePath):
                 os.makedirs(filePath)
-            hostUrl, fixName = re.search('https://(.+)\..*?/.*(\..+)', url).group(1, 2)
+            hostUrl, fixName = re.search(r'https://(.+)\..*?/.*(\..+)', url).group(1, 2)
             # 注意！ re模块sub方法的pattern会转义两次
             # 处理不要字符
-            hostUrl = re.sub('(?:^www\.)|\.github$', '', hostUrl)
+            hostUrl = re.sub(r'(?:^www\.)|\.github$', '', hostUrl)
             # 替换字符
-            hostUrl = re.sub('\.', '_', hostUrl)
+            hostUrl = re.sub(r'\.', '_', hostUrl)
             fileName = hostUrl + fixName
             filePath = os.path.join(filePath, fileName)
+            # 下载文件
             with open(filePath, 'w+', encoding='utf-8') as f:
                 f.write(restext)
                 print(f' {fileName} 更新完成')
@@ -63,9 +65,9 @@ class VPN:
         yearData = time.strftime("/%Y/", time.localtime())
         monthData = time.strftime("/%m/", time.localtime())
         timeData = time.strftime("/%Y%m%d", time.localtime())
-        newUrl = re.sub('/\d{2}/', monthData, url)
-        newUrl = re.sub('/\d{4}/', yearData, newUrl)
-        newUrl = re.sub('[/-]\d{8}', timeData, newUrl)
+        newUrl = re.sub(r'/\d{2}/', monthData, url)
+        newUrl = re.sub(r'/\d{4}/', yearData, newUrl)
+        newUrl = re.sub(r'[/-]\d{8}', timeData, newUrl)
         return newUrl
 
 
@@ -90,11 +92,11 @@ a = VPN(
 
 'https://freeclash.org/wp-content/uploads/2024/05/0531.yaml',
 
-'https://freeclash.org/wp-content/uploads/2024/05/0531.txt',
+'https://freeclash.org/wp-content/uploads/2024/05/0531.txt'
 
-'https://tglaoshiji.github.io/nodeshare/2024/6/20240601.txt',
+# 'https://a.nodeshare.xyz/uploads/2025/7/20250719.txt',
 
-'https://tglaoshiji.github.io/nodeshare/2024/6/20240601.yaml'
+# 'https://tglaoshiji.github.io/nodeshare/2024/6/20240601.yaml'
 
 )
 a.look_for()

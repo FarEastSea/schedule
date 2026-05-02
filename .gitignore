@@ -4,3 +4,8 @@ __pycache__
 .DS_Store
 pyenv
 .idea
+cache
+/.vscode
+.vscode
+venv
+.venv

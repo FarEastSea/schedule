@@ -11,6 +11,7 @@ class VPN:
     def __init__(self, *urls):
         """pre set"""
         self.url = urls
+        self.request_timeout = 10
         self.cookies = {}
         self.headers = {
             # 'Connection': 'keep-alive',
@@ -24,7 +25,10 @@ class VPN:
             # 对网址中的日期进行调整
             url = self.updataUrl(url)
             try:
-                res = requests.get(url, headers=self.headers )
+                res = requests.get(url, headers=self.headers, timeout=self.request_timeout)
+            except requests.exceptions.Timeout:
+                print(f'请求超时，已跳过：{url}')
+                continue
             except Exception as e:
                 print(f'出现错误：{e}')
                 continue

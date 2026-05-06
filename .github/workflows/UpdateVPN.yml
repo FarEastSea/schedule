@@ -2,7 +2,7 @@
 
 name: VPN Sever
 
-run-name: UpdataVPN deploy to ${{ inputs.deploy_target }} by @${{ github.actor }}
+run-name: UpdateVPN by @${{ github.actor }}
 # Controls when the workflow will run
 on:
 #  push:
@@ -21,6 +21,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref || github.run_id }}
+  cancel-in-progress: true
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -28,6 +32,10 @@ jobs:
     name: Update URL
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+    defaults:
+      run:
+        shell: bash
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -89,10 +97,18 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
+        timeout-minutes: 3
         run: |
           python program/UpdataUrl.py
-          git config --global user.name ${{ secrets.user_name }}
-          git config --global user.email ${{ secrets.user_email }}
-          git add free/.
-          git commit -m 'Update Daily' && git push || echo "Source has not updata."
+
+          git add free/
+          if git diff --cached --quiet; then
+            echo "No updates detected."
+            exit 0
+          fi
+
+          git config --global user.name "${{ secrets.user_name }}"
+          git config --global user.email "${{ secrets.user_email }}"
+          git commit -m 'Update Daily'
+          git push
           

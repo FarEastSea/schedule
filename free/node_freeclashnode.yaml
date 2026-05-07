@@ -24,6 +24,156 @@ dns:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
 proxies:
+  - name: ğŸ‡ªğŸ‡ªEEæ„›æ²™å°¼äº�ä¸¨yoyapai.com
+    type: trojan
+    server: 5.189.254.235
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com
+    type: trojan
+    server: 43.207.197.79
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡¨ğŸ‡³ TWè‡ºç�£ä¸¨yoyapai.com
+    type: ss
+    server: r3mrcg007117fb8.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    udp: true
+  - name: ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+    type: trojan
+    server: 66.42.61.215
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com
+    type: trojan
+    server: 39.114.198.93
+    port: 10255
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_1
+    type: trojan
+    server: 123.99.111.135
+    port: 19461
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_2
+    type: trojan
+    server: 175.197.237.36
+    port: 10912
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_3
+    type: trojan
+    server: 59.10.72.49
+    port: 18852
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_4
+    type: trojan
+    server: 59.11.232.216
+    port: 28017
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_5
+    type: trojan
+    server: 118.39.136.248
+    port: 20002
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_6
+    type: trojan
+    server: 220.72.70.53
+    port: 10002
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_7
+    type: trojan
+    server: 121.167.94.122
+    port: 25448
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
   - name: æ–°åŠ å�¡ä¸¨yoyapai.com
     type: vless
     server: 20.6.12.145
@@ -37,9 +187,48 @@ proxies:
       headers:
         Host: sni.skylee4.cloudns.ch
     udp: true
-  - name: ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_8
     type: trojan
-    server: 95.213.226.60
+    server: 118.47.197.17
+    port: 10088
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_9
+    type: trojan
+    server: 183.102.55.197
+    port: 10003
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
+    type: trojan
+    server: 104.250.237.76
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com
+    type: trojan
+    server: 91.221.190.80
     port: 443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
@@ -50,10 +239,10 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_1
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_1
     type: trojan
-    server: 79.141.73.189
-    port: 8443
+    server: 38.180.70.111
+    port: 443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
     skip-cert-verify: true
@@ -63,10 +252,10 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: ç‘�å…¸ä¸¨yoyapai.com
+  - name: ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com
     type: trojan
-    server: 16.16.45.85
-    port: 8443
+    server: 109.61.110.241
+    port: 443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
     skip-cert-verify: true
@@ -76,9 +265,9 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: è�·è˜­ç¯€é»�ä¸¨yoyapai.com
+  - name: ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_1
     type: trojan
-    server: 31.15.17.129
+    server: 217.60.252.48
     port: 2053
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
@@ -89,9 +278,22 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com
+  - name: ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_2
     type: trojan
-    server: 45.150.128.181
+    server: 31.59.120.161
+    port: 2053
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_2
+    type: trojan
+    server: 2.59.183.198
     port: 443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
@@ -102,20 +304,49 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: äº�å¤ªåœ°å�€
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è�·è˜­ç¯€é»�ä¸¨yoyapai.com_1
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_3
     type: trojan
-    server: 77.110.103.243
+    server: 31.15.18.58
     port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_4
+    type: trojan
+    server: 185.52.0.84
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_5
+    type: trojan
+    server: 38.180.160.199
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡§ğŸ‡ªBEæ¯”åˆ©æ™‚ä¸¨yoyapai.com
+    type: trojan
+    server: 95.164.62.196
+    port: 443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
     skip-cert-verify: true
@@ -127,8 +358,34 @@ proxies:
     udp: true
   - name: å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com
     type: trojan
-    server: 38.180.143.51
+    server: 46.102.156.144
     port: 2053
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_6
+    type: trojan
+    server: 38.180.96.40
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: æ„�å¤§åˆ©ç¯€é»�ğŸ‡®ğŸ‡¹ITä¸¨yoyapai.com
+    type: trojan
+    server: 151.241.215.148
+    port: 443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
     skip-cert-verify: true
@@ -140,7 +397,7 @@ proxies:
     udp: true
   - name: è‹±åœ‹
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.37
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -148,30 +405,10 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: è‹±åœ‹_1
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_2
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ä¸¹éº¥ç¯€é»�ğŸ‡©ğŸ‡°DKä¸¨yoyapai.com
+  - name: ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_3
     type: trojan
-    server: 77.37.96.247
-    port: 443
+    server: 31.59.103.152
+    port: 8443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
     skip-cert-verify: true
@@ -181,9 +418,59 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: æ³•åœ‹
+  - name: è‹±åœ‹ç¯€é»�
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: è‹±åœ‹ç¯€é»�_1
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: ğŸ‡¬ğŸ‡§ è‹±åœ‹
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: è‹±åœ‹_1
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: è‹±åœ‹_2
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: ç¾�åœ‹
+    type: vmess
+    server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -193,6 +480,82 @@ proxies:
     udp: true
   - name: è‹±åœ‹_3
     type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: è‹±åœ‹_4
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: è‹±åœ‹_5
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: ç¾�åœ‹_1
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: ç¾�åœ‹ç¯€é»�
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: aes-128-gcm
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com
+    type: trojan
+    server: 45.91.134.91
+    port: 2053
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_7
+    type: trojan
+    server: 31.59.114.3
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: è‹±åœ‹ç¯€é»�_2
+    type: vmess
     server: 82.198.246.9
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -200,6 +563,42 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
+    udp: true
+  - name: è‹±åœ‹_6
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
+    type: trojan
+    server: 45.153.187.209
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_10
+    type: trojan
+    server: 211.114.209.83
+    port: 18080
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
     udp: true
   - name: æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com_1
     type: trojan
@@ -216,310 +615,7 @@ proxies:
     udp: true
   - name: æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com_2
     type: trojan
-    server: 45.91.134.91
-    port: 2053
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: ç¾�åœ‹
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç¾�åœ‹_1
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_4
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç¾�åœ‹_2
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_5
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_6
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç¾�åœ‹_3
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç¾�åœ‹_4
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_7
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_8
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_9
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹ç¯€é»�
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ğŸ‡¬ğŸ‡§ GBè‹±åœ‹
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç¾�åœ‹_5
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_10
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_11
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_12
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: äº�å¤ªåœ°å�€_1
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹ç¯€é»�_1
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç¾�åœ‹ç¯€é»�
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_13
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_14
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç¾�åœ‹_6
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç¾�åœ‹_7
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_15
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: äº�å¤ªåœ°å�€_2
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_16
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_17
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_18
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç‘�å£«ç¯€é»�ä¸¨yoyapai.com
-    type: trojan
-    server: 38.180.84.86
+    server: 45.150.128.181
     port: 443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
@@ -530,7 +626,7 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: è‹±åœ‹_19
+  - name: è‹±åœ‹_7
     type: vmess
     server: 82.198.246.37
     port: 180
@@ -540,120 +636,10 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: è‹±åœ‹_20
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_21
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç¾�åœ‹_8
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_22
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç¾�åœ‹ç¯€é»�_1
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_23
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç¾�åœ‹_9
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_24
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_25
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹ç¯€é»�_2
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_26
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: æ„�å¤§åˆ©ä¸¨yoyapai.com
+  - name: ğŸ‡¨ğŸ‡­CHç‘�å£«ä¸¨yoyapai.com
     type: trojan
-    server: 38.180.194.222
-    port: 2053
+    server: 45.59.117.238
+    port: 8443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
     skip-cert-verify: true
@@ -663,15 +649,136 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: è‹±åœ‹ç¯€é»�_3
+  - name: ğŸ‡©ğŸ‡°DKä¸¹éº¥ä¸¨yoyapai.com
+    type: trojan
+    server: 77.37.96.132
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: è‹±åœ‹_8
     type: vmess
-    server: 82.198.246.214
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
+    udp: true
+  - name: ğŸ‡¨ğŸ‡­CHè‡ºç�£ä¸¨yoyapai.com
+    type: trojan
+    server: 146.70.71.157
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_11
+    type: trojan
+    server: 121.170.1.188
+    port: 32768
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: è‹±åœ‹_9
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: è‹±åœ‹_10
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_12
+    type: trojan
+    server: 59.16.228.103
+    port: 18469
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_13
+    type: trojan
+    server: 59.12.232.18
+    port: 12345
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: è‹±åœ‹_11
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: ğŸ‡µğŸ‡±PLæ³¢è˜­ä¸¨yoyapai.com
+    type: trojan
+    server: 85.155.230.9
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡¸ğŸ‡ªSEç‘�å…¸ä¸¨yoyapai.com
+    type: trojan
+    server: 176.125.240.63
+    port: 2053
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
     udp: true
   - name: å¾·åœ‹
     type: vmess
@@ -683,20 +790,10 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: è‹±åœ‹_27
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_1
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_14
     type: trojan
-    server: 91.192.102.55
-    port: 443
+    server: 61.72.208.162
+    port: 32768
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
     skip-cert-verify: true
@@ -706,83 +803,10 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: ç¾�åœ‹ä¸¨yoyapai.com
-    type: vless
-    server: 162.159.39.157
-    port: 2087
-    uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
-    network: ws
-    servername: 1.proxy2.us.ci
-    tls: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: 1.proxy2.us.ci
-    udp: true
-  - name: è‹±åœ‹_28
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_29
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_30
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_31
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_32
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_33
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç«‹é™¶å®›ç¯€é»�ğŸ‡±ğŸ‡¹LTä¸¨yoyapai.com
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_15
     type: trojan
-    server: 46.29.234.91
-    port: 8443
+    server: 14.50.59.154
+    port: 10243
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
     skip-cert-verify: true
@@ -792,9 +816,9 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: ç¾�åœ‹_10
+  - name: è‹±åœ‹_12
     type: vmess
-    server: 82.198.246.9
+    server: 82.198.246.233
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -802,71 +826,9 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: è‹±åœ‹_34
+  - name: å¾·åœ‹_1
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è¥¿ç�­ç‰™ç¯€é»�ğŸ‡ªğŸ‡¸ESä¸¨yoyapai.com
-    type: trojan
-    server: 172.233.97.34
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: ğŸ‡©ğŸ‡ªDEå¾·åœ‹ä¸¨yoyapai.com
-    type: vless
-    server: 178.17.50.111
-    port: 443
-    uuid: 36f6f998-029e-48e2-ba30-24e2a8159075
-    servername: ads.x5.ru
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
-      short-id: 82c8140feb118043
-    udp: true
-  - name: ç¾�åœ‹ä¸¨yoyapai.com_1
-    type: vless
-    server: 162.159.44.198
-    port: 443
-    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-    network: ws
-    servername: fu.baiproxy.us.ci
-    tls: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: fu.baiproxy.us.ci
-    udp: true
-  - name: ç¾�åœ‹ä¸¨yoyapai.com_2
-    type: vless
-    server: 162.159.44.66
-    port: 2053
-    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-    network: ws
-    servername: fu.baiproxy.us.ci
-    tls: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: fu.baiproxy.us.ci
-    udp: true
-  - name: è‹±åœ‹_35
-    type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.233
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -887,39 +849,9 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: è‹±åœ‹_36
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_37
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: å¾·åœ‹_1
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
+  - name: ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
     type: trojan
-    server: 77.110.121.125
+    server: 83.147.254.168
     port: 443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
@@ -930,9 +862,45 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: è‹±åœ‹_38
+  - name: ğŸ‡±ğŸ‡¹LTç«‹é™¶å®›ä¸¨yoyapai.com
+    type: trojan
+    server: 185.80.128.115
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ç¾�åœ‹_2
     type: vmess
-    server: 82.198.246.233
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: aes-128-gcm
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: è�·è˜­ç¯€é»�ä¸¨yoyapai.com
+    type: trojan
+    server: 31.15.17.129
+    port: 2053
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: è‹±åœ‹_13
+    type: vmess
+    server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -940,31 +908,196 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: ç¾�åœ‹ä¸¨yoyapai.com_3
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_8
     type: trojan
-    server: 167.68.4.199
-    port: 2053
-    password: Aimer
-    sni: epge.muarua.filegear-sg.me
-    skip-cert-verify: false
+    server: 144.31.122.162
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
     tls: true
     ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
       headers:
-        Host: epge.muarua.filegear-sg.me
+        Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: é¦™æ¸¯ä¸¨yoyapai.com
+  - name: æ‹‰è„«ç¶­äº�ä¸¨yoyapai.com
     type: trojan
-    server: 167.68.4.199
+    server: 146.19.84.236
     port: 2053
-    password: Aimer
-    sni: epge.muarua.filegear-sg.me
-    skip-cert-verify: false
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
     tls: true
     ws-opts:
-      path: /
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
       headers:
-        Host: epge.muarua.filegear-sg.me
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_9
+    type: trojan
+    server: 144.31.122.101
+    port: 2053
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ç¾�åœ‹_3
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: ç¾�åœ‹_4
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: aes-128-gcm
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: è‹±åœ‹_14
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: ç¾�åœ‹ä¸¨yoyapai.com
+    type: vless
+    server: pq-india1.09vpn.com
+    port: 8443
+    uuid: 05b544a4-d479-4ba4-8208-950bd4411453
+    network: ws
+    servername: pq-India1.09vpn.com
+    tls: true
+    ws-opts:
+      path: /vless/
+    udp: true
+  - name: è‹±åœ‹_15
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: ğŸ‡±ğŸ‡»LVæ‹‰è„«ç¶­äº�ç¯€é»�ä¸¨yoyapai.com
+    type: trojan
+    server: 91.239.23.10
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡ºğŸ‡¸_US_ç¾�å›½
+    type: vless
+    server: 188.114.98.0
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?TelegramğŸ‡¨ğŸ‡³+@WangCai2=
+      headers:
+        Host: sni.111000.indevs.in
+    udp: true
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_10
+    type: trojan
+    server: 144.31.122.101
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ç¾�åœ‹ç¯€é»�_1
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: aes-128-gcm
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_16
+    type: trojan
+    server: 220.118.248.123
+    port: 18001
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_11
+    type: trojan
+    server: 38.180.233.61
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ç‘�å£«ç¯€é»�ä¸¨yoyapai.com
+    type: trojan
+    server: 38.180.84.86
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_12
+    type: trojan
+    server: 152.53.200.164
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
     udp: true
   - name: å¾·åœ‹_2
     type: vmess
@@ -976,9 +1109,9 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: è‹±åœ‹_39
+  - name: è‹±åœ‹_16
     type: vmess
-    server: 82.198.246.214
+    server: 82.198.246.9
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -986,40 +1119,199 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: ç¾�åœ‹ä¸¨yoyapai.com_4
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_13
     type: trojan
-    server: 167.68.4.199
+    server: 95.169.192.234
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: æ³•åœ‹ç¯€é»�ä¸¨yoyapai.com
+    type: trojan
+    server: 138.124.81.204
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_14
+    type: trojan
+    server: 91.221.191.120
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_17
+    type: trojan
+    server: 210.178.173.195
+    port: 33848
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡·ğŸ‡ºRUä¿„ç¾…æ–¯ä¸¨yoyapai.com
+    type: trojan
+    server: 95.163.242.189
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_15
+    type: trojan
+    server: 185.31.200.184
     port: 2053
-    password: Aimer
-    sni: epge.muarua.filegear-sg.me
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ç¾�åœ‹ä¸¨yoyapai.com_1
+    type: trojan
+    server: 172.66.44.230
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
     skip-cert-verify: false
     tls: true
     ws-opts:
-      path: /?ed
+      path: /tro8sFW1S91B6sZrM1?ed=2560
       headers:
-        Host: epge.muarua.filegear-sg.me
+        Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: ç¾�åœ‹_11
+  - name: ç‘�å…¸ä¸¨yoyapai.com
+    type: trojan
+    server: 16.16.45.85
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: è�·è˜­ç¯€é»�ä¸¨yoyapai.com_1
+    type: trojan
+    server: 152.53.200.89
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_18
+    type: trojan
+    server: 183.107.78.213
+    port: 20880
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_16
+    type: trojan
+    server: 89.150.59.115
+    port: 2053
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com_1
+    type: trojan
+    server: 38.180.143.51
+    port: 2053
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_17
+    type: trojan
+    server: 2.59.183.210
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com
+    type: trojan
+    server: 85.239.39.144
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: äº�å¤ªåœ°å�€
     type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: ç¾�åœ‹_12
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_40
+  - name: è‹±åœ‹_17
     type: vmess
     server: 82.198.246.250
     port: 180
@@ -1029,9 +1321,69 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
+  - name: ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_19
     type: trojan
-    server: 83.147.254.168
+    server: 59.0.95.106
+    port: 32773
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: äº�å¤ªåœ°å�€_1
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: æ–°åŠ å�¡ä¸¨yoyapai.com_1
+    type: vless
+    server: cf4.danfeng.eu.org
+    port: 2053
+    uuid: bafacd98-136a-4530-838d-4e5c51838dac
+    network: ws
+    servername: juzi8186.qea.ccwu.cc
+    tls: true
+    client-fingerprint: firefox
+    ws-opts:
+      path: /tv/juzibaipiao?ed=2560
+      headers:
+        Host: juzi8186.qea.ccwu.cc
+    udp: true
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_18
+    type: trojan
+    server: 185.162.9.60
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ç¾�åœ‹_5
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_1
+    type: trojan
+    server: 140.238.208.240
     port: 443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
@@ -1055,71 +1407,7 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: ç¾�åœ‹ä¸¨yoyapai.com_5
-    type: vless
-    server: 192.200.160.50
-    port: 8880
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    network: ws
-    tls: false
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2ğŸ‡¨ğŸ‡³
-      headers:
-        Host: vms.lifetime43.workers.dev
-    udp: true
-  - name: ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_2
-    type: trojan
-    server: 85.239.39.144
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com
-    type: trojan
-    server: 38.180.35.88
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
-    type: trojan
-    server: 176.125.240.147
-    port: 2053
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: æ„�å¤§åˆ©ç¯€é»�ğŸ‡®ğŸ‡¹ITä¸¨yoyapai.com
-    type: trojan
-    server: 151.241.215.148
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_3
+  - name: ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_1
     type: trojan
     server: 82.97.249.34
     port: 2053
@@ -1132,9 +1420,9 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_2
+  - name: ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
     type: trojan
-    server: 140.238.208.240
+    server: 77.110.121.125
     port: 443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
@@ -1145,82 +1433,10 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: äº�å¤ªåœ°å�€_3
-    type: vmess
-    server: 103.181.164.145
-    port: 51556
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç¾�åœ‹ä¸¨yoyapai.com_6
+  - name: ç«‹é™¶å®›ç¯€é»�ğŸ‡±ğŸ‡¹LTä¸¨yoyapai.com
     type: trojan
-    server: 172.66.44.230
+    server: 46.29.234.91
     port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /tro8sFW1S91B6sZrM1?ed=2560
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: ç¾�åœ‹ç¯€é»�_2
-    type: vmess
-    server: 103.181.164.145
-    port: 51556
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ğŸ‡·ğŸ‡ºRUä¿„ç¾…æ–¯ä¸¨yoyapai.com
-    type: trojan
-    server: 95.163.242.189
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
-    type: trojan
-    server: 185.104.151.181
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: æ‹‰è„«ç¶­äº�ä¸¨yoyapai.com
-    type: trojan
-    server: 146.19.84.236
-    port: 2053
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: ğŸ‡±ğŸ‡»LVæ‹‰è„«ç¶­äº�ç¯€é»�ä¸¨yoyapai.com
-    type: trojan
-    server: 91.239.23.10
-    port: 443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
     skip-cert-verify: true
@@ -1243,20 +1459,7 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: æ³•åœ‹ç¯€é»�ä¸¨yoyapai.com
-    type: trojan
-    server: 138.124.81.204
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_3
+  - name: ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
     type: trojan
     server: 83.147.254.243
     port: 443
@@ -1269,9 +1472,9 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: è�·è˜­ç¯€é»�ä¸¨yoyapai.com_2
+  - name: ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com
     type: trojan
-    server: 152.53.200.89
+    server: 45.67.34.89
     port: 8443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
@@ -1282,31 +1485,20 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com_1
-    type: trojan
-    server: 46.102.156.144
-    port: 2053
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
+  - name: ç¾�åœ‹_6
+    type: vmess
+    server: 2a14:7584:d0a2::a
+    port: 23456
+    uuid: bd48e0ac-e90e-4451-a4f2-abf061cfb890
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
     ws-opts:
-      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      path: /alvin9999.com
       headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
-    type: trojan
-    server: 45.153.187.209
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
+        Host: www.bing.com
     udp: true
   - name: ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_1
     type: trojan
@@ -1321,9 +1513,22 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_2
+  - name: æ„�å¤§åˆ©ä¸¨yoyapai.com
     type: trojan
-    server: 45.67.34.89
+    server: 38.180.194.222
+    port: 2053
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_2
+    type: trojan
+    server: 79.141.73.189
     port: 8443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
@@ -1334,28 +1539,187 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: ç¾�åœ‹ä¸¨yoyapai.com_7
+  - name: ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_3
+    type: trojan
+    server: 95.213.226.60
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_2
+    type: trojan
+    server: 38.180.35.88
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_4
+    type: trojan
+    server: 45.84.88.232
+    port: 2053
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_2
+    type: trojan
+    server: 91.192.102.55
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: è¥¿ç�­ç‰™ç¯€é»�ğŸ‡ªğŸ‡¸ESä¸¨yoyapai.com
+    type: trojan
+    server: 172.233.97.34
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_19
+    type: trojan
+    server: 45.145.171.206
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
+    type: trojan
+    server: 185.104.151.181
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_3
+    type: trojan
+    server: 176.125.240.147
+    port: 2053
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ç¾�åœ‹ç¯€é»�_2
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: äº�å¤ªåœ°å�€_2
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: äº�å¤ªåœ°å�€_3
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: ä¸¹éº¥ç¯€é»�ğŸ‡©ğŸ‡°DKä¸¨yoyapai.com
+    type: trojan
+    server: 77.37.96.247
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: åŠ æ‹¿å¤§ä¸¨yoyapai.com
+    type: vless
+    server: 43.155.187.201
+    port: 443
+    uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+    network: ws
+    servername: babayaga-6i7.pages.dev
+    tls: true
+    ws-opts:
+      path: /?ed=2560&TelegramğŸ‡¨ğŸ‡³@WangCai2
+      headers:
+        Host: babayaga-6i7.pages.dev
+    udp: true
+  - name: è�·è˜­ç¯€é»�ä¸¨yoyapai.com_2
+    type: trojan
+    server: 77.110.103.243
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegramğŸ‡¨ğŸ‡³ @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: ç¾�åœ‹ä¸¨yoyapai.com_2
     type: ss
     server: tinkered-pennies-puppies.freesocks.work
     port: 443
     cipher: chacha20-ietf-poly1305
     password: hbGrpfvNrJsUmKmPbR3iY2
     udp: true
-  - name: ç¾�åœ‹ä¸¨yoyapai.com_8
-    type: ss
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: RFK38Cg7APneSB5cWDcpbm
-    udp: true
-  - name: ç¾�åœ‹ä¸¨yoyapai.com_9
-    type: ss
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 9tqhMdIrTkgQ46PvhyAtMH
-    udp: true
-  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com
+  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com_1
     type: trojan
     server: 153.121.45.101
     port: 443
@@ -1373,7 +1737,7 @@ proxies:
     server: 103.181.164.145
     port: 54022
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
@@ -1383,17 +1747,24 @@ proxies:
     server: 103.181.164.145
     port: 54022
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
+    alterId: 64
     cipher: auto
     tls: false
     skip-cert-verify: false
+    udp: true
+  - name: ç¾�åœ‹ä¸¨yoyapai.com_3
+    type: ss
+    server: switcher-nick-croquet.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: wwzVn2ZnHfqYa6l8EWh3eY
     udp: true
   - name: äº�å¤ªåœ°å�€_6
     type: vmess
     server: 103.181.164.145
     port: 54022
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
+    alterId: 64
     cipher: auto
     tls: false
     skip-cert-verify: false
@@ -1408,12 +1779,12 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: ç¾�åœ‹ä¸¨yoyapai.com_10
+  - name: ç¾�åœ‹ä¸¨yoyapai.com_4
     type: ss
     server: switcher-nick-croquet.freesocks.work
     port: 443
     cipher: chacha20-ietf-poly1305
-    password: wwzVn2ZnHfqYa6l8EWh3eY
+    password: 9tqhMdIrTkgQ46PvhyAtMH
     udp: true
   - name: äº�å¤ªåœ°å�€_8
     type: vmess
@@ -1425,166 +1796,18 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
+  - name: ç¾�åœ‹ä¸¨yoyapai.com_5
+    type: ss
+    server: switcher-nick-croquet.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: RFK38Cg7APneSB5cWDcpbm
+    udp: true
   - name: äº�å¤ªåœ°å�€_9
     type: vmess
     server: 103.181.164.145
-    port: 51556
+    port: 54022
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: æ³•åœ‹_1
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç¾�åœ‹_13
-    type: vmess
-    server: 2001:bc8:32d7:225::1
-    port: 23456
-    uuid: bd48e0ac-e90e-4451-a4f2-abf061cfb890
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /alvin9999.com
-      headers:
-        Host: www.bing.com
-    udp: true
-  - name: ç¾�åœ‹_14
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç¾�åœ‹_15
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç¾�åœ‹_16
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: ç¾�åœ‹_17
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: é¦™æ¸¯ç¯€é»�
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: é¦™æ¸¯ç¯€é»�_1
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: é¦™æ¸¯ç¯€é»�_2
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: é¦™æ¸¯ç¯€é»�_3
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_41
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_42
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_43
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_44
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: è‹±åœ‹_45
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
     tls: false
@@ -1596,295 +1819,309 @@ proxy-groups:
     proxies:
       - â™»ï¸� è‡ªåŠ¨é€‰æ‹©
       - DIRECT
+      - ğŸ‡ªğŸ‡ªEEæ„›æ²™å°¼äº�ä¸¨yoyapai.com
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡¨ğŸ‡³ TWè‡ºç�£ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_3
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_4
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_5
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_6
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_7
       - æ–°åŠ å�¡ä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_1
-      - ç‘�å…¸ä¸¨yoyapai.com
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com
-      - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com
-      - äº�å¤ªåœ°å�€
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_8
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_9
+      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_1
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_1
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_3
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_4
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_5
+      - ğŸ‡§ğŸ‡ªBEæ¯”åˆ©æ™‚ä¸¨yoyapai.com
       - å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_6
+      - æ„�å¤§åˆ©ç¯€é»�ğŸ‡®ğŸ‡¹ITä¸¨yoyapai.com
       - è‹±åœ‹
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_3
+      - è‹±åœ‹ç¯€é»�
+      - è‹±åœ‹ç¯€é»�_1
+      - ğŸ‡¬ğŸ‡§ è‹±åœ‹
       - è‹±åœ‹_1
       - è‹±åœ‹_2
-      - ä¸¹éº¥ç¯€é»�ğŸ‡©ğŸ‡°DKä¸¨yoyapai.com
-      - æ³•åœ‹
+      - ç¾�åœ‹
       - è‹±åœ‹_3
+      - è‹±åœ‹_4
+      - è‹±åœ‹_5
+      - ç¾�åœ‹_1
+      - ç¾�åœ‹ç¯€é»�
+      - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_7
+      - è‹±åœ‹ç¯€é»�_2
+      - è‹±åœ‹_6
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_10
       - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com_1
       - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com_2
-      - ç¾�åœ‹
-      - ç¾�åœ‹_1
-      - è‹±åœ‹_4
+      - è‹±åœ‹_7
+      - ğŸ‡¨ğŸ‡­CHç‘�å£«ä¸¨yoyapai.com
+      - ğŸ‡©ğŸ‡°DKä¸¹éº¥ä¸¨yoyapai.com
+      - è‹±åœ‹_8
+      - ğŸ‡¨ğŸ‡­CHè‡ºç�£ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_11
+      - è‹±åœ‹_9
+      - è‹±åœ‹_10
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_12
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_13
+      - è‹±åœ‹_11
+      - ğŸ‡µğŸ‡±PLæ³¢è˜­ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ä¸¨yoyapai.com
+      - å¾·åœ‹
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_14
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_15
+      - è‹±åœ‹_12
+      - å¾·åœ‹_1
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡±ğŸ‡¹LTç«‹é™¶å®›ä¸¨yoyapai.com
       - ç¾�åœ‹_2
-      - è‹±åœ‹_5
-      - è‹±åœ‹_6
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com
+      - è‹±åœ‹_13
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_8
+      - æ‹‰è„«ç¶­äº�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_9
       - ç¾�åœ‹_3
       - ç¾�åœ‹_4
-      - è‹±åœ‹_7
-      - è‹±åœ‹_8
-      - è‹±åœ‹_9
-      - è‹±åœ‹ç¯€é»�
-      - ğŸ‡¬ğŸ‡§ GBè‹±åœ‹
-      - ç¾�åœ‹_5
-      - è‹±åœ‹_10
-      - è‹±åœ‹_11
-      - è‹±åœ‹_12
-      - äº�å¤ªåœ°å�€_1
-      - è‹±åœ‹ç¯€é»�_1
-      - ç¾�åœ‹ç¯€é»�
-      - è‹±åœ‹_13
       - è‹±åœ‹_14
-      - ç¾�åœ‹_6
-      - ç¾�åœ‹_7
-      - è‹±åœ‹_15
-      - äº�å¤ªåœ°å�€_2
-      - è‹±åœ‹_16
-      - è‹±åœ‹_17
-      - è‹±åœ‹_18
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_19
-      - è‹±åœ‹_20
-      - è‹±åœ‹_21
-      - ç¾�åœ‹_8
-      - è‹±åœ‹_22
-      - ç¾�åœ‹ç¯€é»�_1
-      - è‹±åœ‹_23
-      - ç¾�åœ‹_9
-      - è‹±åœ‹_24
-      - è‹±åœ‹_25
-      - è‹±åœ‹ç¯€é»�_2
-      - è‹±åœ‹_26
-      - æ„�å¤§åˆ©ä¸¨yoyapai.com
-      - è‹±åœ‹ç¯€é»�_3
-      - å¾·åœ‹
-      - è‹±åœ‹_27
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_1
       - ç¾�åœ‹ä¸¨yoyapai.com
-      - è‹±åœ‹_28
-      - è‹±åœ‹_29
-      - è‹±åœ‹_30
-      - è‹±åœ‹_31
-      - è‹±åœ‹_32
-      - è‹±åœ‹_33
-      - ç«‹é™¶å®›ç¯€é»�ğŸ‡±ğŸ‡¹LTä¸¨yoyapai.com
-      - ç¾�åœ‹_10
-      - è‹±åœ‹_34
-      - è¥¿ç�­ç‰™ç¯€é»�ğŸ‡ªğŸ‡¸ESä¸¨yoyapai.com
-      - ğŸ‡©ğŸ‡ªDEå¾·åœ‹ä¸¨yoyapai.com
-      - ç¾�åœ‹ä¸¨yoyapai.com_1
-      - ç¾�åœ‹ä¸¨yoyapai.com_2
-      - è‹±åœ‹_35
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_36
-      - è‹±åœ‹_37
-      - å¾·åœ‹_1
-      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_38
-      - ç¾�åœ‹ä¸¨yoyapai.com_3
-      - é¦™æ¸¯ä¸¨yoyapai.com
-      - å¾·åœ‹_2
-      - è‹±åœ‹_39
-      - ç¾�åœ‹ä¸¨yoyapai.com_4
-      - ç¾�åœ‹_11
-      - ç¾�åœ‹_12
-      - è‹±åœ‹_40
-      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
-      - åŒˆç‰™åˆ©ç¯€é»�ä¸¨yoyapai.com
-      - ç¾�åœ‹ä¸¨yoyapai.com_5
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_2
-      - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
-      - æ„�å¤§åˆ©ç¯€é»�ğŸ‡®ğŸ‡¹ITä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_3
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_2
-      - äº�å¤ªåœ°å�€_3
-      - ç¾�åœ‹ä¸¨yoyapai.com_6
-      - ç¾�åœ‹ç¯€é»�_2
-      - ğŸ‡·ğŸ‡ºRUä¿„ç¾…æ–¯ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
-      - æ‹‰è„«ç¶­äº�ä¸¨yoyapai.com
+      - è‹±åœ‹_15
       - ğŸ‡±ğŸ‡»LVæ‹‰è„«ç¶­äº�ç¯€é»�ä¸¨yoyapai.com
-      - æ�·å…‹ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡ºğŸ‡¸_US_ç¾�å›½
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_10
+      - ç¾�åœ‹ç¯€é»�_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_16
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_11
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_12
+      - å¾·åœ‹_2
+      - è‹±åœ‹_16
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_13
       - æ³•åœ‹ç¯€é»�ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_3
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_14
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_17
+      - ğŸ‡·ğŸ‡ºRUä¿„ç¾…æ–¯ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_15
+      - ç¾�åœ‹ä¸¨yoyapai.com_1
+      - ç‘�å…¸ä¸¨yoyapai.com
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_18
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_16
       - å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_17
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com
+      - äº�å¤ªåœ°å�€
+      - è‹±åœ‹_17
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_19
+      - äº�å¤ªåœ°å�€_1
+      - æ–°åŠ å�¡ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_18
+      - ç¾�åœ‹_5
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_1
+      - åŒˆç‰™åˆ©ç¯€é»�ä¸¨yoyapai.com
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_1
       - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
+      - ç«‹é™¶å®›ç¯€é»�ğŸ‡±ğŸ‡¹LTä¸¨yoyapai.com
+      - æ�·å…‹ç¯€é»�ä¸¨yoyapai.com
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com
+      - ç¾�åœ‹_6
       - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_1
+      - æ„�å¤§åˆ©ä¸¨yoyapai.com
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_2
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_3
       - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_2
-      - ç¾�åœ‹ä¸¨yoyapai.com_7
-      - ç¾�åœ‹ä¸¨yoyapai.com_8
-      - ç¾�åœ‹ä¸¨yoyapai.com_9
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_4
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_2
+      - è¥¿ç�­ç‰™ç¯€é»�ğŸ‡ªğŸ‡¸ESä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_19
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_3
+      - ç¾�åœ‹ç¯€é»�_2
+      - äº�å¤ªåœ°å�€_2
+      - äº�å¤ªåœ°å�€_3
+      - ä¸¹éº¥ç¯€é»�ğŸ‡©ğŸ‡°DKä¸¨yoyapai.com
+      - åŠ æ‹¿å¤§ä¸¨yoyapai.com
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_2
+      - ç¾�åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com_1
       - äº�å¤ªåœ°å�€_4
       - äº�å¤ªåœ°å�€_5
+      - ç¾�åœ‹ä¸¨yoyapai.com_3
       - äº�å¤ªåœ°å�€_6
       - äº�å¤ªåœ°å�€_7
-      - ç¾�åœ‹ä¸¨yoyapai.com_10
+      - ç¾�åœ‹ä¸¨yoyapai.com_4
       - äº�å¤ªåœ°å�€_8
+      - ç¾�åœ‹ä¸¨yoyapai.com_5
       - äº�å¤ªåœ°å�€_9
-      - æ³•åœ‹_1
-      - ç¾�åœ‹_13
-      - ç¾�åœ‹_14
-      - ç¾�åœ‹_15
-      - ç¾�åœ‹_16
-      - ç¾�åœ‹_17
-      - é¦™æ¸¯ç¯€é»�
-      - é¦™æ¸¯ç¯€é»�_1
-      - é¦™æ¸¯ç¯€é»�_2
-      - é¦™æ¸¯ç¯€é»�_3
-      - è‹±åœ‹_41
-      - è‹±åœ‹_42
-      - è‹±åœ‹_43
-      - è‹±åœ‹_44
-      - è‹±åœ‹_45
   - name: â™»ï¸� è‡ªåŠ¨é€‰æ‹©
     type: url-test
     proxies:
+      - ğŸ‡ªğŸ‡ªEEæ„›æ²™å°¼äº�ä¸¨yoyapai.com
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡¨ğŸ‡³ TWè‡ºç�£ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_3
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_4
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_5
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_6
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_7
       - æ–°åŠ å�¡ä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_1
-      - ç‘�å…¸ä¸¨yoyapai.com
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com
-      - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com
-      - äº�å¤ªåœ°å�€
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_8
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_9
+      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_1
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_1
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_3
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_4
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_5
+      - ğŸ‡§ğŸ‡ªBEæ¯”åˆ©æ™‚ä¸¨yoyapai.com
       - å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_6
+      - æ„�å¤§åˆ©ç¯€é»�ğŸ‡®ğŸ‡¹ITä¸¨yoyapai.com
       - è‹±åœ‹
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_3
+      - è‹±åœ‹ç¯€é»�
+      - è‹±åœ‹ç¯€é»�_1
+      - ğŸ‡¬ğŸ‡§ è‹±åœ‹
       - è‹±åœ‹_1
       - è‹±åœ‹_2
-      - ä¸¹éº¥ç¯€é»�ğŸ‡©ğŸ‡°DKä¸¨yoyapai.com
-      - æ³•åœ‹
+      - ç¾�åœ‹
       - è‹±åœ‹_3
+      - è‹±åœ‹_4
+      - è‹±åœ‹_5
+      - ç¾�åœ‹_1
+      - ç¾�åœ‹ç¯€é»�
+      - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_7
+      - è‹±åœ‹ç¯€é»�_2
+      - è‹±åœ‹_6
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_10
       - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com_1
       - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com_2
-      - ç¾�åœ‹
-      - ç¾�åœ‹_1
-      - è‹±åœ‹_4
+      - è‹±åœ‹_7
+      - ğŸ‡¨ğŸ‡­CHç‘�å£«ä¸¨yoyapai.com
+      - ğŸ‡©ğŸ‡°DKä¸¹éº¥ä¸¨yoyapai.com
+      - è‹±åœ‹_8
+      - ğŸ‡¨ğŸ‡­CHè‡ºç�£ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_11
+      - è‹±åœ‹_9
+      - è‹±åœ‹_10
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_12
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_13
+      - è‹±åœ‹_11
+      - ğŸ‡µğŸ‡±PLæ³¢è˜­ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ä¸¨yoyapai.com
+      - å¾·åœ‹
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_14
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_15
+      - è‹±åœ‹_12
+      - å¾·åœ‹_1
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡±ğŸ‡¹LTç«‹é™¶å®›ä¸¨yoyapai.com
       - ç¾�åœ‹_2
-      - è‹±åœ‹_5
-      - è‹±åœ‹_6
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com
+      - è‹±åœ‹_13
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_8
+      - æ‹‰è„«ç¶­äº�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_9
       - ç¾�åœ‹_3
       - ç¾�åœ‹_4
-      - è‹±åœ‹_7
-      - è‹±åœ‹_8
-      - è‹±åœ‹_9
-      - è‹±åœ‹ç¯€é»�
-      - ğŸ‡¬ğŸ‡§ GBè‹±åœ‹
-      - ç¾�åœ‹_5
-      - è‹±åœ‹_10
-      - è‹±åœ‹_11
-      - è‹±åœ‹_12
-      - äº�å¤ªåœ°å�€_1
-      - è‹±åœ‹ç¯€é»�_1
-      - ç¾�åœ‹ç¯€é»�
-      - è‹±åœ‹_13
       - è‹±åœ‹_14
-      - ç¾�åœ‹_6
-      - ç¾�åœ‹_7
-      - è‹±åœ‹_15
-      - äº�å¤ªåœ°å�€_2
-      - è‹±åœ‹_16
-      - è‹±åœ‹_17
-      - è‹±åœ‹_18
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_19
-      - è‹±åœ‹_20
-      - è‹±åœ‹_21
-      - ç¾�åœ‹_8
-      - è‹±åœ‹_22
-      - ç¾�åœ‹ç¯€é»�_1
-      - è‹±åœ‹_23
-      - ç¾�åœ‹_9
-      - è‹±åœ‹_24
-      - è‹±åœ‹_25
-      - è‹±åœ‹ç¯€é»�_2
-      - è‹±åœ‹_26
-      - æ„�å¤§åˆ©ä¸¨yoyapai.com
-      - è‹±åœ‹ç¯€é»�_3
-      - å¾·åœ‹
-      - è‹±åœ‹_27
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_1
       - ç¾�åœ‹ä¸¨yoyapai.com
-      - è‹±åœ‹_28
-      - è‹±åœ‹_29
-      - è‹±åœ‹_30
-      - è‹±åœ‹_31
-      - è‹±åœ‹_32
-      - è‹±åœ‹_33
-      - ç«‹é™¶å®›ç¯€é»�ğŸ‡±ğŸ‡¹LTä¸¨yoyapai.com
-      - ç¾�åœ‹_10
-      - è‹±åœ‹_34
-      - è¥¿ç�­ç‰™ç¯€é»�ğŸ‡ªğŸ‡¸ESä¸¨yoyapai.com
-      - ğŸ‡©ğŸ‡ªDEå¾·åœ‹ä¸¨yoyapai.com
-      - ç¾�åœ‹ä¸¨yoyapai.com_1
-      - ç¾�åœ‹ä¸¨yoyapai.com_2
-      - è‹±åœ‹_35
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_36
-      - è‹±åœ‹_37
-      - å¾·åœ‹_1
-      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_38
-      - ç¾�åœ‹ä¸¨yoyapai.com_3
-      - é¦™æ¸¯ä¸¨yoyapai.com
-      - å¾·åœ‹_2
-      - è‹±åœ‹_39
-      - ç¾�åœ‹ä¸¨yoyapai.com_4
-      - ç¾�åœ‹_11
-      - ç¾�åœ‹_12
-      - è‹±åœ‹_40
-      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
-      - åŒˆç‰™åˆ©ç¯€é»�ä¸¨yoyapai.com
-      - ç¾�åœ‹ä¸¨yoyapai.com_5
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_2
-      - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
-      - æ„�å¤§åˆ©ç¯€é»�ğŸ‡®ğŸ‡¹ITä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_3
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_2
-      - äº�å¤ªåœ°å�€_3
-      - ç¾�åœ‹ä¸¨yoyapai.com_6
-      - ç¾�åœ‹ç¯€é»�_2
-      - ğŸ‡·ğŸ‡ºRUä¿„ç¾…æ–¯ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
-      - æ‹‰è„«ç¶­äº�ä¸¨yoyapai.com
+      - è‹±åœ‹_15
       - ğŸ‡±ğŸ‡»LVæ‹‰è„«ç¶­äº�ç¯€é»�ä¸¨yoyapai.com
-      - æ�·å…‹ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡ºğŸ‡¸_US_ç¾�å›½
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_10
+      - ç¾�åœ‹ç¯€é»�_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_16
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_11
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_12
+      - å¾·åœ‹_2
+      - è‹±åœ‹_16
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_13
       - æ³•åœ‹ç¯€é»�ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_3
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_14
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_17
+      - ğŸ‡·ğŸ‡ºRUä¿„ç¾…æ–¯ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_15
+      - ç¾�åœ‹ä¸¨yoyapai.com_1
+      - ç‘�å…¸ä¸¨yoyapai.com
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_18
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_16
       - å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_17
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com
+      - äº�å¤ªåœ°å�€
+      - è‹±åœ‹_17
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_19
+      - äº�å¤ªåœ°å�€_1
+      - æ–°åŠ å�¡ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_18
+      - ç¾�åœ‹_5
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_1
+      - åŒˆç‰™åˆ©ç¯€é»�ä¸¨yoyapai.com
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_1
       - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
+      - ç«‹é™¶å®›ç¯€é»�ğŸ‡±ğŸ‡¹LTä¸¨yoyapai.com
+      - æ�·å…‹ç¯€é»�ä¸¨yoyapai.com
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com
+      - ç¾�åœ‹_6
       - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_1
+      - æ„�å¤§åˆ©ä¸¨yoyapai.com
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_2
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_3
       - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_2
-      - ç¾�åœ‹ä¸¨yoyapai.com_7
-      - ç¾�åœ‹ä¸¨yoyapai.com_8
-      - ç¾�åœ‹ä¸¨yoyapai.com_9
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_4
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_2
+      - è¥¿ç�­ç‰™ç¯€é»�ğŸ‡ªğŸ‡¸ESä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_19
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_3
+      - ç¾�åœ‹ç¯€é»�_2
+      - äº�å¤ªåœ°å�€_2
+      - äº�å¤ªåœ°å�€_3
+      - ä¸¹éº¥ç¯€é»�ğŸ‡©ğŸ‡°DKä¸¨yoyapai.com
+      - åŠ æ‹¿å¤§ä¸¨yoyapai.com
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_2
+      - ç¾�åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com_1
       - äº�å¤ªåœ°å�€_4
       - äº�å¤ªåœ°å�€_5
+      - ç¾�åœ‹ä¸¨yoyapai.com_3
       - äº�å¤ªåœ°å�€_6
       - äº�å¤ªåœ°å�€_7
-      - ç¾�åœ‹ä¸¨yoyapai.com_10
+      - ç¾�åœ‹ä¸¨yoyapai.com_4
       - äº�å¤ªåœ°å�€_8
+      - ç¾�åœ‹ä¸¨yoyapai.com_5
       - äº�å¤ªåœ°å�€_9
-      - æ³•åœ‹_1
-      - ç¾�åœ‹_13
-      - ç¾�åœ‹_14
-      - ç¾�åœ‹_15
-      - ç¾�åœ‹_16
-      - ç¾�åœ‹_17
-      - é¦™æ¸¯ç¯€é»�
-      - é¦™æ¸¯ç¯€é»�_1
-      - é¦™æ¸¯ç¯€é»�_2
-      - é¦™æ¸¯ç¯€é»�_3
-      - è‹±åœ‹_41
-      - è‹±åœ‹_42
-      - è‹±åœ‹_43
-      - è‹±åœ‹_44
-      - è‹±åœ‹_45
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -1894,593 +2131,621 @@ proxy-groups:
       - ğŸš€ èŠ‚ç‚¹é€‰æ‹©
       - â™»ï¸� è‡ªåŠ¨é€‰æ‹©
       - ğŸ�¯ å…¨ç�ƒç›´è¿�
+      - ğŸ‡ªğŸ‡ªEEæ„›æ²™å°¼äº�ä¸¨yoyapai.com
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡¨ğŸ‡³ TWè‡ºç�£ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_3
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_4
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_5
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_6
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_7
       - æ–°åŠ å�¡ä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_1
-      - ç‘�å…¸ä¸¨yoyapai.com
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com
-      - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com
-      - äº�å¤ªåœ°å�€
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_8
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_9
+      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_1
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_1
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_3
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_4
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_5
+      - ğŸ‡§ğŸ‡ªBEæ¯”åˆ©æ™‚ä¸¨yoyapai.com
       - å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_6
+      - æ„�å¤§åˆ©ç¯€é»�ğŸ‡®ğŸ‡¹ITä¸¨yoyapai.com
       - è‹±åœ‹
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_3
+      - è‹±åœ‹ç¯€é»�
+      - è‹±åœ‹ç¯€é»�_1
+      - ğŸ‡¬ğŸ‡§ è‹±åœ‹
       - è‹±åœ‹_1
       - è‹±åœ‹_2
-      - ä¸¹éº¥ç¯€é»�ğŸ‡©ğŸ‡°DKä¸¨yoyapai.com
-      - æ³•åœ‹
+      - ç¾�åœ‹
       - è‹±åœ‹_3
+      - è‹±åœ‹_4
+      - è‹±åœ‹_5
+      - ç¾�åœ‹_1
+      - ç¾�åœ‹ç¯€é»�
+      - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_7
+      - è‹±åœ‹ç¯€é»�_2
+      - è‹±åœ‹_6
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_10
       - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com_1
       - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com_2
-      - ç¾�åœ‹
-      - ç¾�åœ‹_1
-      - è‹±åœ‹_4
+      - è‹±åœ‹_7
+      - ğŸ‡¨ğŸ‡­CHç‘�å£«ä¸¨yoyapai.com
+      - ğŸ‡©ğŸ‡°DKä¸¹éº¥ä¸¨yoyapai.com
+      - è‹±åœ‹_8
+      - ğŸ‡¨ğŸ‡­CHè‡ºç�£ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_11
+      - è‹±åœ‹_9
+      - è‹±åœ‹_10
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_12
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_13
+      - è‹±åœ‹_11
+      - ğŸ‡µğŸ‡±PLæ³¢è˜­ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ä¸¨yoyapai.com
+      - å¾·åœ‹
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_14
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_15
+      - è‹±åœ‹_12
+      - å¾·åœ‹_1
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡±ğŸ‡¹LTç«‹é™¶å®›ä¸¨yoyapai.com
       - ç¾�åœ‹_2
-      - è‹±åœ‹_5
-      - è‹±åœ‹_6
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com
+      - è‹±åœ‹_13
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_8
+      - æ‹‰è„«ç¶­äº�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_9
       - ç¾�åœ‹_3
       - ç¾�åœ‹_4
-      - è‹±åœ‹_7
-      - è‹±åœ‹_8
-      - è‹±åœ‹_9
-      - è‹±åœ‹ç¯€é»�
-      - ğŸ‡¬ğŸ‡§ GBè‹±åœ‹
-      - ç¾�åœ‹_5
-      - è‹±åœ‹_10
-      - è‹±åœ‹_11
-      - è‹±åœ‹_12
-      - äº�å¤ªåœ°å�€_1
-      - è‹±åœ‹ç¯€é»�_1
-      - ç¾�åœ‹ç¯€é»�
-      - è‹±åœ‹_13
       - è‹±åœ‹_14
-      - ç¾�åœ‹_6
-      - ç¾�åœ‹_7
-      - è‹±åœ‹_15
-      - äº�å¤ªåœ°å�€_2
-      - è‹±åœ‹_16
-      - è‹±åœ‹_17
-      - è‹±åœ‹_18
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_19
-      - è‹±åœ‹_20
-      - è‹±åœ‹_21
-      - ç¾�åœ‹_8
-      - è‹±åœ‹_22
-      - ç¾�åœ‹ç¯€é»�_1
-      - è‹±åœ‹_23
-      - ç¾�åœ‹_9
-      - è‹±åœ‹_24
-      - è‹±åœ‹_25
-      - è‹±åœ‹ç¯€é»�_2
-      - è‹±åœ‹_26
-      - æ„�å¤§åˆ©ä¸¨yoyapai.com
-      - è‹±åœ‹ç¯€é»�_3
-      - å¾·åœ‹
-      - è‹±åœ‹_27
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_1
       - ç¾�åœ‹ä¸¨yoyapai.com
-      - è‹±åœ‹_28
-      - è‹±åœ‹_29
-      - è‹±åœ‹_30
-      - è‹±åœ‹_31
-      - è‹±åœ‹_32
-      - è‹±åœ‹_33
-      - ç«‹é™¶å®›ç¯€é»�ğŸ‡±ğŸ‡¹LTä¸¨yoyapai.com
-      - ç¾�åœ‹_10
-      - è‹±åœ‹_34
-      - è¥¿ç�­ç‰™ç¯€é»�ğŸ‡ªğŸ‡¸ESä¸¨yoyapai.com
-      - ğŸ‡©ğŸ‡ªDEå¾·åœ‹ä¸¨yoyapai.com
-      - ç¾�åœ‹ä¸¨yoyapai.com_1
-      - ç¾�åœ‹ä¸¨yoyapai.com_2
-      - è‹±åœ‹_35
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_36
-      - è‹±åœ‹_37
-      - å¾·åœ‹_1
-      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_38
-      - ç¾�åœ‹ä¸¨yoyapai.com_3
-      - é¦™æ¸¯ä¸¨yoyapai.com
-      - å¾·åœ‹_2
-      - è‹±åœ‹_39
-      - ç¾�åœ‹ä¸¨yoyapai.com_4
-      - ç¾�åœ‹_11
-      - ç¾�åœ‹_12
-      - è‹±åœ‹_40
-      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
-      - åŒˆç‰™åˆ©ç¯€é»�ä¸¨yoyapai.com
-      - ç¾�åœ‹ä¸¨yoyapai.com_5
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_2
-      - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
-      - æ„�å¤§åˆ©ç¯€é»�ğŸ‡®ğŸ‡¹ITä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_3
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_2
-      - äº�å¤ªåœ°å�€_3
-      - ç¾�åœ‹ä¸¨yoyapai.com_6
-      - ç¾�åœ‹ç¯€é»�_2
-      - ğŸ‡·ğŸ‡ºRUä¿„ç¾…æ–¯ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
-      - æ‹‰è„«ç¶­äº�ä¸¨yoyapai.com
+      - è‹±åœ‹_15
       - ğŸ‡±ğŸ‡»LVæ‹‰è„«ç¶­äº�ç¯€é»�ä¸¨yoyapai.com
-      - æ�·å…‹ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡ºğŸ‡¸_US_ç¾�å›½
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_10
+      - ç¾�åœ‹ç¯€é»�_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_16
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_11
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_12
+      - å¾·åœ‹_2
+      - è‹±åœ‹_16
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_13
       - æ³•åœ‹ç¯€é»�ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_3
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_14
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_17
+      - ğŸ‡·ğŸ‡ºRUä¿„ç¾…æ–¯ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_15
+      - ç¾�åœ‹ä¸¨yoyapai.com_1
+      - ç‘�å…¸ä¸¨yoyapai.com
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_18
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_16
       - å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_17
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com
+      - äº�å¤ªåœ°å�€
+      - è‹±åœ‹_17
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_19
+      - äº�å¤ªåœ°å�€_1
+      - æ–°åŠ å�¡ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_18
+      - ç¾�åœ‹_5
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_1
+      - åŒˆç‰™åˆ©ç¯€é»�ä¸¨yoyapai.com
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_1
       - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
+      - ç«‹é™¶å®›ç¯€é»�ğŸ‡±ğŸ‡¹LTä¸¨yoyapai.com
+      - æ�·å…‹ç¯€é»�ä¸¨yoyapai.com
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com
+      - ç¾�åœ‹_6
       - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_1
+      - æ„�å¤§åˆ©ä¸¨yoyapai.com
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_2
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_3
       - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_2
-      - ç¾�åœ‹ä¸¨yoyapai.com_7
-      - ç¾�åœ‹ä¸¨yoyapai.com_8
-      - ç¾�åœ‹ä¸¨yoyapai.com_9
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_4
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_2
+      - è¥¿ç�­ç‰™ç¯€é»�ğŸ‡ªğŸ‡¸ESä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_19
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_3
+      - ç¾�åœ‹ç¯€é»�_2
+      - äº�å¤ªåœ°å�€_2
+      - äº�å¤ªåœ°å�€_3
+      - ä¸¹éº¥ç¯€é»�ğŸ‡©ğŸ‡°DKä¸¨yoyapai.com
+      - åŠ æ‹¿å¤§ä¸¨yoyapai.com
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_2
+      - ç¾�åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com_1
       - äº�å¤ªåœ°å�€_4
       - äº�å¤ªåœ°å�€_5
+      - ç¾�åœ‹ä¸¨yoyapai.com_3
       - äº�å¤ªåœ°å�€_6
       - äº�å¤ªåœ°å�€_7
-      - ç¾�åœ‹ä¸¨yoyapai.com_10
+      - ç¾�åœ‹ä¸¨yoyapai.com_4
       - äº�å¤ªåœ°å�€_8
+      - ç¾�åœ‹ä¸¨yoyapai.com_5
       - äº�å¤ªåœ°å�€_9
-      - æ³•åœ‹_1
-      - ç¾�åœ‹_13
-      - ç¾�åœ‹_14
-      - ç¾�åœ‹_15
-      - ç¾�åœ‹_16
-      - ç¾�åœ‹_17
-      - é¦™æ¸¯ç¯€é»�
-      - é¦™æ¸¯ç¯€é»�_1
-      - é¦™æ¸¯ç¯€é»�_2
-      - é¦™æ¸¯ç¯€é»�_3
-      - è‹±åœ‹_41
-      - è‹±åœ‹_42
-      - è‹±åœ‹_43
-      - è‹±åœ‹_44
-      - è‹±åœ‹_45
   - name: ğŸ“² ç”µæŠ¥ä¿¡æ�¯
     type: select
     proxies:
       - ğŸš€ èŠ‚ç‚¹é€‰æ‹©
       - ğŸ�¯ å…¨ç�ƒç›´è¿�
+      - ğŸ‡ªğŸ‡ªEEæ„›æ²™å°¼äº�ä¸¨yoyapai.com
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡¨ğŸ‡³ TWè‡ºç�£ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_3
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_4
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_5
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_6
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_7
       - æ–°åŠ å�¡ä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_1
-      - ç‘�å…¸ä¸¨yoyapai.com
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com
-      - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com
-      - äº�å¤ªåœ°å�€
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_8
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_9
+      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_1
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_1
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_3
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_4
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_5
+      - ğŸ‡§ğŸ‡ªBEæ¯”åˆ©æ™‚ä¸¨yoyapai.com
       - å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_6
+      - æ„�å¤§åˆ©ç¯€é»�ğŸ‡®ğŸ‡¹ITä¸¨yoyapai.com
       - è‹±åœ‹
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_3
+      - è‹±åœ‹ç¯€é»�
+      - è‹±åœ‹ç¯€é»�_1
+      - ğŸ‡¬ğŸ‡§ è‹±åœ‹
       - è‹±åœ‹_1
       - è‹±åœ‹_2
-      - ä¸¹éº¥ç¯€é»�ğŸ‡©ğŸ‡°DKä¸¨yoyapai.com
-      - æ³•åœ‹
+      - ç¾�åœ‹
       - è‹±åœ‹_3
+      - è‹±åœ‹_4
+      - è‹±åœ‹_5
+      - ç¾�åœ‹_1
+      - ç¾�åœ‹ç¯€é»�
+      - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_7
+      - è‹±åœ‹ç¯€é»�_2
+      - è‹±åœ‹_6
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_10
       - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com_1
       - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com_2
-      - ç¾�åœ‹
-      - ç¾�åœ‹_1
-      - è‹±åœ‹_4
+      - è‹±åœ‹_7
+      - ğŸ‡¨ğŸ‡­CHç‘�å£«ä¸¨yoyapai.com
+      - ğŸ‡©ğŸ‡°DKä¸¹éº¥ä¸¨yoyapai.com
+      - è‹±åœ‹_8
+      - ğŸ‡¨ğŸ‡­CHè‡ºç�£ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_11
+      - è‹±åœ‹_9
+      - è‹±åœ‹_10
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_12
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_13
+      - è‹±åœ‹_11
+      - ğŸ‡µğŸ‡±PLæ³¢è˜­ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ä¸¨yoyapai.com
+      - å¾·åœ‹
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_14
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_15
+      - è‹±åœ‹_12
+      - å¾·åœ‹_1
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡±ğŸ‡¹LTç«‹é™¶å®›ä¸¨yoyapai.com
       - ç¾�åœ‹_2
-      - è‹±åœ‹_5
-      - è‹±åœ‹_6
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com
+      - è‹±åœ‹_13
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_8
+      - æ‹‰è„«ç¶­äº�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_9
       - ç¾�åœ‹_3
       - ç¾�åœ‹_4
-      - è‹±åœ‹_7
-      - è‹±åœ‹_8
-      - è‹±åœ‹_9
-      - è‹±åœ‹ç¯€é»�
-      - ğŸ‡¬ğŸ‡§ GBè‹±åœ‹
-      - ç¾�åœ‹_5
-      - è‹±åœ‹_10
-      - è‹±åœ‹_11
-      - è‹±åœ‹_12
-      - äº�å¤ªåœ°å�€_1
-      - è‹±åœ‹ç¯€é»�_1
-      - ç¾�åœ‹ç¯€é»�
-      - è‹±åœ‹_13
       - è‹±åœ‹_14
-      - ç¾�åœ‹_6
-      - ç¾�åœ‹_7
-      - è‹±åœ‹_15
-      - äº�å¤ªåœ°å�€_2
-      - è‹±åœ‹_16
-      - è‹±åœ‹_17
-      - è‹±åœ‹_18
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_19
-      - è‹±åœ‹_20
-      - è‹±åœ‹_21
-      - ç¾�åœ‹_8
-      - è‹±åœ‹_22
-      - ç¾�åœ‹ç¯€é»�_1
-      - è‹±åœ‹_23
-      - ç¾�åœ‹_9
-      - è‹±åœ‹_24
-      - è‹±åœ‹_25
-      - è‹±åœ‹ç¯€é»�_2
-      - è‹±åœ‹_26
-      - æ„�å¤§åˆ©ä¸¨yoyapai.com
-      - è‹±åœ‹ç¯€é»�_3
-      - å¾·åœ‹
-      - è‹±åœ‹_27
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_1
       - ç¾�åœ‹ä¸¨yoyapai.com
-      - è‹±åœ‹_28
-      - è‹±åœ‹_29
-      - è‹±åœ‹_30
-      - è‹±åœ‹_31
-      - è‹±åœ‹_32
-      - è‹±åœ‹_33
-      - ç«‹é™¶å®›ç¯€é»�ğŸ‡±ğŸ‡¹LTä¸¨yoyapai.com
-      - ç¾�åœ‹_10
-      - è‹±åœ‹_34
-      - è¥¿ç�­ç‰™ç¯€é»�ğŸ‡ªğŸ‡¸ESä¸¨yoyapai.com
-      - ğŸ‡©ğŸ‡ªDEå¾·åœ‹ä¸¨yoyapai.com
-      - ç¾�åœ‹ä¸¨yoyapai.com_1
-      - ç¾�åœ‹ä¸¨yoyapai.com_2
-      - è‹±åœ‹_35
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_36
-      - è‹±åœ‹_37
-      - å¾·åœ‹_1
-      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_38
-      - ç¾�åœ‹ä¸¨yoyapai.com_3
-      - é¦™æ¸¯ä¸¨yoyapai.com
-      - å¾·åœ‹_2
-      - è‹±åœ‹_39
-      - ç¾�åœ‹ä¸¨yoyapai.com_4
-      - ç¾�åœ‹_11
-      - ç¾�åœ‹_12
-      - è‹±åœ‹_40
-      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
-      - åŒˆç‰™åˆ©ç¯€é»�ä¸¨yoyapai.com
-      - ç¾�åœ‹ä¸¨yoyapai.com_5
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_2
-      - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
-      - æ„�å¤§åˆ©ç¯€é»�ğŸ‡®ğŸ‡¹ITä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_3
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_2
-      - äº�å¤ªåœ°å�€_3
-      - ç¾�åœ‹ä¸¨yoyapai.com_6
-      - ç¾�åœ‹ç¯€é»�_2
-      - ğŸ‡·ğŸ‡ºRUä¿„ç¾…æ–¯ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
-      - æ‹‰è„«ç¶­äº�ä¸¨yoyapai.com
+      - è‹±åœ‹_15
       - ğŸ‡±ğŸ‡»LVæ‹‰è„«ç¶­äº�ç¯€é»�ä¸¨yoyapai.com
-      - æ�·å…‹ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡ºğŸ‡¸_US_ç¾�å›½
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_10
+      - ç¾�åœ‹ç¯€é»�_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_16
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_11
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_12
+      - å¾·åœ‹_2
+      - è‹±åœ‹_16
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_13
       - æ³•åœ‹ç¯€é»�ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_3
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_14
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_17
+      - ğŸ‡·ğŸ‡ºRUä¿„ç¾…æ–¯ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_15
+      - ç¾�åœ‹ä¸¨yoyapai.com_1
+      - ç‘�å…¸ä¸¨yoyapai.com
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_18
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_16
       - å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_17
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com
+      - äº�å¤ªåœ°å�€
+      - è‹±åœ‹_17
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_19
+      - äº�å¤ªåœ°å�€_1
+      - æ–°åŠ å�¡ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_18
+      - ç¾�åœ‹_5
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_1
+      - åŒˆç‰™åˆ©ç¯€é»�ä¸¨yoyapai.com
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_1
       - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
+      - ç«‹é™¶å®›ç¯€é»�ğŸ‡±ğŸ‡¹LTä¸¨yoyapai.com
+      - æ�·å…‹ç¯€é»�ä¸¨yoyapai.com
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com
+      - ç¾�åœ‹_6
       - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_1
+      - æ„�å¤§åˆ©ä¸¨yoyapai.com
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_2
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_3
       - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_2
-      - ç¾�åœ‹ä¸¨yoyapai.com_7
-      - ç¾�åœ‹ä¸¨yoyapai.com_8
-      - ç¾�åœ‹ä¸¨yoyapai.com_9
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_4
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_2
+      - è¥¿ç�­ç‰™ç¯€é»�ğŸ‡ªğŸ‡¸ESä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_19
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_3
+      - ç¾�åœ‹ç¯€é»�_2
+      - äº�å¤ªåœ°å�€_2
+      - äº�å¤ªåœ°å�€_3
+      - ä¸¹éº¥ç¯€é»�ğŸ‡©ğŸ‡°DKä¸¨yoyapai.com
+      - åŠ æ‹¿å¤§ä¸¨yoyapai.com
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_2
+      - ç¾�åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com_1
       - äº�å¤ªåœ°å�€_4
       - äº�å¤ªåœ°å�€_5
+      - ç¾�åœ‹ä¸¨yoyapai.com_3
       - äº�å¤ªåœ°å�€_6
       - äº�å¤ªåœ°å�€_7
-      - ç¾�åœ‹ä¸¨yoyapai.com_10
+      - ç¾�åœ‹ä¸¨yoyapai.com_4
       - äº�å¤ªåœ°å�€_8
+      - ç¾�åœ‹ä¸¨yoyapai.com_5
       - äº�å¤ªåœ°å�€_9
-      - æ³•åœ‹_1
-      - ç¾�åœ‹_13
-      - ç¾�åœ‹_14
-      - ç¾�åœ‹_15
-      - ç¾�åœ‹_16
-      - ç¾�åœ‹_17
-      - é¦™æ¸¯ç¯€é»�
-      - é¦™æ¸¯ç¯€é»�_1
-      - é¦™æ¸¯ç¯€é»�_2
-      - é¦™æ¸¯ç¯€é»�_3
-      - è‹±åœ‹_41
-      - è‹±åœ‹_42
-      - è‹±åœ‹_43
-      - è‹±åœ‹_44
-      - è‹±åœ‹_45
   - name: â“‚ï¸� å¾®è½¯æœ�åŠ¡
     type: select
     proxies:
       - ğŸ�¯ å…¨ç�ƒç›´è¿�
       - ğŸš€ èŠ‚ç‚¹é€‰æ‹©
+      - ğŸ‡ªğŸ‡ªEEæ„›æ²™å°¼äº�ä¸¨yoyapai.com
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡¨ğŸ‡³ TWè‡ºç�£ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_3
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_4
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_5
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_6
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_7
       - æ–°åŠ å�¡ä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_1
-      - ç‘�å…¸ä¸¨yoyapai.com
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com
-      - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com
-      - äº�å¤ªåœ°å�€
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_8
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_9
+      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_1
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_1
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_3
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_4
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_5
+      - ğŸ‡§ğŸ‡ªBEæ¯”åˆ©æ™‚ä¸¨yoyapai.com
       - å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_6
+      - æ„�å¤§åˆ©ç¯€é»�ğŸ‡®ğŸ‡¹ITä¸¨yoyapai.com
       - è‹±åœ‹
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_3
+      - è‹±åœ‹ç¯€é»�
+      - è‹±åœ‹ç¯€é»�_1
+      - ğŸ‡¬ğŸ‡§ è‹±åœ‹
       - è‹±åœ‹_1
       - è‹±åœ‹_2
-      - ä¸¹éº¥ç¯€é»�ğŸ‡©ğŸ‡°DKä¸¨yoyapai.com
-      - æ³•åœ‹
+      - ç¾�åœ‹
       - è‹±åœ‹_3
+      - è‹±åœ‹_4
+      - è‹±åœ‹_5
+      - ç¾�åœ‹_1
+      - ç¾�åœ‹ç¯€é»�
+      - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_7
+      - è‹±åœ‹ç¯€é»�_2
+      - è‹±åœ‹_6
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_10
       - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com_1
       - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com_2
-      - ç¾�åœ‹
-      - ç¾�åœ‹_1
-      - è‹±åœ‹_4
+      - è‹±åœ‹_7
+      - ğŸ‡¨ğŸ‡­CHç‘�å£«ä¸¨yoyapai.com
+      - ğŸ‡©ğŸ‡°DKä¸¹éº¥ä¸¨yoyapai.com
+      - è‹±åœ‹_8
+      - ğŸ‡¨ğŸ‡­CHè‡ºç�£ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_11
+      - è‹±åœ‹_9
+      - è‹±åœ‹_10
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_12
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_13
+      - è‹±åœ‹_11
+      - ğŸ‡µğŸ‡±PLæ³¢è˜­ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ä¸¨yoyapai.com
+      - å¾·åœ‹
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_14
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_15
+      - è‹±åœ‹_12
+      - å¾·åœ‹_1
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡±ğŸ‡¹LTç«‹é™¶å®›ä¸¨yoyapai.com
       - ç¾�åœ‹_2
-      - è‹±åœ‹_5
-      - è‹±åœ‹_6
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com
+      - è‹±åœ‹_13
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_8
+      - æ‹‰è„«ç¶­äº�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_9
       - ç¾�åœ‹_3
       - ç¾�åœ‹_4
-      - è‹±åœ‹_7
-      - è‹±åœ‹_8
-      - è‹±åœ‹_9
-      - è‹±åœ‹ç¯€é»�
-      - ğŸ‡¬ğŸ‡§ GBè‹±åœ‹
-      - ç¾�åœ‹_5
-      - è‹±åœ‹_10
-      - è‹±åœ‹_11
-      - è‹±åœ‹_12
-      - äº�å¤ªåœ°å�€_1
-      - è‹±åœ‹ç¯€é»�_1
-      - ç¾�åœ‹ç¯€é»�
-      - è‹±åœ‹_13
       - è‹±åœ‹_14
-      - ç¾�åœ‹_6
-      - ç¾�åœ‹_7
-      - è‹±åœ‹_15
-      - äº�å¤ªåœ°å�€_2
-      - è‹±åœ‹_16
-      - è‹±åœ‹_17
-      - è‹±åœ‹_18
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_19
-      - è‹±åœ‹_20
-      - è‹±åœ‹_21
-      - ç¾�åœ‹_8
-      - è‹±åœ‹_22
-      - ç¾�åœ‹ç¯€é»�_1
-      - è‹±åœ‹_23
-      - ç¾�åœ‹_9
-      - è‹±åœ‹_24
-      - è‹±åœ‹_25
-      - è‹±åœ‹ç¯€é»�_2
-      - è‹±åœ‹_26
-      - æ„�å¤§åˆ©ä¸¨yoyapai.com
-      - è‹±åœ‹ç¯€é»�_3
-      - å¾·åœ‹
-      - è‹±åœ‹_27
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_1
       - ç¾�åœ‹ä¸¨yoyapai.com
-      - è‹±åœ‹_28
-      - è‹±åœ‹_29
-      - è‹±åœ‹_30
-      - è‹±åœ‹_31
-      - è‹±åœ‹_32
-      - è‹±åœ‹_33
-      - ç«‹é™¶å®›ç¯€é»�ğŸ‡±ğŸ‡¹LTä¸¨yoyapai.com
-      - ç¾�åœ‹_10
-      - è‹±åœ‹_34
-      - è¥¿ç�­ç‰™ç¯€é»�ğŸ‡ªğŸ‡¸ESä¸¨yoyapai.com
-      - ğŸ‡©ğŸ‡ªDEå¾·åœ‹ä¸¨yoyapai.com
-      - ç¾�åœ‹ä¸¨yoyapai.com_1
-      - ç¾�åœ‹ä¸¨yoyapai.com_2
-      - è‹±åœ‹_35
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_36
-      - è‹±åœ‹_37
-      - å¾·åœ‹_1
-      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_38
-      - ç¾�åœ‹ä¸¨yoyapai.com_3
-      - é¦™æ¸¯ä¸¨yoyapai.com
-      - å¾·åœ‹_2
-      - è‹±åœ‹_39
-      - ç¾�åœ‹ä¸¨yoyapai.com_4
-      - ç¾�åœ‹_11
-      - ç¾�åœ‹_12
-      - è‹±åœ‹_40
-      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
-      - åŒˆç‰™åˆ©ç¯€é»�ä¸¨yoyapai.com
-      - ç¾�åœ‹ä¸¨yoyapai.com_5
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_2
-      - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
-      - æ„�å¤§åˆ©ç¯€é»�ğŸ‡®ğŸ‡¹ITä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_3
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_2
-      - äº�å¤ªåœ°å�€_3
-      - ç¾�åœ‹ä¸¨yoyapai.com_6
-      - ç¾�åœ‹ç¯€é»�_2
-      - ğŸ‡·ğŸ‡ºRUä¿„ç¾…æ–¯ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
-      - æ‹‰è„«ç¶­äº�ä¸¨yoyapai.com
+      - è‹±åœ‹_15
       - ğŸ‡±ğŸ‡»LVæ‹‰è„«ç¶­äº�ç¯€é»�ä¸¨yoyapai.com
-      - æ�·å…‹ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡ºğŸ‡¸_US_ç¾�å›½
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_10
+      - ç¾�åœ‹ç¯€é»�_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_16
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_11
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_12
+      - å¾·åœ‹_2
+      - è‹±åœ‹_16
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_13
       - æ³•åœ‹ç¯€é»�ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_3
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_14
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_17
+      - ğŸ‡·ğŸ‡ºRUä¿„ç¾…æ–¯ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_15
+      - ç¾�åœ‹ä¸¨yoyapai.com_1
+      - ç‘�å…¸ä¸¨yoyapai.com
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_18
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_16
       - å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_17
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com
+      - äº�å¤ªåœ°å�€
+      - è‹±åœ‹_17
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_19
+      - äº�å¤ªåœ°å�€_1
+      - æ–°åŠ å�¡ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_18
+      - ç¾�åœ‹_5
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_1
+      - åŒˆç‰™åˆ©ç¯€é»�ä¸¨yoyapai.com
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_1
       - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
+      - ç«‹é™¶å®›ç¯€é»�ğŸ‡±ğŸ‡¹LTä¸¨yoyapai.com
+      - æ�·å…‹ç¯€é»�ä¸¨yoyapai.com
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com
+      - ç¾�åœ‹_6
       - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_1
+      - æ„�å¤§åˆ©ä¸¨yoyapai.com
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_2
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_3
       - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_2
-      - ç¾�åœ‹ä¸¨yoyapai.com_7
-      - ç¾�åœ‹ä¸¨yoyapai.com_8
-      - ç¾�åœ‹ä¸¨yoyapai.com_9
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_4
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_2
+      - è¥¿ç�­ç‰™ç¯€é»�ğŸ‡ªğŸ‡¸ESä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_19
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_3
+      - ç¾�åœ‹ç¯€é»�_2
+      - äº�å¤ªåœ°å�€_2
+      - äº�å¤ªåœ°å�€_3
+      - ä¸¹éº¥ç¯€é»�ğŸ‡©ğŸ‡°DKä¸¨yoyapai.com
+      - åŠ æ‹¿å¤§ä¸¨yoyapai.com
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_2
+      - ç¾�åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com_1
       - äº�å¤ªåœ°å�€_4
       - äº�å¤ªåœ°å�€_5
+      - ç¾�åœ‹ä¸¨yoyapai.com_3
       - äº�å¤ªåœ°å�€_6
       - äº�å¤ªåœ°å�€_7
-      - ç¾�åœ‹ä¸¨yoyapai.com_10
+      - ç¾�åœ‹ä¸¨yoyapai.com_4
       - äº�å¤ªåœ°å�€_8
+      - ç¾�åœ‹ä¸¨yoyapai.com_5
       - äº�å¤ªåœ°å�€_9
-      - æ³•åœ‹_1
-      - ç¾�åœ‹_13
-      - ç¾�åœ‹_14
-      - ç¾�åœ‹_15
-      - ç¾�åœ‹_16
-      - ç¾�åœ‹_17
-      - é¦™æ¸¯ç¯€é»�
-      - é¦™æ¸¯ç¯€é»�_1
-      - é¦™æ¸¯ç¯€é»�_2
-      - é¦™æ¸¯ç¯€é»�_3
-      - è‹±åœ‹_41
-      - è‹±åœ‹_42
-      - è‹±åœ‹_43
-      - è‹±åœ‹_44
-      - è‹±åœ‹_45
   - name: ğŸ�� è‹¹æ�œæœ�åŠ¡
     type: select
     proxies:
       - ğŸš€ èŠ‚ç‚¹é€‰æ‹©
       - ğŸ�¯ å…¨ç�ƒç›´è¿�
+      - ğŸ‡ªğŸ‡ªEEæ„›æ²™å°¼äº�ä¸¨yoyapai.com
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡¨ğŸ‡³ TWè‡ºç�£ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_3
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_4
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_5
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_6
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_7
       - æ–°åŠ å�¡ä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_1
-      - ç‘�å…¸ä¸¨yoyapai.com
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com
-      - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com
-      - äº�å¤ªåœ°å�€
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_8
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_9
+      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_1
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_1
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_3
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_4
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_5
+      - ğŸ‡§ğŸ‡ªBEæ¯”åˆ©æ™‚ä¸¨yoyapai.com
       - å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_6
+      - æ„�å¤§åˆ©ç¯€é»�ğŸ‡®ğŸ‡¹ITä¸¨yoyapai.com
       - è‹±åœ‹
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_3
+      - è‹±åœ‹ç¯€é»�
+      - è‹±åœ‹ç¯€é»�_1
+      - ğŸ‡¬ğŸ‡§ è‹±åœ‹
       - è‹±åœ‹_1
       - è‹±åœ‹_2
-      - ä¸¹éº¥ç¯€é»�ğŸ‡©ğŸ‡°DKä¸¨yoyapai.com
-      - æ³•åœ‹
+      - ç¾�åœ‹
       - è‹±åœ‹_3
+      - è‹±åœ‹_4
+      - è‹±åœ‹_5
+      - ç¾�åœ‹_1
+      - ç¾�åœ‹ç¯€é»�
+      - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_7
+      - è‹±åœ‹ç¯€é»�_2
+      - è‹±åœ‹_6
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_10
       - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com_1
       - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com_2
-      - ç¾�åœ‹
-      - ç¾�åœ‹_1
-      - è‹±åœ‹_4
+      - è‹±åœ‹_7
+      - ğŸ‡¨ğŸ‡­CHç‘�å£«ä¸¨yoyapai.com
+      - ğŸ‡©ğŸ‡°DKä¸¹éº¥ä¸¨yoyapai.com
+      - è‹±åœ‹_8
+      - ğŸ‡¨ğŸ‡­CHè‡ºç�£ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_11
+      - è‹±åœ‹_9
+      - è‹±åœ‹_10
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_12
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_13
+      - è‹±åœ‹_11
+      - ğŸ‡µğŸ‡±PLæ³¢è˜­ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ä¸¨yoyapai.com
+      - å¾·åœ‹
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_14
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_15
+      - è‹±åœ‹_12
+      - å¾·åœ‹_1
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡±ğŸ‡¹LTç«‹é™¶å®›ä¸¨yoyapai.com
       - ç¾�åœ‹_2
-      - è‹±åœ‹_5
-      - è‹±åœ‹_6
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com
+      - è‹±åœ‹_13
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_8
+      - æ‹‰è„«ç¶­äº�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_9
       - ç¾�åœ‹_3
       - ç¾�åœ‹_4
-      - è‹±åœ‹_7
-      - è‹±åœ‹_8
-      - è‹±åœ‹_9
-      - è‹±åœ‹ç¯€é»�
-      - ğŸ‡¬ğŸ‡§ GBè‹±åœ‹
-      - ç¾�åœ‹_5
-      - è‹±åœ‹_10
-      - è‹±åœ‹_11
-      - è‹±åœ‹_12
-      - äº�å¤ªåœ°å�€_1
-      - è‹±åœ‹ç¯€é»�_1
-      - ç¾�åœ‹ç¯€é»�
-      - è‹±åœ‹_13
       - è‹±åœ‹_14
-      - ç¾�åœ‹_6
-      - ç¾�åœ‹_7
-      - è‹±åœ‹_15
-      - äº�å¤ªåœ°å�€_2
-      - è‹±åœ‹_16
-      - è‹±åœ‹_17
-      - è‹±åœ‹_18
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_19
-      - è‹±åœ‹_20
-      - è‹±åœ‹_21
-      - ç¾�åœ‹_8
-      - è‹±åœ‹_22
-      - ç¾�åœ‹ç¯€é»�_1
-      - è‹±åœ‹_23
-      - ç¾�åœ‹_9
-      - è‹±åœ‹_24
-      - è‹±åœ‹_25
-      - è‹±åœ‹ç¯€é»�_2
-      - è‹±åœ‹_26
-      - æ„�å¤§åˆ©ä¸¨yoyapai.com
-      - è‹±åœ‹ç¯€é»�_3
-      - å¾·åœ‹
-      - è‹±åœ‹_27
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_1
       - ç¾�åœ‹ä¸¨yoyapai.com
-      - è‹±åœ‹_28
-      - è‹±åœ‹_29
-      - è‹±åœ‹_30
-      - è‹±åœ‹_31
-      - è‹±åœ‹_32
-      - è‹±åœ‹_33
-      - ç«‹é™¶å®›ç¯€é»�ğŸ‡±ğŸ‡¹LTä¸¨yoyapai.com
-      - ç¾�åœ‹_10
-      - è‹±åœ‹_34
-      - è¥¿ç�­ç‰™ç¯€é»�ğŸ‡ªğŸ‡¸ESä¸¨yoyapai.com
-      - ğŸ‡©ğŸ‡ªDEå¾·åœ‹ä¸¨yoyapai.com
-      - ç¾�åœ‹ä¸¨yoyapai.com_1
-      - ç¾�åœ‹ä¸¨yoyapai.com_2
-      - è‹±åœ‹_35
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_36
-      - è‹±åœ‹_37
-      - å¾·åœ‹_1
-      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_38
-      - ç¾�åœ‹ä¸¨yoyapai.com_3
-      - é¦™æ¸¯ä¸¨yoyapai.com
-      - å¾·åœ‹_2
-      - è‹±åœ‹_39
-      - ç¾�åœ‹ä¸¨yoyapai.com_4
-      - ç¾�åœ‹_11
-      - ç¾�åœ‹_12
-      - è‹±åœ‹_40
-      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
-      - åŒˆç‰™åˆ©ç¯€é»�ä¸¨yoyapai.com
-      - ç¾�åœ‹ä¸¨yoyapai.com_5
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_2
-      - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
-      - æ„�å¤§åˆ©ç¯€é»�ğŸ‡®ğŸ‡¹ITä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_3
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_2
-      - äº�å¤ªåœ°å�€_3
-      - ç¾�åœ‹ä¸¨yoyapai.com_6
-      - ç¾�åœ‹ç¯€é»�_2
-      - ğŸ‡·ğŸ‡ºRUä¿„ç¾…æ–¯ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
-      - æ‹‰è„«ç¶­äº�ä¸¨yoyapai.com
+      - è‹±åœ‹_15
       - ğŸ‡±ğŸ‡»LVæ‹‰è„«ç¶­äº�ç¯€é»�ä¸¨yoyapai.com
-      - æ�·å…‹ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡ºğŸ‡¸_US_ç¾�å›½
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_10
+      - ç¾�åœ‹ç¯€é»�_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_16
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_11
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_12
+      - å¾·åœ‹_2
+      - è‹±åœ‹_16
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_13
       - æ³•åœ‹ç¯€é»�ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_3
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_14
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_17
+      - ğŸ‡·ğŸ‡ºRUä¿„ç¾…æ–¯ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_15
+      - ç¾�åœ‹ä¸¨yoyapai.com_1
+      - ç‘�å…¸ä¸¨yoyapai.com
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_18
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_16
       - å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_17
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com
+      - äº�å¤ªåœ°å�€
+      - è‹±åœ‹_17
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_19
+      - äº�å¤ªåœ°å�€_1
+      - æ–°åŠ å�¡ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_18
+      - ç¾�åœ‹_5
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_1
+      - åŒˆç‰™åˆ©ç¯€é»�ä¸¨yoyapai.com
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_1
       - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
+      - ç«‹é™¶å®›ç¯€é»�ğŸ‡±ğŸ‡¹LTä¸¨yoyapai.com
+      - æ�·å…‹ç¯€é»�ä¸¨yoyapai.com
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com
+      - ç¾�åœ‹_6
       - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_1
+      - æ„�å¤§åˆ©ä¸¨yoyapai.com
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_2
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_3
       - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_2
-      - ç¾�åœ‹ä¸¨yoyapai.com_7
-      - ç¾�åœ‹ä¸¨yoyapai.com_8
-      - ç¾�åœ‹ä¸¨yoyapai.com_9
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_4
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_2
+      - è¥¿ç�­ç‰™ç¯€é»�ğŸ‡ªğŸ‡¸ESä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_19
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_3
+      - ç¾�åœ‹ç¯€é»�_2
+      - äº�å¤ªåœ°å�€_2
+      - äº�å¤ªåœ°å�€_3
+      - ä¸¹éº¥ç¯€é»�ğŸ‡©ğŸ‡°DKä¸¨yoyapai.com
+      - åŠ æ‹¿å¤§ä¸¨yoyapai.com
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_2
+      - ç¾�åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com_1
       - äº�å¤ªåœ°å�€_4
       - äº�å¤ªåœ°å�€_5
+      - ç¾�åœ‹ä¸¨yoyapai.com_3
       - äº�å¤ªåœ°å�€_6
       - äº�å¤ªåœ°å�€_7
-      - ç¾�åœ‹ä¸¨yoyapai.com_10
+      - ç¾�åœ‹ä¸¨yoyapai.com_4
       - äº�å¤ªåœ°å�€_8
+      - ç¾�åœ‹ä¸¨yoyapai.com_5
       - äº�å¤ªåœ°å�€_9
-      - æ³•åœ‹_1
-      - ç¾�åœ‹_13
-      - ç¾�åœ‹_14
-      - ç¾�åœ‹_15
-      - ç¾�åœ‹_16
-      - ç¾�åœ‹_17
-      - é¦™æ¸¯ç¯€é»�
-      - é¦™æ¸¯ç¯€é»�_1
-      - é¦™æ¸¯ç¯€é»�_2
-      - é¦™æ¸¯ç¯€é»�_3
-      - è‹±åœ‹_41
-      - è‹±åœ‹_42
-      - è‹±åœ‹_43
-      - è‹±åœ‹_44
-      - è‹±åœ‹_45
   - name: ğŸ�¯ å…¨ç�ƒç›´è¿�
     type: select
     proxies:
@@ -2503,149 +2768,156 @@ proxy-groups:
       - ğŸš€ èŠ‚ç‚¹é€‰æ‹©
       - ğŸ�¯ å…¨ç�ƒç›´è¿�
       - â™»ï¸� è‡ªåŠ¨é€‰æ‹©
+      - ğŸ‡ªğŸ‡ªEEæ„›æ²™å°¼äº�ä¸¨yoyapai.com
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡¨ğŸ‡³ TWè‡ºç�£ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_3
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_4
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_5
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_6
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_7
       - æ–°åŠ å�¡ä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_1
-      - ç‘�å…¸ä¸¨yoyapai.com
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com
-      - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com
-      - äº�å¤ªåœ°å�€
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_8
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_9
+      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_1
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_1
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_3
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_4
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_5
+      - ğŸ‡§ğŸ‡ªBEæ¯”åˆ©æ™‚ä¸¨yoyapai.com
       - å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_6
+      - æ„�å¤§åˆ©ç¯€é»�ğŸ‡®ğŸ‡¹ITä¸¨yoyapai.com
       - è‹±åœ‹
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_3
+      - è‹±åœ‹ç¯€é»�
+      - è‹±åœ‹ç¯€é»�_1
+      - ğŸ‡¬ğŸ‡§ è‹±åœ‹
       - è‹±åœ‹_1
       - è‹±åœ‹_2
-      - ä¸¹éº¥ç¯€é»�ğŸ‡©ğŸ‡°DKä¸¨yoyapai.com
-      - æ³•åœ‹
+      - ç¾�åœ‹
       - è‹±åœ‹_3
+      - è‹±åœ‹_4
+      - è‹±åœ‹_5
+      - ç¾�åœ‹_1
+      - ç¾�åœ‹ç¯€é»�
+      - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_7
+      - è‹±åœ‹ç¯€é»�_2
+      - è‹±åœ‹_6
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_10
       - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com_1
       - æ³°åœ‹ç¯€é»�ä¸¨yoyapai.com_2
-      - ç¾�åœ‹
-      - ç¾�åœ‹_1
-      - è‹±åœ‹_4
+      - è‹±åœ‹_7
+      - ğŸ‡¨ğŸ‡­CHç‘�å£«ä¸¨yoyapai.com
+      - ğŸ‡©ğŸ‡°DKä¸¹éº¥ä¸¨yoyapai.com
+      - è‹±åœ‹_8
+      - ğŸ‡¨ğŸ‡­CHè‡ºç�£ä¸¨yoyapai.com
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_11
+      - è‹±åœ‹_9
+      - è‹±åœ‹_10
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_12
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_13
+      - è‹±åœ‹_11
+      - ğŸ‡µğŸ‡±PLæ³¢è˜­ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ä¸¨yoyapai.com
+      - å¾·åœ‹
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_14
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_15
+      - è‹±åœ‹_12
+      - å¾·åœ‹_1
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡±ğŸ‡¹LTç«‹é™¶å®›ä¸¨yoyapai.com
       - ç¾�åœ‹_2
-      - è‹±åœ‹_5
-      - è‹±åœ‹_6
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com
+      - è‹±åœ‹_13
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_8
+      - æ‹‰è„«ç¶­äº�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_9
       - ç¾�åœ‹_3
       - ç¾�åœ‹_4
-      - è‹±åœ‹_7
-      - è‹±åœ‹_8
-      - è‹±åœ‹_9
-      - è‹±åœ‹ç¯€é»�
-      - ğŸ‡¬ğŸ‡§ GBè‹±åœ‹
-      - ç¾�åœ‹_5
-      - è‹±åœ‹_10
-      - è‹±åœ‹_11
-      - è‹±åœ‹_12
-      - äº�å¤ªåœ°å�€_1
-      - è‹±åœ‹ç¯€é»�_1
-      - ç¾�åœ‹ç¯€é»�
-      - è‹±åœ‹_13
       - è‹±åœ‹_14
-      - ç¾�åœ‹_6
-      - ç¾�åœ‹_7
-      - è‹±åœ‹_15
-      - äº�å¤ªåœ°å�€_2
-      - è‹±åœ‹_16
-      - è‹±åœ‹_17
-      - è‹±åœ‹_18
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_19
-      - è‹±åœ‹_20
-      - è‹±åœ‹_21
-      - ç¾�åœ‹_8
-      - è‹±åœ‹_22
-      - ç¾�åœ‹ç¯€é»�_1
-      - è‹±åœ‹_23
-      - ç¾�åœ‹_9
-      - è‹±åœ‹_24
-      - è‹±åœ‹_25
-      - è‹±åœ‹ç¯€é»�_2
-      - è‹±åœ‹_26
-      - æ„�å¤§åˆ©ä¸¨yoyapai.com
-      - è‹±åœ‹ç¯€é»�_3
-      - å¾·åœ‹
-      - è‹±åœ‹_27
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_1
       - ç¾�åœ‹ä¸¨yoyapai.com
-      - è‹±åœ‹_28
-      - è‹±åœ‹_29
-      - è‹±åœ‹_30
-      - è‹±åœ‹_31
-      - è‹±åœ‹_32
-      - è‹±åœ‹_33
-      - ç«‹é™¶å®›ç¯€é»�ğŸ‡±ğŸ‡¹LTä¸¨yoyapai.com
-      - ç¾�åœ‹_10
-      - è‹±åœ‹_34
-      - è¥¿ç�­ç‰™ç¯€é»�ğŸ‡ªğŸ‡¸ESä¸¨yoyapai.com
-      - ğŸ‡©ğŸ‡ªDEå¾·åœ‹ä¸¨yoyapai.com
-      - ç¾�åœ‹ä¸¨yoyapai.com_1
-      - ç¾�åœ‹ä¸¨yoyapai.com_2
-      - è‹±åœ‹_35
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_36
-      - è‹±åœ‹_37
-      - å¾·åœ‹_1
-      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com
-      - è‹±åœ‹_38
-      - ç¾�åœ‹ä¸¨yoyapai.com_3
-      - é¦™æ¸¯ä¸¨yoyapai.com
-      - å¾·åœ‹_2
-      - è‹±åœ‹_39
-      - ç¾�åœ‹ä¸¨yoyapai.com_4
-      - ç¾�åœ‹_11
-      - ç¾�åœ‹_12
-      - è‹±åœ‹_40
-      - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
-      - åŒˆç‰™åˆ©ç¯€é»�ä¸¨yoyapai.com
-      - ç¾�åœ‹ä¸¨yoyapai.com_5
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_2
-      - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
-      - æ„�å¤§åˆ©ç¯€é»�ğŸ‡®ğŸ‡¹ITä¸¨yoyapai.com
-      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_3
-      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_2
-      - äº�å¤ªåœ°å�€_3
-      - ç¾�åœ‹ä¸¨yoyapai.com_6
-      - ç¾�åœ‹ç¯€é»�_2
-      - ğŸ‡·ğŸ‡ºRUä¿„ç¾…æ–¯ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
-      - æ‹‰è„«ç¶­äº�ä¸¨yoyapai.com
+      - è‹±åœ‹_15
       - ğŸ‡±ğŸ‡»LVæ‹‰è„«ç¶­äº�ç¯€é»�ä¸¨yoyapai.com
-      - æ�·å…‹ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡ºğŸ‡¸_US_ç¾�å›½
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_10
+      - ç¾�åœ‹ç¯€é»�_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_16
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_11
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_12
+      - å¾·åœ‹_2
+      - è‹±åœ‹_16
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_13
       - æ³•åœ‹ç¯€é»�ä¸¨yoyapai.com
-      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_3
-      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_14
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_17
+      - ğŸ‡·ğŸ‡ºRUä¿„ç¾…æ–¯ä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_15
+      - ç¾�åœ‹ä¸¨yoyapai.com_1
+      - ç‘�å…¸ä¸¨yoyapai.com
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_18
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_16
       - å¥§åœ°åˆ©ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_17
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com
+      - äº�å¤ªåœ°å�€
+      - è‹±åœ‹_17
+      - ğŸ‡°ğŸ‡·KRéŸ“åœ‹ä¸¨yoyapai.com_19
+      - äº�å¤ªåœ°å�€_1
+      - æ–°åŠ å�¡ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_18
+      - ç¾�åœ‹_5
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_1
+      - åŒˆç‰™åˆ©ç¯€é»�ä¸¨yoyapai.com
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_1
       - ğŸ‡¸ğŸ‡ªSEç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
+      - ç«‹é™¶å®›ç¯€é»�ğŸ‡±ğŸ‡¹LTä¸¨yoyapai.com
+      - æ�·å…‹ç¯€é»�ä¸¨yoyapai.com
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_1
+      - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com
+      - ç¾�åœ‹_6
       - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_1
+      - æ„�å¤§åˆ©ä¸¨yoyapai.com
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_2
+      - ä¿„ç¾…æ–¯ç¯€é»�ä¸¨yoyapai.com_3
       - ğŸ‡·ğŸ‡´ROç¾…é¦¬å°¼äº�ç¯€é»�ä¸¨yoyapai.com_2
-      - ç¾�åœ‹ä¸¨yoyapai.com_7
-      - ç¾�åœ‹ä¸¨yoyapai.com_8
-      - ç¾�åœ‹ä¸¨yoyapai.com_9
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com
+      - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_4
+      - ç‘�å£«ç¯€é»�ä¸¨yoyapai.com_2
+      - è¥¿ç�­ç‰™ç¯€é»�ğŸ‡ªğŸ‡¸ESä¸¨yoyapai.com
+      - ğŸ‡³ğŸ‡±NLè�·è˜­ä¸¨yoyapai.com_19
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_2
+      - ç‘�å…¸ç¯€é»�ä¸¨yoyapai.com_3
+      - ç¾�åœ‹ç¯€é»�_2
+      - äº�å¤ªåœ°å�€_2
+      - äº�å¤ªåœ°å�€_3
+      - ä¸¹éº¥ç¯€é»�ğŸ‡©ğŸ‡°DKä¸¨yoyapai.com
+      - åŠ æ‹¿å¤§ä¸¨yoyapai.com
+      - è�·è˜­ç¯€é»�ä¸¨yoyapai.com_2
+      - ç¾�åœ‹ä¸¨yoyapai.com_2
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ç¯€é»�ä¸¨yoyapai.com_1
       - äº�å¤ªåœ°å�€_4
       - äº�å¤ªåœ°å�€_5
+      - ç¾�åœ‹ä¸¨yoyapai.com_3
       - äº�å¤ªåœ°å�€_6
       - äº�å¤ªåœ°å�€_7
-      - ç¾�åœ‹ä¸¨yoyapai.com_10
+      - ç¾�åœ‹ä¸¨yoyapai.com_4
       - äº�å¤ªåœ°å�€_8
+      - ç¾�åœ‹ä¸¨yoyapai.com_5
       - äº�å¤ªåœ°å�€_9
-      - æ³•åœ‹_1
-      - ç¾�åœ‹_13
-      - ç¾�åœ‹_14
-      - ç¾�åœ‹_15
-      - ç¾�åœ‹_16
-      - ç¾�åœ‹_17
-      - é¦™æ¸¯ç¯€é»�
-      - é¦™æ¸¯ç¯€é»�_1
-      - é¦™æ¸¯ç¯€é»�_2
-      - é¦™æ¸¯ç¯€é»�_3
-      - è‹±åœ‹_41
-      - è‹±åœ‹_42
-      - è‹±åœ‹_43
-      - è‹±åœ‹_44
-      - è‹±åœ‹_45
 rule-providers:
   LocalAreaNetwork:
     type: http

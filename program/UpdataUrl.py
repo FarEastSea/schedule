@@ -90,14 +90,6 @@ class VPN:
 a = VPN(
 #'https://clashnode.com/wp-content/uploads/2023/07/20230721.yaml',
 
-'https://v2rayshare.githubrowcontent.com/2025/07/20250719.txt',
-
-'https://v2rayshare.githubrowcontent.com/2025/07/20250719.yaml',
-
-'https://nodefree.githubrowcontent.com/2025/07/20250719.txt',
-
-'https://nodefree.githubrowcontent.com/2025/07/20250719.yaml',
-
 'https://www.freeclashnode.com/uploads/2024/05/0-20240531.txt',
 
 'https://node.freeclashnode.com/uploads/2025/07/0-20250719.yaml'

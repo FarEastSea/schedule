@@ -32,35 +32,46 @@ dns:
       - https://1.1.1.1/dns-query#ğŸš€ èŠ‚ç‚¹é€‰æ‹©
       - https://8.8.8.8/dns-query#ğŸš€ èŠ‚ç‚¹é€‰æ‹©
 proxies:
-  - name: ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com
     type: vless
-    server: crimson-smoke-7818.397.workers.dev
-    port: 8880
-    uuid: d6bdda67-168d-4501-a2c1-ef01070cb327
+    server: hinet1.2yly.com
+    port: 24215
+    uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+    servername: addons.mozilla.org
+    tls: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+    skip-cert-verify: false
+    udp: true
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_1
+    type: vless
+    server: sg2-8sb.6121999.dpdns.org
+    port: 19825
+    uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+    servername: sg2-8sb.6121999.dpdns.org
+    tls: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+      short-id: 6ba85179e30d4fc2
+    skip-cert-verify: false
+    udp: true
+  - name: ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com
+    type: vless
+    server: www.iplocation.net
+    port: 8080
+    uuid: 5c4ce4e3-d4cd-43ff-8eb0-9aa553410bff
     network: ws
     tls: false
     ws-opts:
-      path: /pyip=ProxyIP.KR.CMLiussss.net
+      path: /
+      headers:
+        Host: n23odi-jolly-sound-f784.mbkl61es.workers.dev
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com
-    type: vless
-    server: dey.lnmarketplace.net
-    port: 443
-    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-    network: xhttp
-    servername: dey.lnmarketplace.net
-    tls: true
-    client-fingerprint: chrome
-    alpn:
-      - h2
-    xhttp-opts:
-      path: /kavir
-      host: dey.lnmarketplace.net
-      mode: stream-one
-    skip-cert-verify: false
-    udp: true
-  - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_2
     type: vless
     server: dey.lnmarketplace.net
     port: 443
@@ -77,24 +88,7 @@ proxies:
       mode: stream-one
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_1
-    type: vless
-    server: dey.lnmarketplace.net
-    port: 443
-    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-    network: xhttp
-    servername: dey.lnmarketplace.net
-    tls: true
-    client-fingerprint: chrome
-    alpn:
-      - h2
-    xhttp-opts:
-      path: /kavir
-      host: dey.lnmarketplace.net
-      mode: stream-one
-    skip-cert-verify: false
-    udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_2
+  - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com
     type: vless
     server: dey.lnmarketplace.net
     port: 443
@@ -128,21 +122,140 @@ proxies:
       mode: stream-one
     skip-cert-verify: false
     udp: true
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_4
+    type: vless
+    server: dey.lnmarketplace.net
+    port: 443
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    network: xhttp
+    servername: dey.lnmarketplace.net
+    tls: true
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    xhttp-opts:
+      path: /kavir
+      host: dey.lnmarketplace.net
+      mode: stream-one
+    skip-cert-verify: false
+    udp: true
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_5
+    type: vless
+    server: dey.lnmarketplace.net
+    port: 443
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    network: xhttp
+    servername: dey.lnmarketplace.net
+    tls: true
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    xhttp-opts:
+      path: /kavir
+      host: dey.lnmarketplace.net
+      mode: stream-one
+    skip-cert-verify: false
+    udp: true
   - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_1
     type: vless
     server: dey.lnmarketplace.net
     port: 443
     uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
     network: xhttp
+    servername: dey.lnmarketplace.net
+    tls: true
+    client-fingerprint: firefox
+    alpn:
+      - h2
+    xhttp-opts:
+      path: /kavir
+      host: dey.lnmarketplace.net
+      mode: stream-one
+    skip-cert-verify: false
+    udp: true
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_6
+    type: vless
+    server: dey.lnmarketplace.net
+    port: 443
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    network: xhttp
+    servername: dey.lnmarketplace.net
+    tls: true
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    xhttp-opts:
+      path: /kavir
+      host: dey.lnmarketplace.net
+      mode: stream-one
+    skip-cert-verify: false
+    udp: true
+  - name: ğŸ‡ºğŸ‡¸ç¾�å›½ä¸¨yoyapai.com
+    type: vless
+    server: dey.lnmarketplace.net
+    port: 443
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    network: xhttp
+    servername: dey.lnmarketplace.net
     tls: true
     alpn:
       - h2
     xhttp-opts:
       path: /kavir
+      host: dey.lnmarketplace.net
       mode: stream-one
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_4
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_7
+    type: vless
+    server: dey.lnmarketplace.net
+    port: 443
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    network: xhttp
+    servername: dey.lnmarketplace.net
+    tls: true
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    xhttp-opts:
+      path: /kavir
+      host: dey.lnmarketplace.net
+      mode: stream-one
+    skip-cert-verify: false
+    udp: true
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_8
+    type: vless
+    server: dey.lnmarketplace.net
+    port: 443
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    network: xhttp
+    servername: dey.lnmarketplace.net
+    tls: true
+    client-fingerprint: chrome
+    alpn:
+      - h2
+    xhttp-opts:
+      path: /kavir
+      host: dey.lnmarketplace.net
+      mode: stream-one
+    skip-cert-verify: false
+    udp: true
+  - name: ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com
+    type: vless
+    server: dey.lnmarketplace.net
+    port: 443
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    network: xhttp
+    servername: dey.lnmarketplace.net
+    tls: true
+    client-fingerprint: chrome
+    xhttp-opts:
+      path: /kavir
+      host: dey.lnmarketplace.net
+      mode: stream-one
+    skip-cert-verify: false
+    udp: true
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_9
     type: vless
     server: dey.lnmarketplace.net
     port: 443
@@ -176,23 +289,6 @@ proxies:
       mode: stream-one
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
-    type: vless
-    server: dey.lnmarketplace.net
-    port: 443
-    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-    network: xhttp
-    servername: dey.lnmarketplace.net
-    tls: true
-    client-fingerprint: firefox
-    alpn:
-      - h2
-    xhttp-opts:
-      path: /kavir
-      host: dey.lnmarketplace.net
-      mode: stream-one
-    skip-cert-verify: false
-    udp: true
   - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_3
     type: vless
     server: dey.lnmarketplace.net
@@ -210,49 +306,21 @@ proxies:
       mode: stream-one
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com
-    type: vless
-    server: crimson-smoke-7818.397.workers.dev
-    port: 8880
-    uuid: d6bdda67-168d-4501-a2c1-ef01070cb327
-    network: ws
-    tls: false
-    ws-opts:
-      path: /pyip=ProxyIP.KR.CMLiussss.net
-    skip-cert-verify: false
-    udp: true
-  - name: ğŸ‡ºğŸ‡¸ç¾�å›½ä¸¨yoyapai.com
+  - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_4
     type: vless
     server: dey.lnmarketplace.net
     port: 443
     uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
     network: xhttp
-    servername: dey.lnmarketplace.net
     tls: true
     alpn:
       - h2
     xhttp-opts:
       path: /kavir
-      host: dey.lnmarketplace.net
       mode: stream-one
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com
-    type: vless
-    server: dey.lnmarketplace.net
-    port: 443
-    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-    network: xhttp
-    servername: dey.lnmarketplace.net
-    tls: true
-    client-fingerprint: chrome
-    xhttp-opts:
-      path: /kavir
-      host: dey.lnmarketplace.net
-      mode: stream-one
-    skip-cert-verify: false
-    udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_5
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_10
     type: vless
     server: dey.lnmarketplace.net
     port: 443
@@ -269,56 +337,138 @@ proxies:
       mode: stream-one
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com
+  - name: ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
     type: vless
-    server: 172.67.79.160
-    port: 2087
-    uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
+    server: dey.lnmarketplace.net
+    port: 443
+    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+    network: xhttp
+    servername: dey.lnmarketplace.net
+    tls: true
+    client-fingerprint: firefox
+    alpn:
+      - h2
+    xhttp-opts:
+      path: /kavir
+      host: dey.lnmarketplace.net
+      mode: stream-one
+    skip-cert-verify: false
+    udp: true
+  - name: ğŸ‡¦ğŸ‡ªAEé˜¿è�”é…‹ä¸¨yoyapai.com
+    type: vless
+    server: zordbx861.233874.xyz
+    port: 8888
+    uuid: 46509b23-fe97-45b3-9c89-bd1b2a93bd4e
+    servername: addons.mozilla.org
+    tls: true
+    client-fingerprint: random
+    reality-opts:
+      public-key: vBSBoPYKiB5RZ9_jNPEdLnroJ2M7MKw0c1Rvh6-QmV4
+    skip-cert-verify: false
+    udp: true
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_11
+    type: trojan
+    server: 185.220.100.168
+    port: 443
+    password: humanity
+    sni: www.calmlunch.com
+    skip-cert-verify: false
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.calmlunch.com
+    udp: true
+  - name: ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com
+    type: vless
+    server: 195.137.226.11
+    port: 443
+    uuid: 54d67aa6-fe54-4b8e-b3b6-62b7e043eb35
+    network: xhttp
+    servername: mobile.zandix.ir
+    tls: true
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+      - h3
+    xhttp-opts:
+      path: /
+      host: mobile.zandix.ir
+      mode: auto
+    skip-cert-verify: false
+    udp: true
+  - name: ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+    type: vless
+    server: 104.21.28.176
+    port: 443
+    uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
     network: ws
-    servername: cvhpyn.pages.dev
     tls: true
     client-fingerprint: chrome
     ws-opts:
+      path: /Singapore1
+      headers:
+        Host: sg.lovehk.xyz
+    skip-cert-verify: false
+    udp: true
+  - name: ğŸ‡±ğŸ‡°LKæ–¯é‡Œå…°å�¡ä¸¨yoyapai.com
+    type: vless
+    server: support.zoom.us
+    port: 80
+    uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+    network: ws
+    tls: false
+    ws-opts:
       path: /
       headers:
-        Host: cvhpyn.pages.dev
+        Host: free.sahanwickramasinghe.me
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_6
+  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com
     type: vless
-    server: dey.lnmarketplace.net
+    server: 172.67.139.229
     port: 443
-    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-    network: xhttp
-    servername: dey.lnmarketplace.net
+    uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+    network: ws
     tls: true
     client-fingerprint: chrome
-    alpn:
-      - h2
-    xhttp-opts:
-      path: /kavir
-      host: dey.lnmarketplace.net
-      mode: stream-one
+    ws-opts:
+      path: /Dallas1
+      headers:
+        Host: usa.lovehk.xyz
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_7
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_12
     type: vless
-    server: dey.lnmarketplace.net
+    server: jp.sofast.live
+    port: 52683
+    uuid: 399b6b23-cc40-4831-a494-61948e2df133
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_13
+    type: vless
+    server: jp.sofast.live
+    port: 52683
+    uuid: 399b6b23-cc40-4831-a494-61948e2df133
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com
+    type: vless
+    server: 104.21.81.50
     port: 443
-    uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-    network: xhttp
-    servername: dey.lnmarketplace.net
+    uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+    network: ws
     tls: true
     client-fingerprint: chrome
-    alpn:
-      - h2
-    xhttp-opts:
-      path: /kavir
-      host: dey.lnmarketplace.net
-      mode: stream-one
+    ws-opts:
+      path: /Tokyo1
+      headers:
+        Host: jp.lovehk.xyz
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_4
+  - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_5
     type: vless
     server: c20s5.portablesubmarines.com
     port: 443
@@ -332,7 +482,7 @@ proxies:
       short-id: 051f20c2344a2dfd
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_5
+  - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_6
     type: vless
     server: c20s5.portablesubmarines.com
     port: 443
@@ -480,7 +630,7 @@ proxies:
       grpc-service-name: vless
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_8
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_14
     type: vless
     server: 89.35.14.34
     port: 443
@@ -496,7 +646,7 @@ proxies:
       short-id: aa9884f2982b7d3c
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_9
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_15
     type: vless
     server: 89.35.14.34
     port: 443
@@ -526,7 +676,7 @@ proxies:
       short-id: f5bc6788
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_10
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_16
     type: vless
     server: 89.35.14.34
     port: 443
@@ -558,7 +708,7 @@ proxies:
       short-id: aa9884f2982b7d3c
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_11
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_17
     type: vless
     server: jp.sofast.live
     port: 52683
@@ -566,7 +716,7 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_12
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_18
     type: vless
     server: jp.sofast.live
     port: 52683
@@ -574,7 +724,7 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_13
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_19
     type: vless
     server: jp.sofast.live
     port: 52683
@@ -582,7 +732,7 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_14
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_20
     type: vless
     server: jp.sofast.live
     port: 52683
@@ -976,7 +1126,7 @@ proxies:
         Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com
+  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_1
     type: vless
     server: 155.248.168.35
     port: 18122
@@ -990,7 +1140,7 @@ proxies:
         Host: notls.lukongtou.eu.org
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_1
+  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_2
     type: vless
     server: 38.47.96.220
     port: 11424
@@ -1488,7 +1638,7 @@ proxies:
         Host: ad-010.pixel9xdmq.info
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_2
+  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_3
     type: vless
     server: 2.27.27.64
     port: 443
@@ -2524,7 +2674,7 @@ proxies:
         Host: holy-breeze-0bac.47-dec.workers.dev
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_15
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_21
     type: vless
     server: 50.62.194.30
     port: 8880
@@ -2537,7 +2687,7 @@ proxies:
         Host: vms.lifetime37.workers.dev
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_16
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_22
     type: vless
     server: 91.206.71.8
     port: 80
@@ -2591,7 +2741,7 @@ proxies:
         Host: ld.223350.xyz
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_17
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_23
     type: vless
     server: 104.26.13.40
     port: 8880
@@ -2604,7 +2754,7 @@ proxies:
         Host: square-sea-01d1.339-be3.workers.dev
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+  - name: ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_1
     type: vless
     server: 45.40.149.50
     port: 8880
@@ -2617,7 +2767,7 @@ proxies:
         Host: vms.lifetime39.workers.dev
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_18
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_24
     type: vless
     server: www.true.th
     port: 443
@@ -2631,7 +2781,7 @@ proxies:
         Host: d1yxsk0zprgivr.cloudfront.net
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_19
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_25
     type: vless
     server: 185.148.107.40
     port: 8880
@@ -2644,7 +2794,7 @@ proxies:
         Host: vms.lifetime55.workers.dev
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_20
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_26
     type: trojan
     server: 104.26.14.137
     port: 443
@@ -2679,7 +2829,7 @@ proxies:
       mode: auto
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_21
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_27
     type: trojan
     server: 104.26.14.137
     port: 443
@@ -2689,7 +2839,7 @@ proxies:
     ws-opts:
       path: /assignment
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_22
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_28
     type: trojan
     server: 104.26.14.137
     port: 443
@@ -2699,7 +2849,7 @@ proxies:
     ws-opts:
       path: /assignment
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_23
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_29
     type: trojan
     server: 104.17.111.4
     port: 443
@@ -2729,7 +2879,7 @@ proxies:
     ws-opts:
       path: /assignment
     udp: true
-  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com
+  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_1
     type: trojan
     server: 216.24.57.7
     port: 443
@@ -2741,7 +2891,7 @@ proxies:
     ws-opts:
       path: /assignment
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_24
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_30
     type: trojan
     server: 104.18.152.143
     port: 443
@@ -2829,7 +2979,7 @@ proxies:
       short-id: a7f3c91b2e6d84c0
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_1
+  - name: ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_2
     type: vless
     server: 154.196.139.50
     port: 443
@@ -2843,7 +2993,7 @@ proxies:
       short-id: e53048e82bb20077
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_2
+  - name: ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_3
     type: vless
     server: 154.196.139.50
     port: 443
@@ -2879,7 +3029,7 @@ proxies:
     sni: russiapower.accesscam.org
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com
+  - name: ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_1
     type: vless
     server: 144.31.171.143
     port: 443
@@ -2893,7 +3043,7 @@ proxies:
       short-id: 00bca5982f82d083
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_1
+  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_2
     type: vless
     server: 200.165.228.51
     port: 2200
@@ -2934,7 +3084,7 @@ proxies:
         Host: forfreeuse.rtqa.ru
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_6
+  - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_7
     type: vless
     server: 185.18.52.77
     port: 2053
@@ -2949,7 +3099,7 @@ proxies:
         Host: forfreeuse.rtqa.ru
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_1
+  - name: ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_2
     type: vless
     server: 31.133.0.133
     port: 2053
@@ -2964,7 +3114,7 @@ proxies:
         Host: forfreeuse.rtqa.ru
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_2
+  - name: ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_3
     type: vless
     server: 31.133.0.103
     port: 2053
@@ -2978,7 +3128,7 @@ proxies:
         Host: forfreeuse.rtqa.ru
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_3
+  - name: ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_4
     type: vless
     server: 31.133.0.70
     port: 2053
@@ -2992,7 +3142,7 @@ proxies:
         Host: forfreeuse.rtqa.ru
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_7
+  - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_8
     type: vless
     server: 31.15.17.129
     port: 2053
@@ -3077,7 +3227,7 @@ proxies:
       short-id: dc8109baf0f607ea
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_2
+  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_3
     type: vless
     server: 165.231.150.12
     port: 443
@@ -3094,7 +3244,7 @@ proxies:
       mode: auto
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_3
+  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_4
     type: vless
     server: 84.75.220.239
     port: 443
@@ -3111,7 +3261,7 @@ proxies:
       mode: auto
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_4
+  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_5
     type: vless
     server: 84.75.221.12
     port: 443
@@ -3128,7 +3278,7 @@ proxies:
       mode: auto
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_5
+  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_6
     type: vless
     server: 84.75.221.12
     port: 443
@@ -3145,7 +3295,7 @@ proxies:
       mode: auto
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_6
+  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_7
     type: vless
     server: 84.75.221.12
     port: 443
@@ -3219,7 +3369,7 @@ proxies:
         Host: rubifen.adaspoloandco.com
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_25
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_31
     type: vless
     server: 185.227.70.162
     port: 8082
@@ -3234,7 +3384,7 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_26
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_32
     type: vless
     server: 185.227.70.42
     port: 8082
@@ -3249,7 +3399,7 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_27
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_33
     type: vless
     server: 5.178.85.233
     port: 2793
@@ -3265,7 +3415,7 @@ proxies:
       short-id: f94a4ac5
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_7
+  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_8
     type: vless
     server: 45.151.30.127
     port: 9873
@@ -3460,7 +3610,7 @@ proxies:
       short-id: c39cc7310a
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_28
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_34
     type: trojan
     server: 104.18.12.149
     port: 443
@@ -3470,7 +3620,7 @@ proxies:
     ws-opts:
       path: /assignment
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_29
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_35
     type: trojan
     server: 8.6.112.6
     port: 443
@@ -3480,7 +3630,7 @@ proxies:
     ws-opts:
       path: /assignment
     udp: true
-  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_8
+  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_9
     type: vless
     server: 199.232.78.159
     port: 443
@@ -3494,7 +3644,7 @@ proxies:
         Host: pan1.global.ssl.fastly.net
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_9
+  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_10
     type: vless
     server: 18.154.132.116
     port: 443
@@ -3509,7 +3659,7 @@ proxies:
         Host: d1yxsk0zprgivr.cloudfront.net
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_8
+  - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_9
     type: vless
     server: 185.109.48.13
     port: 2053
@@ -3523,7 +3673,7 @@ proxies:
         Host: forfreeuse.rtqa.ru
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_30
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_36
     type: vmess
     server: 2001:bc8:32d7:1a9::2
     port: 23388
@@ -3642,7 +3792,7 @@ proxies:
         Host: live.ok.ru
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_31
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_37
     type: vless
     server: 199.232.239.2
     port: 443
@@ -3659,7 +3809,7 @@ proxies:
       mode: packet-up
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_32
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_38
     type: vless
     server: 18.157.224.206
     port: 22224
@@ -3667,7 +3817,7 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_33
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_39
     type: vless
     server: 217.19.122.234
     port: 9001
@@ -3683,7 +3833,7 @@ proxies:
       short-id: 6ba85179e30d4fc2
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_34
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_40
     type: vless
     server: 45.151.30.127
     port: 9873
@@ -3724,7 +3874,7 @@ proxies:
         Host: /?--v2rayNplus--v2rayNplus--v2rayNplus--
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_3
+  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_4
     type: vless
     server: us22.sofast.live
     port: 58011
@@ -3770,7 +3920,7 @@ proxies:
     ws-opts:
       path: /assignment
     udp: true
-  - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_9
+  - name: ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_10
     type: vless
     server: 178.95.170.83
     port: 2087
@@ -3791,7 +3941,7 @@ proxies:
     ws-opts:
       path: /assignment
     udp: true
-  - name: ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com_1
+  - name: ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com
     type: vless
     server: 116.93.199.28
     port: 25524
@@ -3859,7 +4009,7 @@ proxies:
     ws-opts:
       path: /assignment
     udp: true
-  - name: ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_4
+  - name: ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_5
     type: vless
     server: 176.123.161.222
     port: 9892
@@ -3961,7 +4111,7 @@ proxies:
       short-id: "82"
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_10
+  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_11
     type: vless
     server: www.speedtest.net
     port: 443
@@ -3973,7 +4123,7 @@ proxies:
       path: /
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_5
+  - name: ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_6
     type: vless
     server: 194.93.63.246
     port: 443
@@ -3987,7 +4137,7 @@ proxies:
       short-id: 9c2378562188c3cb
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_3
+  - name: ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_4
     type: vless
     server: 47.131.189.221
     port: 443
@@ -4032,7 +4182,7 @@ proxies:
     ws-opts:
       path: /assignment
     udp: true
-  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_11
+  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_12
     type: vless
     server: 63.141.128.30
     port: 8880
@@ -4057,6 +4207,17 @@ proxies:
     reality-opts:
       public-key: F-yU1O5Q00eeyUdst7ZGDsgo4xS5mrdNwg0UcfsrVQs
       short-id: d889b977
+    skip-cert-verify: false
+    udp: true
+  - name: ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com_1
+    type: vless
+    server: crimson-smoke-7818.397.workers.dev
+    port: 8880
+    uuid: d6bdda67-168d-4501-a2c1-ef01070cb327
+    network: ws
+    tls: false
+    ws-opts:
+      path: /pyip=ProxyIP.KR.CMLiussss.net
     skip-cert-verify: false
     udp: true
   - name: ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_12
@@ -4124,7 +4285,7 @@ proxies:
         Host: vms.lifetime50.workers.dev
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_4
+  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_5
     type: vless
     server: 210.140.81.172
     port: 443
@@ -4138,7 +4299,7 @@ proxies:
       short-id: 1a
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_5
+  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_6
     type: vless
     server: 210.140.81.172
     port: 443
@@ -4191,7 +4352,7 @@ proxies:
       short-id: 56d4e7ae4f86fa39
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com_1
+  - name: ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com
     type: vless
     server: 104.17.144.29
     port: 8880
@@ -4204,7 +4365,18 @@ proxies:
         Host: spring-sound-8d8e.36-9ff.workers.dev
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_4
+  - name: ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com_1
+    type: vless
+    server: crimson-smoke-7818.397.workers.dev
+    port: 8880
+    uuid: d6bdda67-168d-4501-a2c1-ef01070cb327
+    network: ws
+    tls: false
+    ws-opts:
+      path: /pyip=ProxyIP.KR.CMLiussss.net
+    skip-cert-verify: false
+    udp: true
+  - name: ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_5
     type: vless
     server: 172.64.94.251
     port: 8880
@@ -4217,7 +4389,7 @@ proxies:
         Host: old-violet-a5ce.29-440.workers.dev
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_6
+  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_7
     type: vless
     server: 136.110.116.68
     port: 443
@@ -4230,7 +4402,7 @@ proxies:
       short-id: 8380ad05cd21a69f
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_7
+  - name: ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_8
     type: vless
     server: 136.110.116.68
     port: 443
@@ -4275,7 +4447,7 @@ proxies:
     client-fingerprint: chrome
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_35
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_41
     type: vless
     server: 185.148.104.30
     port: 8880
@@ -4288,7 +4460,7 @@ proxies:
         Host: vms.lifetime51.workers.dev
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_12
+  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_13
     type: vless
     server: 155.46.167.30
     port: 8880
@@ -4377,7 +4549,7 @@ proxies:
       mode: stream-up
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_5
+  - name: ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_6
     type: vless
     server: 103.25.202.102
     port: 443
@@ -4392,7 +4564,7 @@ proxies:
         Host: asia.csmaster.site
     skip-cert-verify: false
     udp: true
-  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_13
+  - name: ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_14
     type: vless
     server: tk1.high-speed-test-56424.me
     port: 443
@@ -4423,7 +4595,7 @@ proxies:
       host: b33ec4a1s226.fuhuovps.xyz
     skip-cert-verify: false
     udp: true
-  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_36
+  - name: â�“æœªçŸ¥ä¸¨yoyapai.com_42
     type: vless
     server: 43.108.48.169
     port: 40701
@@ -4436,32 +4608,58 @@ proxies:
       short-id: 7ef3a8ab2886
     skip-cert-verify: false
     udp: true
+  - name: ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_20
+    type: vless
+    server: 172.67.79.160
+    port: 2087
+    uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
+    network: ws
+    servername: cvhpyn.pages.dev
+    tls: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: cvhpyn.pages.dev
+    skip-cert-verify: false
+    udp: true
 proxy-groups:
   - name: ğŸš€ èŠ‚ç‚¹é€‰æ‹©
     type: select
     proxies:
       - â™»ï¸� è‡ªåŠ¨é€‰æ‹©
       - DIRECT
-      - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_2
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_3
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_4
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_2
-      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_3
-      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com
-      - ğŸ‡ºğŸ‡¸ç¾�å›½ä¸¨yoyapai.com
-      - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_5
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_3
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_4
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_5
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_1
       - â�“æœªçŸ¥ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸ç¾�å›½ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com_7
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_8
+      - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_9
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_3
       - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_4
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_10
+      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
+      - ğŸ‡¦ğŸ‡ªAEé˜¿è�”é…‹ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_11
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+      - ğŸ‡±ğŸ‡°LKæ–¯é‡Œå…°å�¡ä¸¨yoyapai.com
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_12
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_13
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_5
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_6
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com
@@ -4471,15 +4669,15 @@ proxy-groups:
       - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_1
       - ğŸ‡²ğŸ‡©MDæ‘©çˆ¾å¤šç“¦ä¸¨yoyapai.com
       - ğŸ‡¨ğŸ‡¿CZæ�·å…‹ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_8
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_9
-      - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_10
-      - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_2
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_11
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_12
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_13
       - â�“æœªçŸ¥ä¸¨yoyapai.com_14
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_15
+      - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_16
+      - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_2
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_17
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_18
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_19
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_20
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_1
       - ğŸ‡ºğŸ‡¸ USç¾�åœ‹ä¸¨yoyapai.com
       - ğŸ‡ºğŸ‡¸ USç¾�åœ‹ä¸¨yoyapai.com_1
@@ -4509,8 +4707,8 @@ proxy-groups:
       - ğŸ‡¸ğŸ‡¬ SGæ–°åŠ å�¡
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_9
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_10
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_1
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_2
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_1
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_2
@@ -4548,7 +4746,7 @@ proxy-groups:
       - ğŸ‡ºğŸ‡¸_USç¾�åœ‹ä¸¨yoyapai.com_1
       - CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_1
       - GBè‹±åœ‹ä¸¨yoyapai.com
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_2
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_3
       - ğŸ‡®ğŸ‡· ä¼Šæœ—ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡± è�·è˜­ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡± è�·è˜­ä¸¨yoyapai.com_1
@@ -4627,62 +4825,62 @@ proxy-groups:
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_1
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_2
       - â�“å…�è²»ç¯€é»�ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_15
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_16
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_21
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_22
       - ğŸ—½ğŸ‡ºğŸ‡¸ç¾�åœ‹CloudFlareèŠ‚ç‚¹ä¸¨yoyapai.com
       - ğŸ‡«ğŸ‡·æ³•åœ‹ä¸¨yoyapai.com
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_3
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_17
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_18
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_19
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_20
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_23
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_1
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_24
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_25
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_26
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_13
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_21
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_22
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_23
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_27
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_28
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_29
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_14
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_15
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_24
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_1
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_30
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com
       - ğŸ‡®ğŸ‡·IRä¼Šæœ—ä¸¨yoyapai.com
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_5
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_6
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_7
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_1
       - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_2
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_3
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_2
       - ğŸ‡ªğŸ‡ªçˆ±æ²™å°¼äºšä¸¨yoyapai.com
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_1
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_1
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_2
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡´ROç½—é©¬å°¼äºšä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_6
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_7
       - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_2
       - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_3
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_7
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_4
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_8
       - ğŸ‡·ğŸ‡´ROç½—é©¬å°¼äºšä¸¨yoyapai.com_1
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com_1
       - ğŸ‡®ğŸ‡·IRä¼Šæœ—ä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_1
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_2
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_3
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_4
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_5
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_7
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com_2
       - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com_1
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_25
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_26
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_27
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_7
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_31
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_32
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_33
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_8
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_2
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_3
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_4
@@ -4695,12 +4893,12 @@ proxy-groups:
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_7
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_8
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_9
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_28
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_29
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_8
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_34
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_35
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_9
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_8
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_30
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_10
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_9
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_36
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_6
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_2
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com_2
@@ -4709,89 +4907,103 @@ proxy-groups:
       - ğŸ‡®ğŸ‡³INå�°åº¦ä¸¨yoyapai.com
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_10
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_7
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_31
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_32
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_33
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_34
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_37
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_38
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_39
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_40
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯
       - ğŸ‡¦ğŸ‡ºAUæ¾³å¤§åˆ©äºšä¸¨yoyapai.com
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_3
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_4
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_11
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com_2
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_16
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_9
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_10
       - ğŸ‡§ğŸ‡·BRå·´è¥¿åœ£ä¿�ç½—ä¸¨yoyapai.com
-      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_8
       - ğŸ‡±ğŸ‡»LVæ‹‰è„±ç»´äºšä¸¨yoyapai.com
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_9
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_10
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_4
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_5
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_10
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_2
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_3
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_4
       - ğŸ‡³ğŸ‡´NOæŒªå¨�ä¸¨yoyapai.com
       - ğŸ‡±ğŸ‡»LVæ‹‰è„±ç»´äºšä¸¨yoyapai.com_1
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_10
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_5
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_3
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_11
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_6
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_4
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_12
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_17
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_18
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_11
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_12
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_11
+      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com_1
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_12
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_13
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_4
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_5
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_19
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_4
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_5
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_6
       - ğŸ‡¹ğŸ‡¼TWè‡ºç�£ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKä¸¨yoyapai.comé¦™æ¸¯ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKä¸¨yoyapai.comé¦™æ¸¯ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com
       - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com_1
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_4
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_6
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_5
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_7
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_8
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_12
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_13
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_14
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_35
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_12
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_41
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_13
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_13
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_3
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_4
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_5
       - ğŸ‡®ğŸ‡·ä¼Šæœ—ä¸¨yoyapai.com
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_5
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_13
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_14
       - ğŸ‡»ğŸ‡³VNè¶Šå�—ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_36
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_42
+      - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_20
   - name: â™»ï¸� è‡ªåŠ¨é€‰æ‹©
     type: url-test
     proxies:
-      - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_2
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_3
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_4
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_2
-      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_3
-      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com
-      - ğŸ‡ºğŸ‡¸ç¾�å›½ä¸¨yoyapai.com
-      - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_5
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_3
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_4
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_5
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_1
       - â�“æœªçŸ¥ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸ç¾�å›½ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com_7
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_8
+      - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_9
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_3
       - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_4
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_10
+      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
+      - ğŸ‡¦ğŸ‡ªAEé˜¿è�”é…‹ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_11
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+      - ğŸ‡±ğŸ‡°LKæ–¯é‡Œå…°å�¡ä¸¨yoyapai.com
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_12
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_13
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_5
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_6
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com
@@ -4801,15 +5013,15 @@ proxy-groups:
       - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_1
       - ğŸ‡²ğŸ‡©MDæ‘©çˆ¾å¤šç“¦ä¸¨yoyapai.com
       - ğŸ‡¨ğŸ‡¿CZæ�·å…‹ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_8
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_9
-      - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_10
-      - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_2
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_11
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_12
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_13
       - â�“æœªçŸ¥ä¸¨yoyapai.com_14
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_15
+      - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_16
+      - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_2
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_17
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_18
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_19
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_20
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_1
       - ğŸ‡ºğŸ‡¸ USç¾�åœ‹ä¸¨yoyapai.com
       - ğŸ‡ºğŸ‡¸ USç¾�åœ‹ä¸¨yoyapai.com_1
@@ -4839,8 +5051,8 @@ proxy-groups:
       - ğŸ‡¸ğŸ‡¬ SGæ–°åŠ å�¡
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_9
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_10
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_1
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_2
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_1
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_2
@@ -4878,7 +5090,7 @@ proxy-groups:
       - ğŸ‡ºğŸ‡¸_USç¾�åœ‹ä¸¨yoyapai.com_1
       - CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_1
       - GBè‹±åœ‹ä¸¨yoyapai.com
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_2
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_3
       - ğŸ‡®ğŸ‡· ä¼Šæœ—ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡± è�·è˜­ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡± è�·è˜­ä¸¨yoyapai.com_1
@@ -4957,62 +5169,62 @@ proxy-groups:
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_1
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_2
       - â�“å…�è²»ç¯€é»�ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_15
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_16
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_21
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_22
       - ğŸ—½ğŸ‡ºğŸ‡¸ç¾�åœ‹CloudFlareèŠ‚ç‚¹ä¸¨yoyapai.com
       - ğŸ‡«ğŸ‡·æ³•åœ‹ä¸¨yoyapai.com
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_3
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_17
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_18
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_19
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_20
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_23
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_1
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_24
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_25
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_26
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_13
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_21
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_22
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_23
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_27
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_28
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_29
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_14
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_15
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_24
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_1
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_30
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com
       - ğŸ‡®ğŸ‡·IRä¼Šæœ—ä¸¨yoyapai.com
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_5
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_6
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_7
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_1
       - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_2
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_3
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_2
       - ğŸ‡ªğŸ‡ªçˆ±æ²™å°¼äºšä¸¨yoyapai.com
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_1
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_1
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_2
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡´ROç½—é©¬å°¼äºšä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_6
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_7
       - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_2
       - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_3
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_7
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_4
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_8
       - ğŸ‡·ğŸ‡´ROç½—é©¬å°¼äºšä¸¨yoyapai.com_1
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com_1
       - ğŸ‡®ğŸ‡·IRä¼Šæœ—ä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_1
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_2
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_3
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_4
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_5
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_7
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com_2
       - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com_1
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_25
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_26
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_27
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_7
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_31
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_32
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_33
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_8
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_2
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_3
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_4
@@ -5025,12 +5237,12 @@ proxy-groups:
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_7
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_8
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_9
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_28
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_29
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_8
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_34
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_35
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_9
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_8
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_30
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_10
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_9
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_36
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_6
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_2
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com_2
@@ -5039,66 +5251,69 @@ proxy-groups:
       - ğŸ‡®ğŸ‡³INå�°åº¦ä¸¨yoyapai.com
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_10
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_7
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_31
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_32
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_33
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_34
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_37
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_38
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_39
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_40
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯
       - ğŸ‡¦ğŸ‡ºAUæ¾³å¤§åˆ©äºšä¸¨yoyapai.com
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_3
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_4
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_11
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com_2
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_16
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_9
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_10
       - ğŸ‡§ğŸ‡·BRå·´è¥¿åœ£ä¿�ç½—ä¸¨yoyapai.com
-      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_8
       - ğŸ‡±ğŸ‡»LVæ‹‰è„±ç»´äºšä¸¨yoyapai.com
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_9
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_10
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_4
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_5
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_10
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_2
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_3
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_4
       - ğŸ‡³ğŸ‡´NOæŒªå¨�ä¸¨yoyapai.com
       - ğŸ‡±ğŸ‡»LVæ‹‰è„±ç»´äºšä¸¨yoyapai.com_1
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_10
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_5
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_3
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_11
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_6
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_4
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_12
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_17
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_18
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_11
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_12
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_11
+      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com_1
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_12
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_13
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_4
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_5
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_19
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_4
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_5
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_6
       - ğŸ‡¹ğŸ‡¼TWè‡ºç�£ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKä¸¨yoyapai.comé¦™æ¸¯ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKä¸¨yoyapai.comé¦™æ¸¯ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com
       - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com_1
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_4
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_6
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_5
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_7
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_8
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_12
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_13
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_14
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_35
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_12
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_41
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_13
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_13
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_3
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_4
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_5
       - ğŸ‡®ğŸ‡·ä¼Šæœ—ä¸¨yoyapai.com
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_5
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_13
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_14
       - ğŸ‡»ğŸ‡³VNè¶Šå�—ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_36
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_42
+      - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_20
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -5108,26 +5323,37 @@ proxy-groups:
       - ğŸš€ èŠ‚ç‚¹é€‰æ‹©
       - â™»ï¸� è‡ªåŠ¨é€‰æ‹©
       - ğŸ�¯ å…¨ç�ƒç›´è¿�
-      - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_2
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_3
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_4
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_2
-      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_3
-      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com
-      - ğŸ‡ºğŸ‡¸ç¾�å›½ä¸¨yoyapai.com
-      - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_5
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_3
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_4
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_5
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_1
       - â�“æœªçŸ¥ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸ç¾�å›½ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com_7
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_8
+      - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_9
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_3
       - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_4
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_10
+      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
+      - ğŸ‡¦ğŸ‡ªAEé˜¿è�”é…‹ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_11
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+      - ğŸ‡±ğŸ‡°LKæ–¯é‡Œå…°å�¡ä¸¨yoyapai.com
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_12
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_13
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_5
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_6
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com
@@ -5137,15 +5363,15 @@ proxy-groups:
       - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_1
       - ğŸ‡²ğŸ‡©MDæ‘©çˆ¾å¤šç“¦ä¸¨yoyapai.com
       - ğŸ‡¨ğŸ‡¿CZæ�·å…‹ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_8
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_9
-      - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_10
-      - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_2
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_11
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_12
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_13
       - â�“æœªçŸ¥ä¸¨yoyapai.com_14
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_15
+      - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_16
+      - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_2
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_17
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_18
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_19
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_20
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_1
       - ğŸ‡ºğŸ‡¸ USç¾�åœ‹ä¸¨yoyapai.com
       - ğŸ‡ºğŸ‡¸ USç¾�åœ‹ä¸¨yoyapai.com_1
@@ -5175,8 +5401,8 @@ proxy-groups:
       - ğŸ‡¸ğŸ‡¬ SGæ–°åŠ å�¡
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_9
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_10
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_1
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_2
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_1
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_2
@@ -5214,7 +5440,7 @@ proxy-groups:
       - ğŸ‡ºğŸ‡¸_USç¾�åœ‹ä¸¨yoyapai.com_1
       - CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_1
       - GBè‹±åœ‹ä¸¨yoyapai.com
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_2
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_3
       - ğŸ‡®ğŸ‡· ä¼Šæœ—ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡± è�·è˜­ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡± è�·è˜­ä¸¨yoyapai.com_1
@@ -5293,62 +5519,62 @@ proxy-groups:
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_1
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_2
       - â�“å…�è²»ç¯€é»�ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_15
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_16
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_21
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_22
       - ğŸ—½ğŸ‡ºğŸ‡¸ç¾�åœ‹CloudFlareèŠ‚ç‚¹ä¸¨yoyapai.com
       - ğŸ‡«ğŸ‡·æ³•åœ‹ä¸¨yoyapai.com
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_3
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_17
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_18
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_19
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_20
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_23
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_1
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_24
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_25
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_26
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_13
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_21
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_22
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_23
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_27
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_28
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_29
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_14
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_15
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_24
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_1
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_30
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com
       - ğŸ‡®ğŸ‡·IRä¼Šæœ—ä¸¨yoyapai.com
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_5
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_6
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_7
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_1
       - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_2
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_3
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_2
       - ğŸ‡ªğŸ‡ªçˆ±æ²™å°¼äºšä¸¨yoyapai.com
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_1
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_1
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_2
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡´ROç½—é©¬å°¼äºšä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_6
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_7
       - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_2
       - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_3
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_7
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_4
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_8
       - ğŸ‡·ğŸ‡´ROç½—é©¬å°¼äºšä¸¨yoyapai.com_1
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com_1
       - ğŸ‡®ğŸ‡·IRä¼Šæœ—ä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_1
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_2
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_3
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_4
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_5
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_7
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com_2
       - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com_1
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_25
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_26
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_27
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_7
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_31
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_32
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_33
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_8
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_2
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_3
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_4
@@ -5361,12 +5587,12 @@ proxy-groups:
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_7
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_8
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_9
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_28
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_29
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_8
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_34
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_35
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_9
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_8
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_30
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_10
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_9
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_36
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_6
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_2
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com_2
@@ -5375,91 +5601,105 @@ proxy-groups:
       - ğŸ‡®ğŸ‡³INå�°åº¦ä¸¨yoyapai.com
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_10
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_7
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_31
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_32
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_33
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_34
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_37
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_38
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_39
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_40
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯
       - ğŸ‡¦ğŸ‡ºAUæ¾³å¤§åˆ©äºšä¸¨yoyapai.com
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_3
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_4
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_11
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com_2
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_16
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_9
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_10
       - ğŸ‡§ğŸ‡·BRå·´è¥¿åœ£ä¿�ç½—ä¸¨yoyapai.com
-      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_8
       - ğŸ‡±ğŸ‡»LVæ‹‰è„±ç»´äºšä¸¨yoyapai.com
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_9
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_10
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_4
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_5
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_10
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_2
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_3
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_4
       - ğŸ‡³ğŸ‡´NOæŒªå¨�ä¸¨yoyapai.com
       - ğŸ‡±ğŸ‡»LVæ‹‰è„±ç»´äºšä¸¨yoyapai.com_1
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_10
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_5
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_3
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_11
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_6
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_4
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_12
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_17
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_18
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_11
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_12
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_11
+      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com_1
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_12
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_13
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_4
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_5
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_19
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_4
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_5
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_6
       - ğŸ‡¹ğŸ‡¼TWè‡ºç�£ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKä¸¨yoyapai.comé¦™æ¸¯ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKä¸¨yoyapai.comé¦™æ¸¯ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com
       - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com_1
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_4
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_6
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_5
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_7
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_8
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_12
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_13
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_14
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_35
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_12
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_41
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_13
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_13
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_3
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_4
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_5
       - ğŸ‡®ğŸ‡·ä¼Šæœ—ä¸¨yoyapai.com
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_5
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_13
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_14
       - ğŸ‡»ğŸ‡³VNè¶Šå�—ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_36
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_42
+      - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_20
   - name: ğŸ“² ç”µæŠ¥ä¿¡æ�¯
     type: select
     proxies:
       - ğŸš€ èŠ‚ç‚¹é€‰æ‹©
       - ğŸ�¯ å…¨ç�ƒç›´è¿�
-      - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_2
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_3
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_4
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_2
-      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_3
-      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com
-      - ğŸ‡ºğŸ‡¸ç¾�å›½ä¸¨yoyapai.com
-      - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_5
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_3
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_4
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_5
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_1
       - â�“æœªçŸ¥ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸ç¾�å›½ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com_7
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_8
+      - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_9
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_3
       - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_4
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_10
+      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
+      - ğŸ‡¦ğŸ‡ªAEé˜¿è�”é…‹ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_11
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+      - ğŸ‡±ğŸ‡°LKæ–¯é‡Œå…°å�¡ä¸¨yoyapai.com
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_12
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_13
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_5
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_6
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com
@@ -5469,15 +5709,15 @@ proxy-groups:
       - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_1
       - ğŸ‡²ğŸ‡©MDæ‘©çˆ¾å¤šç“¦ä¸¨yoyapai.com
       - ğŸ‡¨ğŸ‡¿CZæ�·å…‹ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_8
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_9
-      - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_10
-      - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_2
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_11
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_12
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_13
       - â�“æœªçŸ¥ä¸¨yoyapai.com_14
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_15
+      - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_16
+      - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_2
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_17
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_18
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_19
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_20
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_1
       - ğŸ‡ºğŸ‡¸ USç¾�åœ‹ä¸¨yoyapai.com
       - ğŸ‡ºğŸ‡¸ USç¾�åœ‹ä¸¨yoyapai.com_1
@@ -5507,8 +5747,8 @@ proxy-groups:
       - ğŸ‡¸ğŸ‡¬ SGæ–°åŠ å�¡
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_9
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_10
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_1
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_2
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_1
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_2
@@ -5546,7 +5786,7 @@ proxy-groups:
       - ğŸ‡ºğŸ‡¸_USç¾�åœ‹ä¸¨yoyapai.com_1
       - CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_1
       - GBè‹±åœ‹ä¸¨yoyapai.com
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_2
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_3
       - ğŸ‡®ğŸ‡· ä¼Šæœ—ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡± è�·è˜­ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡± è�·è˜­ä¸¨yoyapai.com_1
@@ -5625,62 +5865,62 @@ proxy-groups:
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_1
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_2
       - â�“å…�è²»ç¯€é»�ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_15
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_16
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_21
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_22
       - ğŸ—½ğŸ‡ºğŸ‡¸ç¾�åœ‹CloudFlareèŠ‚ç‚¹ä¸¨yoyapai.com
       - ğŸ‡«ğŸ‡·æ³•åœ‹ä¸¨yoyapai.com
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_3
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_17
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_18
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_19
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_20
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_23
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_1
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_24
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_25
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_26
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_13
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_21
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_22
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_23
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_27
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_28
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_29
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_14
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_15
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_24
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_1
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_30
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com
       - ğŸ‡®ğŸ‡·IRä¼Šæœ—ä¸¨yoyapai.com
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_5
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_6
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_7
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_1
       - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_2
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_3
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_2
       - ğŸ‡ªğŸ‡ªçˆ±æ²™å°¼äºšä¸¨yoyapai.com
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_1
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_1
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_2
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡´ROç½—é©¬å°¼äºšä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_6
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_7
       - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_2
       - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_3
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_7
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_4
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_8
       - ğŸ‡·ğŸ‡´ROç½—é©¬å°¼äºšä¸¨yoyapai.com_1
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com_1
       - ğŸ‡®ğŸ‡·IRä¼Šæœ—ä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_1
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_2
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_3
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_4
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_5
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_7
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com_2
       - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com_1
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_25
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_26
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_27
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_7
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_31
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_32
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_33
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_8
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_2
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_3
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_4
@@ -5693,12 +5933,12 @@ proxy-groups:
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_7
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_8
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_9
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_28
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_29
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_8
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_34
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_35
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_9
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_8
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_30
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_10
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_9
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_36
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_6
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_2
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com_2
@@ -5707,91 +5947,105 @@ proxy-groups:
       - ğŸ‡®ğŸ‡³INå�°åº¦ä¸¨yoyapai.com
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_10
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_7
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_31
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_32
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_33
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_34
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_37
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_38
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_39
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_40
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯
       - ğŸ‡¦ğŸ‡ºAUæ¾³å¤§åˆ©äºšä¸¨yoyapai.com
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_3
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_4
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_11
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com_2
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_16
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_9
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_10
       - ğŸ‡§ğŸ‡·BRå·´è¥¿åœ£ä¿�ç½—ä¸¨yoyapai.com
-      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_8
       - ğŸ‡±ğŸ‡»LVæ‹‰è„±ç»´äºšä¸¨yoyapai.com
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_9
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_10
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_4
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_5
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_10
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_2
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_3
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_4
       - ğŸ‡³ğŸ‡´NOæŒªå¨�ä¸¨yoyapai.com
       - ğŸ‡±ğŸ‡»LVæ‹‰è„±ç»´äºšä¸¨yoyapai.com_1
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_10
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_5
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_3
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_11
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_6
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_4
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_12
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_17
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_18
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_11
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_12
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_11
+      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com_1
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_12
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_13
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_4
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_5
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_19
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_4
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_5
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_6
       - ğŸ‡¹ğŸ‡¼TWè‡ºç�£ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKä¸¨yoyapai.comé¦™æ¸¯ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKä¸¨yoyapai.comé¦™æ¸¯ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com
       - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com_1
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_4
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_6
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_5
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_7
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_8
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_12
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_13
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_14
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_35
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_12
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_41
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_13
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_13
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_3
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_4
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_5
       - ğŸ‡®ğŸ‡·ä¼Šæœ—ä¸¨yoyapai.com
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_5
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_13
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_14
       - ğŸ‡»ğŸ‡³VNè¶Šå�—ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_36
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_42
+      - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_20
   - name: â“‚ï¸� å¾®è½¯æœ�åŠ¡
     type: select
     proxies:
       - ğŸ�¯ å…¨ç�ƒç›´è¿�
       - ğŸš€ èŠ‚ç‚¹é€‰æ‹©
-      - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_2
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_3
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_4
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_2
-      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_3
-      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com
-      - ğŸ‡ºğŸ‡¸ç¾�å›½ä¸¨yoyapai.com
-      - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_5
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_3
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_4
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_5
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_1
       - â�“æœªçŸ¥ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸ç¾�å›½ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com_7
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_8
+      - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_9
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_3
       - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_4
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_10
+      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
+      - ğŸ‡¦ğŸ‡ªAEé˜¿è�”é…‹ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_11
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+      - ğŸ‡±ğŸ‡°LKæ–¯é‡Œå…°å�¡ä¸¨yoyapai.com
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_12
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_13
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_5
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_6
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com
@@ -5801,15 +6055,15 @@ proxy-groups:
       - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_1
       - ğŸ‡²ğŸ‡©MDæ‘©çˆ¾å¤šç“¦ä¸¨yoyapai.com
       - ğŸ‡¨ğŸ‡¿CZæ�·å…‹ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_8
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_9
-      - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_10
-      - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_2
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_11
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_12
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_13
       - â�“æœªçŸ¥ä¸¨yoyapai.com_14
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_15
+      - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_16
+      - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_2
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_17
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_18
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_19
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_20
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_1
       - ğŸ‡ºğŸ‡¸ USç¾�åœ‹ä¸¨yoyapai.com
       - ğŸ‡ºğŸ‡¸ USç¾�åœ‹ä¸¨yoyapai.com_1
@@ -5839,8 +6093,8 @@ proxy-groups:
       - ğŸ‡¸ğŸ‡¬ SGæ–°åŠ å�¡
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_9
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_10
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_1
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_2
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_1
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_2
@@ -5878,7 +6132,7 @@ proxy-groups:
       - ğŸ‡ºğŸ‡¸_USç¾�åœ‹ä¸¨yoyapai.com_1
       - CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_1
       - GBè‹±åœ‹ä¸¨yoyapai.com
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_2
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_3
       - ğŸ‡®ğŸ‡· ä¼Šæœ—ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡± è�·è˜­ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡± è�·è˜­ä¸¨yoyapai.com_1
@@ -5957,62 +6211,62 @@ proxy-groups:
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_1
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_2
       - â�“å…�è²»ç¯€é»�ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_15
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_16
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_21
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_22
       - ğŸ—½ğŸ‡ºğŸ‡¸ç¾�åœ‹CloudFlareèŠ‚ç‚¹ä¸¨yoyapai.com
       - ğŸ‡«ğŸ‡·æ³•åœ‹ä¸¨yoyapai.com
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_3
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_17
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_18
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_19
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_20
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_23
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_1
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_24
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_25
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_26
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_13
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_21
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_22
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_23
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_27
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_28
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_29
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_14
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_15
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_24
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_1
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_30
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com
       - ğŸ‡®ğŸ‡·IRä¼Šæœ—ä¸¨yoyapai.com
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_5
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_6
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_7
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_1
       - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_2
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_3
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_2
       - ğŸ‡ªğŸ‡ªçˆ±æ²™å°¼äºšä¸¨yoyapai.com
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_1
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_1
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_2
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡´ROç½—é©¬å°¼äºšä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_6
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_7
       - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_2
       - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_3
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_7
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_4
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_8
       - ğŸ‡·ğŸ‡´ROç½—é©¬å°¼äºšä¸¨yoyapai.com_1
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com_1
       - ğŸ‡®ğŸ‡·IRä¼Šæœ—ä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_1
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_2
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_3
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_4
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_5
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_7
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com_2
       - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com_1
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_25
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_26
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_27
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_7
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_31
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_32
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_33
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_8
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_2
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_3
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_4
@@ -6025,12 +6279,12 @@ proxy-groups:
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_7
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_8
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_9
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_28
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_29
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_8
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_34
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_35
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_9
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_8
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_30
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_10
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_9
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_36
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_6
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_2
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com_2
@@ -6039,91 +6293,105 @@ proxy-groups:
       - ğŸ‡®ğŸ‡³INå�°åº¦ä¸¨yoyapai.com
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_10
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_7
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_31
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_32
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_33
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_34
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_37
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_38
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_39
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_40
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯
       - ğŸ‡¦ğŸ‡ºAUæ¾³å¤§åˆ©äºšä¸¨yoyapai.com
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_3
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_4
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_11
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com_2
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_16
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_9
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_10
       - ğŸ‡§ğŸ‡·BRå·´è¥¿åœ£ä¿�ç½—ä¸¨yoyapai.com
-      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_8
       - ğŸ‡±ğŸ‡»LVæ‹‰è„±ç»´äºšä¸¨yoyapai.com
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_9
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_10
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_4
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_5
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_10
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_2
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_3
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_4
       - ğŸ‡³ğŸ‡´NOæŒªå¨�ä¸¨yoyapai.com
       - ğŸ‡±ğŸ‡»LVæ‹‰è„±ç»´äºšä¸¨yoyapai.com_1
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_10
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_5
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_3
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_11
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_6
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_4
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_12
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_17
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_18
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_11
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_12
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_11
+      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com_1
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_12
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_13
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_4
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_5
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_19
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_4
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_5
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_6
       - ğŸ‡¹ğŸ‡¼TWè‡ºç�£ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKä¸¨yoyapai.comé¦™æ¸¯ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKä¸¨yoyapai.comé¦™æ¸¯ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com
       - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com_1
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_4
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_6
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_5
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_7
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_8
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_12
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_13
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_14
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_35
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_12
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_41
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_13
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_13
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_3
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_4
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_5
       - ğŸ‡®ğŸ‡·ä¼Šæœ—ä¸¨yoyapai.com
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_5
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_13
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_14
       - ğŸ‡»ğŸ‡³VNè¶Šå�—ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_36
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_42
+      - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_20
   - name: ğŸ�� è‹¹æ�œæœ�åŠ¡
     type: select
     proxies:
       - ğŸš€ èŠ‚ç‚¹é€‰æ‹©
       - ğŸ�¯ å…¨ç�ƒç›´è¿�
-      - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_2
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_3
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_4
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_2
-      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_3
-      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com
-      - ğŸ‡ºğŸ‡¸ç¾�å›½ä¸¨yoyapai.com
-      - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_5
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_3
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_4
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_5
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_1
       - â�“æœªçŸ¥ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸ç¾�å›½ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com_7
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_8
+      - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_9
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_3
       - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_4
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_10
+      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
+      - ğŸ‡¦ğŸ‡ªAEé˜¿è�”é…‹ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_11
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+      - ğŸ‡±ğŸ‡°LKæ–¯é‡Œå…°å�¡ä¸¨yoyapai.com
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_12
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_13
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_5
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_6
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com
@@ -6133,15 +6401,15 @@ proxy-groups:
       - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_1
       - ğŸ‡²ğŸ‡©MDæ‘©çˆ¾å¤šç“¦ä¸¨yoyapai.com
       - ğŸ‡¨ğŸ‡¿CZæ�·å…‹ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_8
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_9
-      - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_10
-      - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_2
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_11
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_12
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_13
       - â�“æœªçŸ¥ä¸¨yoyapai.com_14
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_15
+      - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_16
+      - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_2
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_17
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_18
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_19
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_20
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_1
       - ğŸ‡ºğŸ‡¸ USç¾�åœ‹ä¸¨yoyapai.com
       - ğŸ‡ºğŸ‡¸ USç¾�åœ‹ä¸¨yoyapai.com_1
@@ -6171,8 +6439,8 @@ proxy-groups:
       - ğŸ‡¸ğŸ‡¬ SGæ–°åŠ å�¡
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_9
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_10
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_1
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_2
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_1
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_2
@@ -6210,7 +6478,7 @@ proxy-groups:
       - ğŸ‡ºğŸ‡¸_USç¾�åœ‹ä¸¨yoyapai.com_1
       - CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_1
       - GBè‹±åœ‹ä¸¨yoyapai.com
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_2
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_3
       - ğŸ‡®ğŸ‡· ä¼Šæœ—ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡± è�·è˜­ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡± è�·è˜­ä¸¨yoyapai.com_1
@@ -6289,62 +6557,62 @@ proxy-groups:
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_1
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_2
       - â�“å…�è²»ç¯€é»�ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_15
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_16
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_21
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_22
       - ğŸ—½ğŸ‡ºğŸ‡¸ç¾�åœ‹CloudFlareèŠ‚ç‚¹ä¸¨yoyapai.com
       - ğŸ‡«ğŸ‡·æ³•åœ‹ä¸¨yoyapai.com
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_3
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_17
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_18
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_19
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_20
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_23
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_1
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_24
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_25
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_26
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_13
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_21
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_22
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_23
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_27
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_28
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_29
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_14
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_15
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_24
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_1
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_30
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com
       - ğŸ‡®ğŸ‡·IRä¼Šæœ—ä¸¨yoyapai.com
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_5
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_6
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_7
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_1
       - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_2
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_3
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_2
       - ğŸ‡ªğŸ‡ªçˆ±æ²™å°¼äºšä¸¨yoyapai.com
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_1
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_1
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_2
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡´ROç½—é©¬å°¼äºšä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_6
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_7
       - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_2
       - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_3
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_7
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_4
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_8
       - ğŸ‡·ğŸ‡´ROç½—é©¬å°¼äºšä¸¨yoyapai.com_1
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com_1
       - ğŸ‡®ğŸ‡·IRä¼Šæœ—ä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_1
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_2
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_3
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_4
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_5
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_7
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com_2
       - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com_1
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_25
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_26
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_27
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_7
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_31
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_32
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_33
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_8
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_2
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_3
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_4
@@ -6357,12 +6625,12 @@ proxy-groups:
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_7
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_8
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_9
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_28
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_29
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_8
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_34
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_35
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_9
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_8
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_30
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_10
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_9
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_36
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_6
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_2
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com_2
@@ -6371,66 +6639,69 @@ proxy-groups:
       - ğŸ‡®ğŸ‡³INå�°åº¦ä¸¨yoyapai.com
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_10
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_7
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_31
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_32
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_33
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_34
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_37
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_38
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_39
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_40
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯
       - ğŸ‡¦ğŸ‡ºAUæ¾³å¤§åˆ©äºšä¸¨yoyapai.com
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_3
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_4
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_11
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com_2
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_16
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_9
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_10
       - ğŸ‡§ğŸ‡·BRå·´è¥¿åœ£ä¿�ç½—ä¸¨yoyapai.com
-      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_8
       - ğŸ‡±ğŸ‡»LVæ‹‰è„±ç»´äºšä¸¨yoyapai.com
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_9
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_10
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_4
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_5
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_10
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_2
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_3
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_4
       - ğŸ‡³ğŸ‡´NOæŒªå¨�ä¸¨yoyapai.com
       - ğŸ‡±ğŸ‡»LVæ‹‰è„±ç»´äºšä¸¨yoyapai.com_1
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_10
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_5
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_3
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_11
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_6
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_4
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_12
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_17
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_18
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_11
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_12
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_11
+      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com_1
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_12
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_13
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_4
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_5
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_19
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_4
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_5
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_6
       - ğŸ‡¹ğŸ‡¼TWè‡ºç�£ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKä¸¨yoyapai.comé¦™æ¸¯ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKä¸¨yoyapai.comé¦™æ¸¯ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com
       - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com_1
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_4
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_6
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_5
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_7
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_8
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_12
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_13
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_14
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_35
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_12
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_41
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_13
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_13
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_3
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_4
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_5
       - ğŸ‡®ğŸ‡·ä¼Šæœ—ä¸¨yoyapai.com
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_5
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_13
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_14
       - ğŸ‡»ğŸ‡³VNè¶Šå�—ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_36
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_42
+      - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_20
   - name: ğŸ�¯ å…¨ç�ƒç›´è¿�
     type: select
     proxies:
@@ -6453,26 +6724,37 @@ proxy-groups:
       - ğŸš€ èŠ‚ç‚¹é€‰æ‹©
       - ğŸ�¯ å…¨ç�ƒç›´è¿�
       - â™»ï¸� è‡ªåŠ¨é€‰æ‹©
-      - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_2
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_3
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_4
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_2
-      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_3
-      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com
-      - ğŸ‡ºğŸ‡¸ç¾�å›½ä¸¨yoyapai.com
-      - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_5
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_3
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_4
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_5
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_1
       - â�“æœªçŸ¥ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸ç¾�å›½ä¸¨yoyapai.com
       - â�“æœªçŸ¥ä¸¨yoyapai.com_7
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_8
+      - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_9
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_2
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_3
       - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_4
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_10
+      - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com
+      - ğŸ‡¦ğŸ‡ªAEé˜¿è�”é…‹ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_11
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
+      - ğŸ‡±ğŸ‡°LKæ–¯é‡Œå…°å�¡ä¸¨yoyapai.com
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_12
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_13
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_5
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_6
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com
@@ -6482,15 +6764,15 @@ proxy-groups:
       - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_1
       - ğŸ‡²ğŸ‡©MDæ‘©çˆ¾å¤šç“¦ä¸¨yoyapai.com
       - ğŸ‡¨ğŸ‡¿CZæ�·å…‹ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_8
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_9
-      - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_10
-      - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_2
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_11
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_12
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_13
       - â�“æœªçŸ¥ä¸¨yoyapai.com_14
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_15
+      - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_16
+      - ğŸ‡²ğŸ‡©MDæ‘©å°”å¤šç“¦ä¸¨yoyapai.com_2
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_17
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_18
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_19
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_20
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_1
       - ğŸ‡ºğŸ‡¸ USç¾�åœ‹ä¸¨yoyapai.com
       - ğŸ‡ºğŸ‡¸ USç¾�åœ‹ä¸¨yoyapai.com_1
@@ -6520,8 +6802,8 @@ proxy-groups:
       - ğŸ‡¸ğŸ‡¬ SGæ–°åŠ å�¡
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_9
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_10
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_1
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_2
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_1
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_2
@@ -6559,7 +6841,7 @@ proxy-groups:
       - ğŸ‡ºğŸ‡¸_USç¾�åœ‹ä¸¨yoyapai.com_1
       - CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_1
       - GBè‹±åœ‹ä¸¨yoyapai.com
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_2
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_3
       - ğŸ‡®ğŸ‡· ä¼Šæœ—ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡± è�·è˜­ä¸¨yoyapai.com
       - ğŸ‡³ğŸ‡± è�·è˜­ä¸¨yoyapai.com_1
@@ -6638,62 +6920,62 @@ proxy-groups:
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_1
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_2
       - â�“å…�è²»ç¯€é»�ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_15
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_16
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_21
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_22
       - ğŸ—½ğŸ‡ºğŸ‡¸ç¾�åœ‹CloudFlareèŠ‚ç‚¹ä¸¨yoyapai.com
       - ğŸ‡«ğŸ‡·æ³•åœ‹ä¸¨yoyapai.com
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_3
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_17
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_18
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_19
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_20
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_23
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_1
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_24
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_25
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_26
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_13
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_21
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_22
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_23
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_27
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_28
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_29
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_14
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_15
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_24
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_1
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_30
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com
       - ğŸ‡®ğŸ‡·IRä¼Šæœ—ä¸¨yoyapai.com
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_5
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_6
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_7
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_1
       - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_2
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_3
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_2
       - ğŸ‡ªğŸ‡ªçˆ±æ²™å°¼äºšä¸¨yoyapai.com
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_1
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_1
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_2
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡´ROç½—é©¬å°¼äºšä¸¨yoyapai.com
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_6
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_1
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_7
       - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_2
       - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_3
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_7
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_4
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_8
       - ğŸ‡·ğŸ‡´ROç½—é©¬å°¼äºšä¸¨yoyapai.com_1
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com_1
       - ğŸ‡®ğŸ‡·IRä¼Šæœ—ä¸¨yoyapai.com_1
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_1
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_2
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_3
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_4
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_5
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_7
       - ğŸ‡¹ğŸ‡­THæ³°å›½ä¸¨yoyapai.com_2
       - ğŸ‡°ğŸ‡¿KZå“ˆè�¨å…‹æ–¯å�¦ä¸¨yoyapai.com_1
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com_1
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_25
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_26
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_27
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_7
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_31
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_32
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_33
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_8
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_2
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_3
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_4
@@ -6706,12 +6988,12 @@ proxy-groups:
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_7
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_8
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_9
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_28
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_29
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_8
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_34
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_35
       - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_9
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_8
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_30
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_10
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_9
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_36
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_6
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_2
       - ğŸ‡ªğŸ‡ªEEçˆ±æ²™å°¼äºšä¸¨yoyapai.com_2
@@ -6720,66 +7002,69 @@ proxy-groups:
       - ğŸ‡®ğŸ‡³INå�°åº¦ä¸¨yoyapai.com
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_10
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_7
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_31
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_32
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_33
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_34
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_37
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_38
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_39
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_40
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯
       - ğŸ‡¦ğŸ‡ºAUæ¾³å¤§åˆ©äºšä¸¨yoyapai.com
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_3
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_4
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_11
       - ğŸ‡¬ğŸ‡§GBè‹±å›½ä¸¨yoyapai.com_2
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_16
-      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_9
+      - ğŸ‡³ğŸ‡±NLè�·å…°ä¸¨yoyapai.com_10
       - ğŸ‡§ğŸ‡·BRå·´è¥¿åœ£ä¿�ç½—ä¸¨yoyapai.com
-      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_8
       - ğŸ‡±ğŸ‡»LVæ‹‰è„±ç»´äºšä¸¨yoyapai.com
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_9
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_10
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_4
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_5
       - ğŸ‡·ğŸ‡ºRUä¿„ç½—æ–¯ä¸¨yoyapai.com_10
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_2
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_3
       - ğŸ‡«ğŸ‡·FRæ³•å›½ä¸¨yoyapai.com_4
       - ğŸ‡³ğŸ‡´NOæŒªå¨�ä¸¨yoyapai.com
       - ğŸ‡±ğŸ‡»LVæ‹‰è„±ç»´äºšä¸¨yoyapai.com_1
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_10
-      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_5
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_3
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_11
+      - ğŸ‡µğŸ‡±PLæ³¢å…°ä¸¨yoyapai.com_6
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_4
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_12
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_17
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_18
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_11
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_12
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_11
+      - ğŸ‡°ğŸ‡·KRéŸ©å›½ä¸¨yoyapai.com_1
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_12
       - ğŸ‡ºğŸ‡¸USç¾�åœ‹ä¸¨yoyapai.com_13
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_4
       - ğŸ‡«ğŸ‡·FRæ³•åœ‹ä¸¨yoyapai.com_5
       - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_19
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_4
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_5
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_6
       - ğŸ‡¹ğŸ‡¼TWè‡ºç�£ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKä¸¨yoyapai.comé¦™æ¸¯ä¸¨yoyapai.com
       - ğŸ‡­ğŸ‡°HKä¸¨yoyapai.comé¦™æ¸¯ä¸¨yoyapai.com_1
+      - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com
       - ğŸ‡°ğŸ‡·KRéŸ©åœ‹ä¸¨yoyapai.com_1
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_4
-      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_6
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_5
       - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_7
+      - ğŸ‡¯ğŸ‡µJPæ—¥æœ¬ä¸¨yoyapai.com_8
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_12
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_13
       - ğŸ‡­ğŸ‡°HKé¦™æ¸¯ä¸¨yoyapai.com_14
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_35
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_12
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_41
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_13
       - ğŸ‡©ğŸ‡ªDEå¾·å›½ä¸¨yoyapai.com_13
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_3
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_4
       - ğŸ‡«ğŸ‡®FIèŠ¬å…°ä¸¨yoyapai.com_5
       - ğŸ‡®ğŸ‡·ä¼Šæœ—ä¸¨yoyapai.com
-      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_5
-      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_13
+      - ğŸ‡¸ğŸ‡¬SGæ–°åŠ å�¡ä¸¨yoyapai.com_6
+      - ğŸ‡ºğŸ‡¸USç¾�å›½ä¸¨yoyapai.com_14
       - ğŸ‡»ğŸ‡³VNè¶Šå�—ä¸¨yoyapai.com
-      - â�“æœªçŸ¥ä¸¨yoyapai.com_36
+      - â�“æœªçŸ¥ä¸¨yoyapai.com_42
+      - ğŸ‡¨ğŸ‡¦CAåŠ æ‹¿å¤§ä¸¨yoyapai.com_20
 rule-providers:
   LocalAreaNetwork:
     type: http

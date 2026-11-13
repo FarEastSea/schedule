@@ -53,7 +53,6 @@ jobs:
           SENDER_USERNAME: ${{ secrets.SENDER_USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
           RECEIVER_NAME: ${{ secrets.RECEIVER_NAME || secrets.receiver_name }}
-          receiver_name: ${{ secrets.RECEIVER_NAME || secrets.receiver_name }}
           RECEIVER_USERNAME: ${{ secrets.RECEIVER_USERNAME }}
         run: |
           python program/自动续期.py

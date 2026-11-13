@@ -136,7 +136,7 @@ mail_port = 587
 sender_name = os.getenv('SENDER_NAME')
 sender_username = os.getenv('SENDER_USERNAME')
 password = os.getenv('PASSWORD')
-receiver_name = os.getenv('RECEIVER_NAME')
+receiver_name = os.getenv('RECEIVER_NAME') or os.getenv('receiver_name')
 receiver_username = os.getenv('RECEIVER_USERNAME')
 m = mail(mail_host, mail_port, sender_name, sender_username, password, receiver_name, receiver_username)
 m.send_mail('pythonAnywhere自动续期任务触发', '海底月是天上月，眼前人是心上人🧡')

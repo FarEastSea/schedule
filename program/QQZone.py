@@ -39,7 +39,7 @@ class QQZone:
     def get_MsgList(self):
         response = requests.request("GET", self.url, headers=self.headers, params=self.params, cookies=self.cookies)
         resText = response.text
-        ResTextNew = re.search('.*?\((.*)\).*', resText).group(1)
+        ResTextNew = re.search(r'.*?\((.*)\).*', resText).group(1)
         resObj = json.loads(ResTextNew)
         msglist = resObj['msglist']
         herSayList = []

@@ -40,7 +40,7 @@ jobs:
             && cd /tmp \
             && unzip chromedriver_linux64.zip \
             && rm -rf chromedriver_linux64.zip \
-            && sudo mv chromedriver-linux64 /usr/local/bin/chromedriver \
+            && sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver \
             && sudo chmod +x /usr/local/bin/chromedriver \
             && chromedriver --version
 
@@ -52,7 +52,8 @@ jobs:
           SENDER_NAME: ${{ secrets.SENDER_NAME }}
           SENDER_USERNAME: ${{ secrets.SENDER_USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
-          receiver_name: ${{ secrets.receiver_name }}
+          RECEIVER_NAME: ${{ secrets.RECEIVER_NAME || secrets.receiver_name }}
+          receiver_name: ${{ secrets.RECEIVER_NAME || secrets.receiver_name }}
           RECEIVER_USERNAME: ${{ secrets.RECEIVER_USERNAME }}
         run: |
           python program/自动续期.py

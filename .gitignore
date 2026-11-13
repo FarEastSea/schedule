@@ -9,3 +9,5 @@ cache
 .vscode
 venv
 .venv
+env/
+*.log

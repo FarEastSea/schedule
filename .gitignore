@@ -1,13 +1,30 @@
-*.pyc
-*~
-__pycache__
-.DS_Store
-pyenv
-.idea
-cache
-/.vscode
-.vscode
-venv
-.venv
+# Python caches & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+cache/
+
+# Virtual environments & local env files
+venv/
+.venv/
 env/
+ENV/
+pyenv
+.env
+.env.*
+
+# IDE & editor files
+.idea/
+.vscode/
+.cursor/
+*.swp
+*~
+
+# OS & logs
+.DS_Store
+Thumbs.db
 *.log

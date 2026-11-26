@@ -1,4 +1,3 @@
-
 name: QQZone Sever
 
 run-name: Updata_QQZone deploy to ${{ inputs.deploy_target }} by @${{ github.actor }}
@@ -9,14 +8,14 @@ on:
 jobs:
   Updata_QQZone:
     name: Updata QQ Zone
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v5
         with:
           token: ${{ secrets.AUTO_UPDATA }}
+          sparse-checkout: |
+            program/QQZone.py
+            Zone
 
       - name: run python
         env:
@@ -25,9 +24,12 @@ jobs:
           QQ_TOKEN: ${{ secrets.QQ_TOKEN }}
         run: |
           python program/QQZone.py
+          git add Zone/.
+          if git diff --cached --quiet; then
+            echo "Source has not updata."
+            exit 0
+          fi
           git config --global user.name "${{ secrets.user_name || 'github-actions[bot]' }}"
           git config --global user.email "${{ secrets.user_email || '41898282+github-actions[bot]@users.noreply.github.com' }}"
-          git add Zone/.
-          git commit -m 'Update QQ Zone' \
-            && git push \
-            || echo "Source has not updata."
+          git commit -m 'Update QQ Zone'
+          git push

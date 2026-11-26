@@ -1,4 +1,3 @@
-
 name: Renew APP
 
 run-name: Renew App from ${{ inputs.deploy_target }} by @${{ github.actor }}
@@ -14,35 +13,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v5
-
-      # Runs a single command using the runners shell
-      - name: 'Set up Python'
-        uses: actions/setup-python@v6
         with:
+          sparse-checkout: |
+            program/自动续期.py
+            program/mail.py
+            requirements.txt
+
+      - name: Set up uv & Python
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
           python-version: '3.12'
-          cache: 'pip'
 
-      - name: 'Install requirements'
+      - name: Install requirements
         run: |
-          pip install -r requirements.txt
-
-      - name: Install ChromeDriver
-        run: |
-          # 安装驱动
-          # 不用了，提出来，以后或许用得上
-          # && CHROMEDRIVER_RELEASE=$(curl --location --fail --retry 3 http://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION}) \
-          CHROME_VERSION=$(google-chrome --version | cut -f 3 -d ' ') \
-            && CHROMEDRIVER_RELEASE=${CHROME_VERSION} \
-            && curl --silent --show-error --location --fail --retry 3 --output /tmp/chromedriver_linux64.zip "https://storage.googleapis.com/chrome-for-testing-public/$CHROMEDRIVER_RELEASE/linux64/chromedriver-linux64.zip" \
-            && cd /tmp \
-            && unzip chromedriver_linux64.zip \
-            && rm -rf chromedriver_linux64.zip \
-            && sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver \
-            && sudo chmod +x /usr/local/bin/chromedriver \
-            && chromedriver --version
+          uv venv
+          uv pip install -r requirements.txt
 
       - name: Renew app
         env:
@@ -55,13 +43,10 @@ jobs:
           RECEIVER_NAME: ${{ secrets.RECEIVER_NAME || secrets.receiver_name }}
           RECEIVER_USERNAME: ${{ secrets.RECEIVER_USERNAME }}
         run: |
-          python program/自动续期.py
-          if [ $? != 0 ];then
-            python program/mail.py
-            mail_status='续期失败，发送邮件'
+          if .venv/bin/python program/自动续期.py; then
+            echo "PythonAnywhere自动续期任务结果：续期成功，不发送邮件"
           else
-            mail_status='续期成功，不发送邮件'
+            echo "PythonAnywhere自动续期任务结果：续期失败，发送邮件"
+            .venv/bin/python program/mail.py
+            exit 1
           fi
-          echo "PythonAnywhere自动续期任务结果： $mail_status"
-
-          

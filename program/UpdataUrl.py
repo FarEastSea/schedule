@@ -1,9 +1,10 @@
-import requests
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import os
+import re
 import sys
 import time
-# from bs4 import BeautifulSoup
-import re
-import os
+
+import requests
 
 
 class VPN:
@@ -13,57 +14,65 @@ class VPN:
         self.request_timeout: tuple[int, int] = (5, 10)
         self.cookies: dict[str, str] = {}
         self.headers = {
-            # 'Connection': 'keep-alive',
-            "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+            ),
         }
         self.data: dict[str, str] = {}
+        self.session = requests.Session()
+        self.session.headers.update(self.headers)
+
+    def _fetch_one(self, original_url: str, filePath: str) -> bool:
+        url = self.updataUrl(original_url)
+        try:
+            res = self.session.get(url, timeout=self.request_timeout)
+            res.raise_for_status()
+            print(f"响应编码格式：{res.encoding}, 响应期望格式：{res.apparent_encoding}")
+            res.encoding = res.apparent_encoding or 'utf-8'
+            restext = res.text
+
+            match = re.search(r'https://(.+)\..*?/.*(\..+)', url)
+            if match is None:
+                raise ValueError(f'无法从 URL 推导文件名：{url}')
+            hostUrl, fixName = match.group(1, 2)
+            hostUrl = re.sub(r'(?:^www\.)|\.github$', '', hostUrl)
+            hostUrl = re.sub(r'\.', '_', hostUrl)
+            fileName = hostUrl + fixName
+            targetPath = os.path.join(filePath, fileName)
+
+            with open(targetPath, 'w', encoding='utf-8') as f:
+                f.write(restext)
+            print(f' {fileName} 更新完成')
+            return True
+        except requests.exceptions.Timeout:
+            print(f'请求超时，已跳过：{url}')
+        except requests.exceptions.RequestException as e:
+            print(f'请求失败，已跳过：{url}，错误：{e}')
+        except Exception as e:
+            print(f'处理失败，已跳过：{url}，错误：{e}')
+        return False
 
     def look_for(self) -> tuple[int, int]:
         """look context"""
         success_count = 0
         failure_count = 0
-        fileDir = os.path.dirname(os.path.dirname(__file__))
+        fileDir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         filePath = os.path.join(fileDir, 'free')
         os.makedirs(filePath, exist_ok=True)
 
-        for original_url in self.url:
-            # 对网址中的日期进行调整
-            url = self.updataUrl(original_url)
-            try:
-                res = requests.get(url, headers=self.headers, timeout=self.request_timeout)
-                res.raise_for_status()
-                # 显示响应编码格式
-                print(f"响应编码格式：{res.encoding}, 响应期望格式：{res.apparent_encoding}")
-                # 优先使用站点返回的推断编码，避免把非 UTF-8 内容写坏
-                res.encoding = res.apparent_encoding or 'utf-8'
-                restext = res.text
-                match = re.search(r'https://(.+)\..*?/.*(\..+)', url)
-                if match is None:
-                    raise ValueError(f'无法从 URL 推导文件名：{url}')
-                hostUrl, fixName = match.group(1, 2)
-                # 注意！ re模块sub方法的pattern会转义两次
-                # 处理不要字符
-                hostUrl = re.sub(r'(?:^www\.)|\.github$', '', hostUrl)
-                # 替换字符
-                hostUrl = re.sub(r'\.', '_', hostUrl)
-                fileName = hostUrl + fixName
-                targetPath = os.path.join(filePath, fileName)
-                # 下载文件
-                with open(targetPath, 'w+', encoding='utf-8') as f:
-                    f.write(restext)
-                print(f' {fileName} 更新完成')
-                success_count += 1
-            except requests.exceptions.Timeout:
-                print(f'请求超时，已跳过：{url}')
-                failure_count += 1
-            except requests.exceptions.RequestException as e:
-                print(f'请求失败，已跳过：{url}，错误：{e}')
-                failure_count += 1
-            except Exception as e:
-                print(f'处理失败，已跳过：{url}，错误：{e}')
-                failure_count += 1
-            # restext = re.findall('[\u4e00-\u9fa5]+', restext)
-            # self.preLook(restext)
+        if not self.url:
+            return 0, 0
+
+        max_workers = min(4, len(self.url))
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            futures = [executor.submit(self._fetch_one, original_url, filePath) for original_url in self.url]
+            for future in as_completed(futures):
+                if future.result():
+                    success_count += 1
+                else:
+                    failure_count += 1
 
         print(f'本次更新完成，成功 {success_count} 个，失败 {failure_count} 个')
         return success_count, failure_count
@@ -88,20 +97,8 @@ class VPN:
 
 
 a = VPN(
-#'https://clashnode.com/wp-content/uploads/2023/07/20230721.yaml',
-
-'https://www.freeclashnode.com/uploads/2024/05/0-20240531.txt',
-
-'https://node.freeclashnode.com/uploads/2025/07/0-20250719.yaml'
-
-# 'https://freeclash.org/wp-content/uploads/2024/05/0531.yaml',
-
-# 'https://freeclash.org/wp-content/uploads/2024/05/0531.txt',
-
-# 'https://a.nodeshare.xyz/uploads/2025/7/20250719.txt',
-
-# 'https://tglaoshiji.github.io/nodeshare/2024/6/20240601.yaml'
-
+    'https://www.freeclashnode.com/uploads/2024/05/0-20240531.txt',
+    'https://node.freeclashnode.com/uploads/2025/07/0-20250719.yaml',
 )
 
 if __name__ == '__main__':

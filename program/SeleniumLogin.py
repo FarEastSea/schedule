@@ -1,6 +1,7 @@
+import os
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
-import os
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
@@ -15,6 +16,8 @@ if os.path.exists(chromedriver):
 else:
     driver = webdriver.Chrome(options=chrome_options)
 
-driver.get("https://www.baidu.com")
-print(driver.title)
-driver.quit()
+try:
+    driver.get("https://www.baidu.com")
+    print(driver.title)
+finally:
+    driver.quit()
